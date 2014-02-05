@@ -1,0 +1,381 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/15115> a crm:E22_Man-Made_Object ;
+	rdfs:label "God Creating the Universe" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/genre/33> ;
+	bmo:PX_display_wrap "Object type :: drawing" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033973> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/drawing-&-watercolor> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/15115/title/1> , <http://collection.britishart.yale.edu/id/object/15115/title/2> ;
+	bmo:PX_display_wrap "Alternate title :: The Ancient of Days" ;
+	crm:P65_shows_visual_item <http://collection.britishart.yale.edu/id/object/15115/inscription/1> , <http://collection.britishart.yale.edu/id/object/15115/inscription/2> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/15115/production> ;
+	bmo:PX_display_wrap "Production by :: formerly attributed to William Blake, 1757-1827, British" , "Production by :: style of George Romney, 1734-1802, British" , "Production date :: ca. 1800" , "Production Period / Culture :: 18th century-19th century" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/15115/production> , <http://collection.britishart.yale.edu/id/object/15115/production> ;
+	bmo:PX_display_wrap "Subject Concept :: sky" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/sky> ;
+	bmo:PX_display_wrap "Subject Concept :: arms" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/arms> ;
+	bmo:PX_display_wrap "Subject Concept :: clouds" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300343840> ;
+	bmo:PX_display_wrap "Subject Concept :: gods - classical mythology" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/gods_-_classical_mythology> ;
+	bmo:PX_display_wrap "Subject Concept :: religious and mythological subject" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/religious_and_mythological_subject> ;
+	bmo:PX_display_wrap "Subject Concept :: creation" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300069002> ;
+	bmo:PX_display_wrap "Subject Concept :: man" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025928> ;
+	bmo:PX_display_wrap "Subject Concept :: calipers" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300195885> ;
+	bmo:PX_display_wrap "Subject Concept :: compasses" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300022488> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/15115/lidoRecID> , <http://collection.britishart.yale.edu/id/object/15115/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/15115/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/15115/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300011098> , <http://vocab.getty.edu/aat/300014187> , <http://vocab.getty.edu/aat/300022452> , <http://collection.britishart.yale.edu/id/thesauri/material/brown_ink> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/15115/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/15115/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/15115/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Collection" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" , """Exhibition :: The Human Form Divine - William Blake from the Paul Mellon Collection,
+         1997""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/635> ;
+	bmo:PX_display_wrap "Exhibition :: Creation (Yale Divinity School & Institute of Sacred Music), 1979" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/282> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/15115/measurement/1> ;
+	bmo:PX_display_wrap "Dimension width :: 33.3cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/15115/measurement/1/width> ;
+	bmo:PX_display_wrap "Dimension height :: 23.5cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/15115/measurement/1/height> .
+
+<http://collection.britishart.yale.edu/id/thesauri/genre/33> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "religious and mythological subject" .
+
+<http://vocab.getty.edu/aat/300033973> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "drawing" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/drawing-&-watercolor> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Drawing & Watercolor" .
+
+<http://collection.britishart.yale.edu/id/object/15115/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "God Creating the Universe" .
+
+<http://collection.britishart.yale.edu/id/object/15115/title/2> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> ;
+	rdfs:label "The Ancient of Days" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Alternate title" .
+
+<http://collection.britishart.yale.edu/id/object/15115/inscription/1> a crm:E34_Inscription ;
+	rdfs:label """Inscribed in graphite, upper right: \"The Ancient of Days in an orb of light surrounded
+         | by dark clouds as referred to in the Proverbs VIII. 27 | stooping down with an enormous
+         pair of compasses to | describe the destined orb ot the World - | (Blake) Paradise
+         Lost | Book VII line 236\"; in pen and brown ink, upper right: \"'When he prepared the
+         Heavens. | I was there, when he set a compass | upon the face of the depth' | Proverbs
+         Chap 8 v 27\"""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Inscription" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/object/15115/inscription/2> a crm:E37_Mark ;
+	rdfs:label "T.E. Lewinsky collector's mark" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/marks> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/marks> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Marks" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/> a skos:ConceptScheme ;
+	skos:prefLabel "Inscription Type" .
+
+<http://collection.britishart.yale.edu/id/object/15115/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/15115/production/1> , <http://collection.britishart.yale.edu/id/object/15115/production/2> .
+
+<http://collection.britishart.yale.edu/id/object/15115/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/248> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/15115/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/15115/production/1/association> a bmo:EX_Association ;
+	crm:P140_assigned_attribute_to <http://collection.britishart.yale.edu/id/object/15115/production/1> ;
+	crm:P141_assigned <http://collection.britishart.yale.edu/id/person-institution/248> ;
+	bmo:PX_property crm:P14_carried_out_by ;
+	bmo:PX_likelihood <http://collection.britishart.yale.edu/id/thesauri/likelihood/AE> .
+
+<http://collection.britishart.yale.edu/id/thesauri/likelihood/AE> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/likelihood/> ;
+	skos:prefLabel "formerly attributed to" .
+
+<http://collection.britishart.yale.edu/id/thesauri/production/M> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/production/> ;
+	skos:prefLabel "Artistic Production" .
+
+<http://collection.britishart.yale.edu/id/object/15115/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "ca. 1800" ;
+	crm:P82a_begin_of_the_begin "1795"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+	crm:P82b_end_of_the_end "1805"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/object/15115/production/2> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/37> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> .
+
+<http://collection.britishart.yale.edu/id/object/15115/production/2/association> a bmo:EX_Association ;
+	crm:P140_assigned_attribute_to <http://collection.britishart.yale.edu/id/object/15115/production/2> ;
+	crm:P141_assigned <http://collection.britishart.yale.edu/id/person-institution/37> ;
+	bmo:PX_property crm:P15_was_influenced_by ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/likelihood/AL> .
+
+<http://collection.britishart.yale.edu/id/thesauri/likelihood/AL> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/likelihood/> ;
+	skos:prefLabel "style of" .
+
+<http://collection.britishart.yale.edu/id/thesauri/production/M> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/production/> ;
+	skos:prefLabel "Artistic Production" .
+
+<http://collection.britishart.yale.edu/id/person-institution/248> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "William Blake" ;
+	skos:altLabel "Uil'iam Bleik" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/248/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/248/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/248/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/248/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/248/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1757" ;
+	crm:P82_at_some_time_within "1757"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/248/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/248/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/248/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1827" ;
+	crm:P82_at_some_time_within "1827"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/person-institution/37> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "George Romney" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/37/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/37/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/37/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/37/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/37/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1734" ;
+	crm:P82_at_some_time_within "1734"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/37/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/37/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/37/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1802" ;
+	crm:P82_at_some_time_within "1802"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/18th_century-19th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "18th century-19th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/sky> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "sky" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/arms> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "arms" .
+
+<http://vocab.getty.edu/aat/300343840> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "clouds" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/gods_-_classical_mythology> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "gods - classical mythology" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/religious_and_mythological_subject> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "religious and mythological subject" .
+
+<http://vocab.getty.edu/aat/300069002> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "creation" .
+
+<http://vocab.getty.edu/aat/300025928> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "man" .
+
+<http://vocab.getty.edu/aat/300195885> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "calipers" .
+
+<http://vocab.getty.edu/aat/300022488> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "compasses" .
+
+<http://collection.britishart.yale.edu/id/object/15115/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-15115" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/15115/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "15115" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/15115/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1977.14.6009" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/15115/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "1666510" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300011098> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "graphite" .
+
+<http://vocab.getty.edu/aat/300014187> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "wove paper" .
+
+<http://vocab.getty.edu/aat/300022452> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "pen" .
+
+<http://collection.britishart.yale.edu/id/thesauri/material/brown_ink> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/material/> ;
+	skos:prefLabel "brown ink" .
+
+<http://collection.britishart.yale.edu/id/object/15115/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Collection" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/15115/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/exhibition/635> a crm:E7_Activity ;
+	rdfs:label "The Human Form Divine - William Blake from the Paul Mellon Collection, 1997" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/635/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/635/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "635" .
+
+<http://collection.britishart.yale.edu/id/exhibition/282> a crm:E7_Activity ;
+	rdfs:label "Creation (Yale Divinity School & Institute of Sacred Music), 1979" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/282/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/282/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "282" .
+
+<http://collection.britishart.yale.edu/id/object/15115/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/15115/width> , <http://collection.britishart.yale.edu/id/object/15115/height> ;
+	rdfs:label "Sheet: 9 1/4 x 13 1/8 inches (23.5 x 33.3 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Sheet" .
+
+<http://collection.britishart.yale.edu/id/object/15115/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "33.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/15115/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "23.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .

@@ -1,0 +1,435 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/107> a crm:E22_Man-Made_Object ;
+	rdfs:label "Elihu Yale, the 2nd Duke of Devonshire, Lord James Cavendish, Mr. Tunstal, and a Page" ;
+	bmo:PX_display_wrap "Object type :: painting" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033618> ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/painting> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/107/title/1> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/107/production> ;
+	bmo:PX_display_wrap "Production date :: ca. 1708" , "Production Period / Culture :: 18th century" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/107/production> ;
+	bmo:PX_display_wrap "Subject Concept :: wine" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/wine> ;
+	bmo:PX_display_wrap "Subject Concept :: discussions" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/discussions> ;
+	bmo:PX_display_wrap "Subject Concept :: smoking" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/smoking> ;
+	bmo:PX_display_wrap "Subject Concept :: drinking" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300379698> ;
+	bmo:PX_display_wrap "Subject Concept :: landscape" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015636> ;
+	bmo:PX_display_wrap "Subject Concept :: portrait" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Subject Concept :: conversation piece" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300178227> ;
+	bmo:PX_display_wrap "Subject Concept :: group portrait" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300124525> ;
+	bmo:PX_display_wrap "Subject Concept :: candle" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300037654> ;
+	bmo:PX_display_wrap "Subject Concept :: drinking glasses" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300043230> ;
+	bmo:PX_display_wrap "Subject Concept :: pipes (smoking equipment)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300248067> ;
+	bmo:PX_display_wrap "Subject Concept :: sword" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300037048> ;
+	bmo:PX_display_wrap "Subject Concept :: pen" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300022452> ;
+	bmo:PX_display_wrap "Subject Concept :: wigs" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300046049> ;
+	bmo:PX_display_wrap "Subject Concept :: page" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300194222> ;
+	bmo:PX_display_wrap "Subject Concept :: duke" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300132247> ;
+	bmo:PX_display_wrap "Subject Concept :: children" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025945> ;
+	bmo:PX_display_wrap "Subject Concept :: boy" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300247598> ;
+	bmo:PX_display_wrap "Subject Concept :: spectators" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300189768> ;
+	bmo:PX_display_wrap "Subject Concept :: slave" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300230899> ;
+	bmo:PX_display_wrap "Subject Concept :: men" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025928> ;
+	bmo:PX_display_wrap "Subject Concept :: writing" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054698> ;
+	bmo:PX_display_wrap "Subject Concept :: feast" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300069097> ;
+	bmo:PX_display_wrap "Subject Concept :: food" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300254496> ;
+	bmo:PX_display_wrap "Subject Concept :: column (architectural element)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300001571> ;
+	bmo:PX_display_wrap "Subject Place :: England" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7002445> ;
+	bmo:PX_display_wrap "Subject Place :: Devonshire" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7012077> ;
+	bmo:PX_display_wrap "Subject Place :: United Kingdom" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7008591> ;
+	bmo:PX_display_wrap "Subject Place :: Europe" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/1000003> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/107/lidoRecID> , <http://collection.britishart.yale.edu/id/object/107/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/107/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/107/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300015050> , <http://vocab.getty.edu/aat/300014078> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/107/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/107/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/107/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Gift of the 11th Duke of Devonshire" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" , """Bibliograpic reference ::  The image of the Black in western art, from the \" Age of
+         Discovery\" to the Age of Abolition The Eighteenth Century, vol. 3, part 3, Belknap
+         Press of Harvard University Press, Cambridge, Mass. :, 2010, pp. 139-41, fig. 130,
+         N8232 .I42 2010  Vol. 3,Part 3 + OVERSIZE (YCBA)  , Citations are to Vol. 3, Part
+         3""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2162> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Marcia R. Pointon, Portrayal and the search for identity,
+         Reaktion Books, London, 2013, pp. 48-50. 53-55,69-70, illus. 7, N7575 .P6452 2013
+         (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2798> ;
+	bmo:PX_display_wrap "Exhibition :: The Conversation Piece - Arthur Devis & His Contemporaries, 1980" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/573> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/107/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 201.3cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/107/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 235.6cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/107/measurement/1/width> .
+
+<http://vocab.getty.edu/aat/300033618> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "painting" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "portrait" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/painting> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Painting" .
+
+<http://collection.britishart.yale.edu/id/object/107/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Elihu Yale, the 2nd Duke of Devonshire, Lord James Cavendish, Mr. Tunstal, and a Page" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/107/production> a crm:E12_Production .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/18th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "18th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/wine> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "wine" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/discussions> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "discussions" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/smoking> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "smoking" .
+
+<http://vocab.getty.edu/aat/300379698> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "drinking" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "landscape" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300178227> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "conversation piece" .
+
+<http://vocab.getty.edu/aat/300124525> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "group portrait" .
+
+<http://vocab.getty.edu/aat/300037654> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "candle" .
+
+<http://vocab.getty.edu/aat/300043230> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "drinking glasses" .
+
+<http://vocab.getty.edu/aat/300248067> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "pipes (smoking equipment)" .
+
+<http://vocab.getty.edu/aat/300037048> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "sword" .
+
+<http://vocab.getty.edu/aat/300022452> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "pen" .
+
+<http://vocab.getty.edu/aat/300046049> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "wigs" .
+
+<http://vocab.getty.edu/aat/300194222> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "page" .
+
+<http://vocab.getty.edu/aat/300132247> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "duke" .
+
+<http://vocab.getty.edu/aat/300025945> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "children" .
+
+<http://vocab.getty.edu/aat/300247598> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "boy" .
+
+<http://vocab.getty.edu/aat/300189768> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "spectators" .
+
+<http://vocab.getty.edu/aat/300230899> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "slave" .
+
+<http://vocab.getty.edu/aat/300025928> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "men" .
+
+<http://vocab.getty.edu/aat/300054698> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "writing" .
+
+<http://vocab.getty.edu/aat/300069097> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "feast" .
+
+<http://vocab.getty.edu/aat/300254496> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "food" .
+
+<http://vocab.getty.edu/aat/300001571> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "column (architectural element)" .
+
+<http://vocab.getty.edu/tgn/7002445> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "England" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7002445/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7002445/location> .
+
+<http://vocab.getty.edu/tgn/7002445/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/53.0000, -2.0000" .
+
+<http://vocab.getty.edu/tgn/7002445/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7002445/location/point> .
+
+<http://vocab.getty.edu/tgn/7002445/location/point> geo-pos:lat "53.0000" ;
+	geo-pos:long "-2.0000" .
+
+<http://vocab.getty.edu/tgn/7012077> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Devonshire" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7012077/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7012077/location> .
+
+<http://vocab.getty.edu/tgn/7012077/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/50.7330, -3.8160" .
+
+<http://vocab.getty.edu/tgn/7012077/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7012077/location/point> .
+
+<http://vocab.getty.edu/tgn/7012077/location/point> geo-pos:lat "50.7330" ;
+	geo-pos:long "-3.8160" .
+
+<http://vocab.getty.edu/tgn/7008591> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "United Kingdom" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7008591/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7008591/location> .
+
+<http://vocab.getty.edu/tgn/7008591/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/54.0000, -4.5000" .
+
+<http://vocab.getty.edu/tgn/7008591/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7008591/location/point> .
+
+<http://vocab.getty.edu/tgn/7008591/location/point> geo-pos:lat "54.0000" ;
+	geo-pos:long "-4.5000" .
+
+<http://vocab.getty.edu/tgn/1000003> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Europe" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/1000003/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/1000003/location> .
+
+<http://vocab.getty.edu/tgn/1000003/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/0.0000, 0.0000" .
+
+<http://vocab.getty.edu/tgn/1000003/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/1000003/location/point> .
+
+<http://vocab.getty.edu/tgn/1000003/location/point> geo-pos:lat "0.0000" ;
+	geo-pos:long "0.0000" .
+
+<http://collection.britishart.yale.edu/id/object/107/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-107" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/107/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "107" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/107/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1970.1" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/107/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "1665331" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300015050> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "oil paint" .
+
+<http://vocab.getty.edu/aat/300014078> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "canvas" .
+
+<http://collection.britishart.yale.edu/id/object/107/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Gift of the 11th Duke of Devonshire" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/107/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://viaf.org/viaf/46310522> a crm:E39_Actor , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Yale, Elihu (1649–1721), merchant and administrator in India and benefactor" .
+
+<http://collection.britishart.yale.edu/id/thesauri/cavendish_lord_james_d._1741_british_soldier_and_politician> a crm:E39_Actor , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Cavendish, Lord James (d. 1741), British soldier and politician" .
+
+<http://collection.britishart.yale.edu/id/thesauri/tunstal_mr.> a crm:E39_Actor , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Tunstal, Mr." .
+
+<http://viaf.org/viaf/46619018> a crm:E39_Actor , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Cavendish, William, second duke of Devonshire (1670/71–1729), politician and art collector" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2162> a crm:E31_Document ;
+	rdfs:label """The image of the Black in western art, from the \" Age of Discovery\" to the Age of
+         Abolition The Eighteenth Century, vol. 3, part 3, Belknap Press of Harvard University
+         Press, Cambridge, Mass. :, 2010, pp. 139-41, fig. 130, N8232 .I42 2010  Vol. 3,Part
+         3 + OVERSIZE (YCBA)  , Citations are to Vol. 3, Part 3""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2798> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/788273138> ;
+	rdfs:label """Marcia R. Pointon, Portrayal and the search for identity, Reaktion Books, London,
+         2013, pp. 48-50. 53-55,69-70, illus. 7, N7575 .P6452 2013  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/exhibition/573> a crm:E7_Activity ;
+	rdfs:label "The Conversation Piece - Arthur Devis & His Contemporaries, 1980" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/573/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/573/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "573" .
+
+<http://collection.britishart.yale.edu/id/object/107/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/107/height> , <http://collection.britishart.yale.edu/id/object/107/width> ;
+	rdfs:label "Support (PTG): 79 1/4 x 92 3/4 inches (201.3 x 235.6 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Support (PTG)" .
+
+<http://collection.britishart.yale.edu/id/object/107/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "201.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/107/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "235.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .

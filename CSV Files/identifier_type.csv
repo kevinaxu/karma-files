@@ -1,0 +1,5 @@
+URI, label
+http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number, "Inventory Number"
+http://collection.britishart.yale.edu/id/thesauri/identifier/TMS, "TMS Object ID"
+http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID, "Lido Record ID"
+http://collection.britishart.yale.edu/id/thesauri/identifier/ccd, "VuFind CCD ID"

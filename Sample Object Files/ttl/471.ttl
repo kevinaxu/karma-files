@@ -1,0 +1,491 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/471> a crm:E22_Man-Made_Object ;
+	rdfs:label "The Education of Achilles" ;
+	bmo:PX_display_wrap "Object type :: painting" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033618> ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/genre/33> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/painting> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/471/title/1> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/471/production> ;
+	bmo:PX_display_wrap "Production by :: James Barry, 1741-1806, Irish, active in England" , "Production date :: ca. 1772" , "Production Period / Culture :: 18th century" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/471/production> , <http://collection.britishart.yale.edu/id/object/471/production> , <http://collection.britishart.yale.edu/id/object/471/production> , <http://collection.britishart.yale.edu/id/object/471/production> ;
+	bmo:PX_display_wrap "Subject Concept :: horse (animal)" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/horse_animal> ;
+	bmo:PX_display_wrap "Subject Concept :: centaurs" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300379740> ;
+	bmo:PX_display_wrap "Subject Concept :: religious and mythological subject" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/religious_and_mythological_subject> ;
+	bmo:PX_display_wrap "Subject Concept :: landscape" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015636> ;
+	bmo:PX_display_wrap "Subject Concept :: inscription" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300028702> ;
+	bmo:PX_display_wrap "Subject Concept :: diagram" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015387> ;
+	bmo:PX_display_wrap "Subject Concept :: statue" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300047600> ;
+	bmo:PX_display_wrap "Subject Concept :: herm" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300047170> ;
+	bmo:PX_display_wrap "Subject Concept :: Greek" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300020072> ;
+	bmo:PX_display_wrap "Subject Concept :: mythology" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300055985> ;
+	bmo:PX_display_wrap "Subject Concept :: shadow" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300056036> ;
+	bmo:PX_display_wrap "Subject Concept :: gesture" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300056179> ;
+	bmo:PX_display_wrap "Subject Concept :: men" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025928> ;
+	bmo:PX_display_wrap "Subject Concept :: mother" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025932> ;
+	bmo:PX_display_wrap "Subject Concept :: children" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025945> ;
+	bmo:PX_display_wrap "Subject Concept :: child" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025945> ;
+	bmo:PX_display_wrap "Subject Concept :: infant" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300002654> ;
+	bmo:PX_display_wrap "Subject Concept :: music" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054146> ;
+	bmo:PX_display_wrap "Subject Concept :: art" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054138> ;
+	bmo:PX_display_wrap "Subject Concept :: teaching" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300069743> ;
+	bmo:PX_display_wrap "Subject Concept :: mathematics" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054567> ;
+	bmo:PX_display_wrap "Subject Concept :: woman" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025943> ;
+	bmo:PX_display_wrap "Subject Concept :: war" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300055314> ;
+	bmo:PX_display_wrap "Subject Concept :: death" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300151836> ;
+	bmo:PX_display_wrap "Subject Concept :: costume" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300178802> ;
+	bmo:PX_display_wrap "Subject Concept :: lyre" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300042114> ;
+	bmo:PX_display_wrap "Subject Concept :: spear" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300037038> ;
+	bmo:PX_display_wrap "Subject Concept :: shield" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300036869> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/471/lidoRecID> , <http://collection.britishart.yale.edu/id/object/471/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/471/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/471/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300015050> , <http://vocab.getty.edu/aat/300014078> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/471/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/471/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Bay07" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/471/location/3> ;
+	bmo:PX_display_wrap "Located in :: 401" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/471/location/4> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/471/location/5> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Fund" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" , """Bibliograpic reference ::  Acquisitions: The First Decade 1977-1986, Yale Center for
+         British Art, Yale Center for British Art, New Haven, CT, 1986, p. 10, fig. 1, N590.2
+         A7 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/192> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  James Barry, James Barry, 1741-1806, 'the great historical
+         painter', Crawford Art Gallery Gandon, Cork Kinsdale, 2005, pp. 11, 89, NJ18 B2425
+         J35 2005 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1277> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Cultivating the human faculties, James Barry (1741-1806)
+         and the Society of Arts, Lehigh University Press, Bethlehem, Pa., 2008, p. 108, fig.
+         30, NJ18 B2425 C85 2008 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1301> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Duncan Robinson, Acquisitions, The First Decade : 1977-1986,
+         Burlington Magazine, vol. 128, October 1986, p. 10, no. 1, fig. 1, N1 B87 128:3 OVERSIZE
+         (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2335> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Catherine M. Gordon, British paintings Hogarth to Turner,
+         Frederick Warne, London, 1981, p. 1, ND466 G67  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2775> ;
+	bmo:PX_display_wrap """Exhibition :: James Barry (1741-1806) The Great Historical Painter, October 25, 2005-February
+         28, 2006""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/190> ;
+	bmo:PX_display_wrap "Exhibition :: The Noble Horse (II), 2000" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/73> ;
+	bmo:PX_display_wrap """Exhibition :: Noble Simplicity and Silent Greatness - Neoclassical Art from 1700 -
+         1900, 1991""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/458> ;
+	bmo:PX_display_wrap """Exhibition :: James Barry - Tate, Wednesday, February 09, 1983 - Sunday, March 20,
+         1983""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/329> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/471/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 102.9cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/471/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 128.9cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/471/measurement/1/width> .
+
+<http://collection.britishart.yale.edu/id/person-institution/253/activity> a crm:E7_Activity ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/activity/active> ;
+	crm:P7_took_place_at <http://collection.britishart.yale.edu/id/thesauri/place/england> .
+
+<http://collection.britishart.yale.edu/id/thesauri/place/england> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/place/> ;
+	skos:prefLabel "england" .
+
+<http://collection.britishart.yale.edu/id/thesauri/activity/active> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/activity/> ;
+	skos:prefLabel "active in" .
+
+<http://vocab.getty.edu/aat/300033618> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "painting" .
+
+<http://collection.britishart.yale.edu/id/thesauri/genre/33> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "religious and mythological subject" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/painting> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Painting" .
+
+<http://collection.britishart.yale.edu/id/object/471/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "The Education of Achilles" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/471/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/471/production/1> .
+
+<http://collection.britishart.yale.edu/id/object/471/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/253> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/471/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/471/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "ca. 1772" ;
+	crm:P82a_begin_of_the_begin "1767"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+	crm:P82b_end_of_the_end "1777"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/253> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:altLabel "James Barry I" ;
+	skos:prefLabel "James Barry" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/253/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/253/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/irish> ;
+	crm:P14i_performed <http://collection.britishart.yale.edu/id/person-institution/253/activity> .
+
+<http://collection.britishart.yale.edu/id/person-institution/253/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/253/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/253/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1741" ;
+	crm:P82_at_some_time_within "1741"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/253/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/253/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/253/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1806" ;
+	crm:P82_at_some_time_within "1806"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/irish> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "Irish" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/18th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "18th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/horse_animal> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "horse (animal)" .
+
+<http://vocab.getty.edu/aat/300379740> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "centaurs" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/religious_and_mythological_subject> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "religious and mythological subject" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "landscape" .
+
+<http://vocab.getty.edu/aat/300028702> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "inscription" .
+
+<http://vocab.getty.edu/aat/300015387> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "diagram" .
+
+<http://vocab.getty.edu/aat/300047600> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "statue" .
+
+<http://vocab.getty.edu/aat/300047170> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "herm" .
+
+<http://vocab.getty.edu/aat/300020072> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "Greek" .
+
+<http://vocab.getty.edu/aat/300055985> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "mythology" .
+
+<http://vocab.getty.edu/aat/300056036> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "shadow" .
+
+<http://vocab.getty.edu/aat/300056179> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "gesture" .
+
+<http://vocab.getty.edu/aat/300025928> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "men" .
+
+<http://vocab.getty.edu/aat/300025932> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "mother" .
+
+<http://vocab.getty.edu/aat/300025945> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "children" ;
+	a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "child" .
+
+<http://vocab.getty.edu/aat/300002654> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "infant" .
+
+<http://vocab.getty.edu/aat/300054146> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "music" .
+
+<http://vocab.getty.edu/aat/300054138> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "art" .
+
+<http://vocab.getty.edu/aat/300069743> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "teaching" .
+
+<http://vocab.getty.edu/aat/300054567> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "mathematics" .
+
+<http://vocab.getty.edu/aat/300025943> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "woman" .
+
+<http://vocab.getty.edu/aat/300055314> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "war" .
+
+<http://vocab.getty.edu/aat/300151836> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "death" .
+
+<http://vocab.getty.edu/aat/300178802> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "costume" .
+
+<http://vocab.getty.edu/aat/300042114> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "lyre" .
+
+<http://vocab.getty.edu/aat/300037038> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "spear" .
+
+<http://vocab.getty.edu/aat/300036869> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "shield" .
+
+<http://collection.britishart.yale.edu/id/object/471/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-471" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/471/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "471" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/471/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1978.6" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/471/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "1668788" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300015050> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "oil paint" .
+
+<http://vocab.getty.edu/aat/300014078> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "canvas" .
+
+<http://collection.britishart.yale.edu/id/object/471/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Fund" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/471/location/3> a crm:E53_Place ;
+	rdfs:label "Bay07" .
+
+<http://collection.britishart.yale.edu/id/object/471/location/4> a crm:E53_Place ;
+	rdfs:label "401" .
+
+<http://collection.britishart.yale.edu/id/object/471/location/5> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/bibliography/192> a crm:E31_Document ;
+	rdfs:label """Acquisitions: The First Decade 1977-1986, Yale Center for British Art, Yale Center
+         for British Art, New Haven, CT, 1986, p. 10, fig. 1, N590.2 A7 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1277> a crm:E31_Document ;
+	rdfs:label """James Barry, James Barry, 1741-1806, 'the great historical painter', Crawford Art
+         Gallery Gandon, Cork Kinsdale, 2005, pp. 11, 89, NJ18 B2425 J35 2005 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1301> a crm:E31_Document ;
+	rdfs:label """Cultivating the human faculties, James Barry (1741-1806) and the Society of Arts,
+         Lehigh University Press, Bethlehem, Pa., 2008, p. 108, fig. 30, NJ18 B2425 C85 2008
+         + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2335> a crm:E31_Document ;
+	rdfs:label """Duncan Robinson, Acquisitions, The First Decade : 1977-1986, Burlington Magazine,
+         vol. 128, October 1986, p. 10, no. 1, fig. 1, N1 B87 128:3 OVERSIZE (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2775> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/07500731> ;
+	rdfs:label """Catherine M. Gordon, British paintings Hogarth to Turner, Frederick Warne, London,
+         1981, p. 1, ND466 G67  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/exhibition/190> a crm:E7_Activity ;
+	rdfs:label """James Barry (1741-1806) The Great Historical Painter, October 25, 2005-February 28,
+         2006""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/190/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/190/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "190" .
+
+<http://collection.britishart.yale.edu/id/exhibition/73> a crm:E7_Activity ;
+	rdfs:label "The Noble Horse (II), 2000" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/73/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/73/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "73" .
+
+<http://collection.britishart.yale.edu/id/exhibition/458> a crm:E7_Activity ;
+	rdfs:label "Noble Simplicity and Silent Greatness - Neoclassical Art from 1700 - 1900, 1991" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/458/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/458/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "458" .
+
+<http://collection.britishart.yale.edu/id/exhibition/329> a crm:E7_Activity ;
+	rdfs:label "James Barry - Tate, Wednesday, February 09, 1983 - Sunday, March 20, 1983" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/329/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/329/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "329" .
+
+<http://collection.britishart.yale.edu/id/object/471/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/471/height> , <http://collection.britishart.yale.edu/id/object/471/width> ;
+	rdfs:label "Support (PTG): 40 1/2 x 50 3/4 inches (102.9 x 128.9 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Support (PTG)" .
+
+<http://collection.britishart.yale.edu/id/object/471/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "102.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/471/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "128.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .

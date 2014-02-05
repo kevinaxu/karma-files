@@ -1,0 +1,212 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/64421> a crm:E22_Man-Made_Object ;
+	rdfs:label "British, Rococo frame" ;
+	bmo:PX_display_wrap "Object type :: frame" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300189814> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/frame> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/64421/title/1> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/64421/production> ;
+	bmo:PX_display_wrap "Production date :: mid-18th century" , "Production Period / Culture :: 18th century" , "Uses technique :: oil gilding" , "Uses technique :: original gilding" , "Subject Concept :: no" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/no> ;
+	bmo:PX_display_wrap "Subject Concept :: Period" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/period> ;
+	bmo:PX_display_wrap """Subject Concept :: Pierced corner foliate scroll-&-sunflower cartouches linked by
+         swept flat rails to pierced  raffle leaf  centres; trailing floral sprigs; acanthus-tip
+         sight""" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/pierced_corner_foliate_scroll-&-sunflower_cartouches_linked_by_swept_flat_rails_to_pierced_raffle_leaf_centres_trailing_floral_sprigs_acanthus-tip_sight> ;
+	bmo:PX_display_wrap "Subject Concept :: Exceptional" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/exceptional> ;
+	bmo:PX_display_wrap "Subject Concept :: Rococo" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/rococo> ;
+	bmo:PX_display_wrap "Subject Concept :: Shallow scotia with frieze" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/shallow_scotia_with_frieze> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/64421/lidoRecID> , <http://collection.britishart.yale.edu/id/object/64421/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/64421/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/64421/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300011914> , <http://collection.britishart.yale.edu/id/thesauri/material/gold_leaf> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/64421/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/64421/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/64421/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/64421/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 95.9cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/64421/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 83.8cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/64421/measurement/1/width> ;
+	bmo:PX_display_wrap "Dimension depth :: 8.9cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/64421/measurement/1/depth> .
+
+<http://vocab.getty.edu/aat/300189814> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "frame" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/frame> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Frame" .
+
+<http://collection.britishart.yale.edu/id/object/64421/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "British, Rococo frame" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/64421/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/64421/production/2> , <http://collection.britishart.yale.edu/id/object/64421/production/3> .
+
+<http://collection.britishart.yale.edu/id/object/64421/production/1> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://vocab.getty.edu/aat/300230058> .
+
+<http://collection.britishart.yale.edu/id/object/64421/production/2> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://collection.britishart.yale.edu/id/thesauri/technique/original_gilding> .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/18th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "18th century" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/no> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "no" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/period> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "Period" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/pierced_corner_foliate_scroll-&-sunflower_cartouches_linked_by_swept_flat_rails_to_pierced_raffle_leaf_centres_trailing_floral_sprigs_acanthus-tip_sight> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel """Pierced corner foliate scroll-&-sunflower cartouches linked by swept flat rails to
+         pierced  raffle leaf  centres; trailing floral sprigs; acanthus-tip sight""" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/exceptional> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "Exceptional" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/rococo> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "Rococo" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/shallow_scotia_with_frieze> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "Shallow scotia with frieze" .
+
+<http://collection.britishart.yale.edu/id/object/64421/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-64421" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/64421/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "64421" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/64421/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1977.14.67FR" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/64421/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "3414343" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300230058> a rso:E55_Technique , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264090> ;
+	skos:prefLabel "oil gilding" .
+
+<http://vocab.getty.edu/aat/300011914> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "wood" .
+
+<http://collection.britishart.yale.edu/id/thesauri/technique/original_gilding> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/technique/> ;
+	skos:prefLabel "original gilding" .
+
+<http://collection.britishart.yale.edu/id/thesauri/material/gold_leaf> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/material/> ;
+	skos:prefLabel "gold leaf" .
+
+<http://collection.britishart.yale.edu/id/object/64421/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/64421/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/object/64421/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Frame> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/64421/height> , <http://collection.britishart.yale.edu/id/object/64421/width> , <http://collection.britishart.yale.edu/id/object/64421/depth> ;
+	rdfs:label "Frame: 37 3/4 × 33 × 3 1/2 inches (95.9 × 83.8 × 8.9 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Frame> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Frame" .
+
+<http://collection.britishart.yale.edu/id/object/64421/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "95.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/64421/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "83.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/64421/measurement/1/depth> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/depth> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "8.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/depth> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Depth" .

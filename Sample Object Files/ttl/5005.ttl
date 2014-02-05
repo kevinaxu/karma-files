@@ -1,0 +1,1081 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/5005> a crm:E22_Man-Made_Object ;
+	rdfs:label "Mrs. Abington as Miss Prue in \"Love for Love\" by William Congreve" ;
+	bmo:PX_display_wrap "Object type :: painting" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033618> ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/painting> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/5005/title/1> , <http://collection.britishart.yale.edu/id/object/5005/title/2> ;
+	bmo:PX_display_wrap "Alternate title :: Mrs. Abington as Miss Prue in William Congreve's \"Love for Love\"" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/5005/production> ;
+	bmo:PX_display_wrap "Production by :: Sir Joshua Reynolds, 1723-1792, British" , "Production date :: 1771" , "Production Period / Culture :: 18th century" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/5005/production> , <http://collection.britishart.yale.edu/id/object/5005/production> , <http://collection.britishart.yale.edu/id/object/5005/production> , <http://collection.britishart.yale.edu/id/object/5005/production> , <http://collection.britishart.yale.edu/id/object/5005/production> , <http://collection.britishart.yale.edu/id/object/5005/production> , <http://collection.britishart.yale.edu/id/object/5005/production> , <http://collection.britishart.yale.edu/id/object/5005/production> , <http://collection.britishart.yale.edu/id/object/5005/production> ;
+	bmo:PX_display_wrap "Production by ::" , "Production date :: 2007-01" , "Subject Concept :: portrait" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Subject Concept :: dog (animal)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300250130> ;
+	bmo:PX_display_wrap "Subject Concept :: sky" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/sky> ;
+	bmo:PX_display_wrap "Subject Concept :: stage" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300004751> ;
+	bmo:PX_display_wrap "Subject Concept :: costume" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300178802> ;
+	bmo:PX_display_wrap "Subject Concept :: chair" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300037772> ;
+	bmo:PX_display_wrap "Subject Concept :: actress" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025658> ;
+	bmo:PX_display_wrap "Subject Concept :: love" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300055165> ;
+	bmo:PX_display_wrap "Subject Concept :: pose" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300067390> ;
+	bmo:PX_display_wrap "Subject Concept :: gesture" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300056179> ;
+	bmo:PX_display_wrap "Subject Concept :: gesture" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300056179> ;
+	bmo:PX_display_wrap "Subject Concept :: hand" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300221683> ;
+	bmo:PX_display_wrap "Subject Concept :: woman" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025943> ;
+	bmo:PX_display_wrap "Subject Concept :: theater (discipline)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054148> ;
+	bmo:PX_display_wrap "Subject Concept :: performance" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300069200> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/5005/lidoRecID> , <http://collection.britishart.yale.edu/id/object/5005/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/5005/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/5005/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300015050> , <http://vocab.getty.edu/aat/300014078> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/5005/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/5005/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Bay25" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/5005/location/3> ;
+	bmo:PX_display_wrap "Located in :: 401" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/5005/location/4> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/5005/location/5> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Collection" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" , """Bibliograpic reference ::  Julia Marciari-Alexander, This other Eden, paintings from
+         the Yale Center for British Art, Yale Center for British Art, New Haven, CT, 1998,
+         pp. 98-99, no. 35, ND1314.3 Y36 1998 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/45> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  John Baskett, Paul Mellon's legacy, a passion for British
+         art : masterpieces from the Yale Center for British Art, Yale Center for British Art,
+         New Haven, CT, 2007, pp. 28, 255, no. 31, N5220 M552 P38 2007 OVERSIZE (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/48> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Paul Mellon's legacy, a passion for British art. [large
+         print labels], Yale Center for British Art, New Haven, CT, 2007, v. 3, N5220 M552
+         P381 2007 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/190> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Malcolm Warner, Great British paintings from American collections,
+         Holbein to Hockney, Yale Center for British Art, New Haven, CT, 2001, pp. 119-21,
+         no. 29, ND464 W27 2001 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/281> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Lindsay Rothwell, Paul Mellon's legacy, an American's passion
+         for British art : Sackler Wing of Galleries, 20 October 2007 - 27 January 2008 : an
+         introduction to the exhibition for teachers and students., Royal Academy of Arts,
+         London, UK, 2007, pp. 18-20, no. 31, V 2038 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/189> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Andrew Graham-Dixon, A history of British art, BBC, London,
+         UK, 1996, pp. 107-8, no. 38, N6761 G72 1996 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/354> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  David Mannings, Sir Joshua Reynolds, a complete catalogue
+         of his paintings, Yale University Press, New Haven, 2000, p. 55-56 (v.1), no. 29,
+         pl. 67, fig.1017, NJ18 R36 A12 M35 2000 OVERSIZE  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/598> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Aileen Ribeiro, The art of dress, fashion in England and
+         France 1750 to 1820, Yale University Press, New Haven, CT, 1995, p.65, , pl. 67, GT736
+         R53 1995  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/600> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Ellis Waterhouse, Reynolds, Kegan Paul, Trench Trübner,
+         London, 1941, p. 61, pl. 136, NJ18 R36 W37  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/602> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Algernon Graves, A history of the works of Sir Joshua Reynolds,
+         P.R.A., Henry Graves & Co., London, UK, 1899, p. 4, NJ18 R36 G73 OVERSIZE  (YCBA)
+         , Also available on Microfiche: Fiche B6 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/605> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Kinda Kalof, A cultural history of animals, Berg, Oxford,
+         UK; New York, NY, 2007, p. 183 (v. 4), fig. 7.14, QL85 C85 2007 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/608> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Angela Rosenthal, Angelica Kauffman, art and sensibility,
+         Yale University Press, New Haven, 2006, p. 70, no. 32, NJ18 K218 R67 2006 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/609> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Martin Postle, Joshua Reynolds, the creation of celebrity,
+         Tate Publishing, London New York, 2005, p. 190, no. 54, NJ18 R36 J68 2005 +  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/610> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Desmond Shawe-Taylor, The Georgians, eighteenth-century
+         portraiture & society, Barrie & Jenkins, London, 1990, p. 110, fig. 72, ND1314.4 S52
+         1990 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/611> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Gillen D'Arcy Wood, The shock of the real, romanticism
+         and visual culture, 1760-1860, Palgrave Macmillan, New York, N.Y., 2001, pp. 63-66,
+         fig. 1.7, NX452.5 R64 W66 2001 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/612> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Reynolds, Royal Academy of Arts, London, 1986, pp. 123,
+         246-47, no. 78, NJ18 R36 P452  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/613> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Sir Joshua Reynolds, 1723-1792, Galeries nationales du
+         Grand Palais, Paris, 7 octobre - 16 December, 1985 [and] Royal Academy of Arts, Londres,
+         16 janvier - 30 mars, 1986., Editions Réunion des Musées Nationaux, Paris, 1985, pp.
+         35, 188-90, no. 38, NJ18 R36 P4514  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/614> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Ian McIntyre, Garrick, Allen Lane, London, 1999, no. 24,
+         PN2598 G3 Z9 M25 1999 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/615> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  John  Wilmerding, Essays in honor of Paul Mellon, collector
+         and benefactor, National Gallery of Art, Washington, DC & Hanover, NH, 1986, pp. 2-3
+         5, fig. 1, N7442.2  M455 1986  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/668> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Paul Mellon's legacy, a passion for British art : April
+         18-July 29, 2007, Yale Center for British Art, New Haven, Conn., 2007, p. 13, V 1735
+         (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/834> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Ellis Waterhouse, An Impressive Panorama of British Portraiture,
+         Apollo, v. 105, no. 182, April 1977, pp. 246-7, cover, N1 A54 +  (YCBA)  , Another
+         copy of this article may be found in a separately bound and catalogued copy of this
+         issue located on the Mellon Shelf  [call number : N5220 M552 A7 1977 + (YCBA)]""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/847> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Brian Allen, The Sport of Collecting: Paul Mellon and British
+         Art, Apollo, v.165,no.542, April 2007, pp. 38,39, fig. 10, N1 A54 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/901> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Geoffrey Agnew, Yale's 1700 Mellon Pictures, The Times
+         (London), issue no. 59989, Thursday, April 28, 1977, p. 9, Available Online : Times
+         Digital Archive  , Also available on Microfilm : Film  An T842 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/956> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Malcolm Cormack, Star Quality, ART News, Summer 1983, pp.
+         112-113, N1 A6  OVERSIZE (HAAS)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1105> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Joseph Musser Jr., Sir Joshua Reynold's 'Mrs. Abington
+         as Miss Prue', South Atlantic Quarterly, vol. 83, Spring 1984, pp. 176-92, A89 250
+         (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1106> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Charles Robert Leslie, Life and times of Sir Joshua Reynolds,
+         with notices of some of his contemporaries., John Murray, London, 1865, pp. 226-7,
+         NJ18 R36 L47 (YCBA)  , Also available on Microfche: The Nineteenth Century: Visual
+         Arts ; Pos: Fiche.N.4.2.357) (SML Fiche B1244 Fiche.N.4.2.357)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1320> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Allard Sebastien, Portraits publics, portraits privâes,
+         1770-1830, Galeries nationales du Grand Palais, Paris, 4 octobre 2006-9 janvier 2007
+         ; the Royal Academy of Arts, Londres, 3 fâevrier-20 avril 2007 ; the Solomon R. Guggenheim
+         Museum, New York, 18 mai-10 septembre 2007, Réunion des Musées Nationaux, Paris, 2006,
+         pp. 93, 122-3, cat. 28, ND1314.4 P67 2006 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1343> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Citizens and kings, portraits in the age of revolution
+         1760-1830., Royal Academy of Arts, London, 2007, pp. 84-5, fig. 43, ND1314.4 C5713
+         2007 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1344> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Representing emotions, new connections in the histories
+         of art, music, and medicine, Ashgate Publishing, Aldershot, Hants, England Burlington,
+         VT, 2005, p. 158, fig. 9.2, RC480.5 R386X 2005 (Haas)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1393> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Robin Simon, Reynolds and the Double-entendre, The Society
+         of Dilettanti Portraits, British Art Journal, vol. 3, no. 1, Spring, 2001, p. 77,
+         Pl. 9, N6761 B74 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1425> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Ellis Waterhouse, Reynolds, Phaidon, New York, NY, 1973,
+         pl. 54, NJ18 R36 W37 1973 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1434> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  South Kensington Museum, Catalogue of the second special
+         exhibition of national portraits commencing with the reign of William and Mary and
+         ending with the year MDCCC, on loan to the South Kensington museum. May 1, 1867.,
+         London, 1867, pp. 133-4, no. 601, N7598 S6 1867 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1435> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Grosvenor Gallery, Catalogue of the works of Sir Joshua
+         Reynolds exhibited at the Grosvenor Gallery MDCCCLXXXIII-IV, illustrated with photo-intaglio
+         plates after the originals by Alfred Dawson., Chiswick Press, London, 1884, pp. 11-12,
+         no. 7, NJ18 R36 G76 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1436> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Sir Joshua Reynolds, loan exhibition in aid of the Royal
+         Northern Hospital., Royal Northern Hospital, London, 1937, p. 36, no. 56, NJ18 R36
+         L65 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1437> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Exhibition of works by Sir Joshua Reynolds P.R.A., 1723-1792,
+         18th February to 19th March 1961., Birmingham Museum & Art Gallery, Birmingham, 1961,
+         pp. 31-32, no. 50, NJ18 R36 E85 1961 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1438> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  British Institution, Catalogue of pictures by the late
+         Sir Joshua Reynolds, exhibited by the permission of the proprietors, in honor of the
+         memory of that distinguished artist and for the improvement of British Art., W. Bulmer
+         & Co., London, 1813, no. 103, N5055 B7 A13 1813 + (RARE BOOKS, YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1439> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Richard Wendorf, Sir Joshua Reynolds, the painter in society,
+         Harvard University Press, Cambridge, Mass., 1996, p. 128, NJ18 R36 W46 1996 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1440> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  The Grosvenor Exhibition (First Notice), Athenaeum, no.
+         2931, December 29 1883, pp. 873-4, Available Online: British Periodicals II  , Also
+         Available: A88 At421 + (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1441> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Joseph Burke, English art 1714-1800, Clarendon Press, Oxford,
+         1976, p. 208, pl. 56c, N6761 O9 9 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1442> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Angus Trumble, The finger, a handbook, Farrar, Straus and
+         Giroux, New York, 2010, p. 128, GT498.F46 T78 2010 (YBAC)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1479> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Felicity Nussbaum, Rival queens, actresses, performance,
+         and the eighteenth-century British theater, University of Pennsylvania Press, Philadelphia,
+         2010, p. 262, fig. 23, PN2582.W65 N87 2010 (YBAC)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1488> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  British Art at Yale, Apollo, v.105, no. 182, April 1977,
+         pp. 246-7, cover, N5220 M552 A7 1977 OVERSIZE  (YCBA)  , Published as April 1977 issue
+         of Apollo; all of the articles may also be found in bound Apollo Volume [N1 A54 105:2
+         +]""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1500> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  The Yale Center for British Art, An Anniversary Celebration
+         of Paul Mellon's Great Legacy, Apollo, April 2007, p. 39, fig. 10, N5220 M552 A7 OVERSIZE
+         (YCBA)  , Appeared as April 2007 issue of Apollo;; all of the articles may also be
+         found in bound Apollo Volume [N1 A54 165:2 +]""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1501> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  William Cotton Esq., A Catalogue of the Portraits Painted
+         by Sir Joshua Reynolds, Knt., P.R.A., Compiled from his autograph memorandum books,
+         and from printed catalogues, Longman, London and Plymouth, UK, 1857, p. 110, no. 72,
+         NJ18 R36 C65 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1542> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Sotheby's Important British Pictures: 27 November 2003,
+         Sotheby's, Sotheby's, London, 2003, p. 35, Fig. 2, Sales Catalogues (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1543> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Richard Brinsley Sheridan, The Rivals, The Duenna, A Trip
+         to Scarborough, The School for Scandal, The Critic, Oxford University Press, Oxford,
+         New York, 1998, book cover, PR3681 C67 1998""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1547> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  James Northcote, Memoirs of Sir Joshua Reynolds ..., Comprising
+         original anecdotes, of many distinguished persons, his contemporaries: and a brief
+         analysis of his discourses. To which are added, Varieties on art., M. Carey & Son,
+         Philadelphia, 1817, p. 159, Available Online (Internet Archive)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1559> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Abington, Francis (1737-1815), Oxford Dictionary of National
+         Biography, 1885, Available Online (Archive within ODNB)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1560> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Abington [nee Barton], Francis [Fanny] (1737-1815), Oxford
+         Dictionary of National Biography, vol. 1, 2004, p. 109, DA28 D5 2004 (YCBA)  , Also
+         available Online""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1561> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Musée du Petit Palais, Peinture romantique anglaise et
+         les preraphaelites., Exposition: 21 janvier-16 avril 1972., Paris, 1972, No. 214,
+         ND467 P37 1972 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1563> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Sir Joshua Reynolds :, A plethora of portraits, Economist,
+         February 1, 1986, p. 97, Available Online (Economist Archive)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1564> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  James Northcote, Memoirs of Sir Joshua Reynolds, KNT. ...,
+         comprising original anecdotes of many distinguished persons, his contemporaries, and
+         a brief analysis of his discourses : to which are added, Varieties on art, London,
+         1813, p. (6) appendix, ND497.R4 N8 1813 Oversize (YCBA Rare)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1575> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Christie's Sale Catalogue : Highly Important English Pictures
+         c.1600 - c. 1850 : 23 June 1972, Christie's, 1972, p. 60, lot 116, pl. 116, Sales
+         Catalogues (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1579> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  John McDonald, A Feast of Mellon, Sydney Morning Herald,
+         May 9, 1998, p. 14, Film An Sy25 (SML)  , Also Available Online (Factiva database)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1782> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Mary Webster, Johan Zoffany, 1733-1810, Yale University
+         Press, New Haven, CT, 2011, p. 222, NJ18 Z68 W43 2011 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1802> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Simon Schama, The Yale Centre for British Art, TLS, the
+         Times Literary Supplement, Issue no. 3923, May 20, 1977, p. 620, Film S748 (SML) 
+         , Also avaiable online in TLS Historical Archive (ORBIS)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1844> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Lindsay Duguid, The Recollected Works, TLS, the Times Literary
+         Supplement, Issue no. 5458, November 8, 2007, p. 17, Film S748 (SML)  , Also Available
+         Online in TLS Archive""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1846> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Gillian Perry, The first actresses Nell Gwyn to Sarah Siddons
+         /, National Portrait Gallery, London, 2011, pp. 44-45, 110, 112, fig.28 and p.112,
+         PN2582.W65 P472  2011  + OVERSIZE (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2004> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Exhibition Catalogue. 1771. 3d, Exhibition of the Royal
+         Academy of Arts, no. 3, Royal Academy of Arts, 1771, p. 16, no. 161, N5054 A53 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2649> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Michael Glover, Scenes from Afar, The Times (London), Saturday,
+         September 22, 2007, p. 28, Available Online  : Times Digital Arcive""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2741> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Catherine M. Gordon, British paintings Hogarth to Turner,
+         Frederick Warne, London, 1981, p. 57, ND466 G67  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2775> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Royal Academy of Arts, Exhibition of works by old masters
+         and by deceased masters of the British School : winter exhibition, 7th year, London,
+         1876, p.6, no. 31, Fiche B112  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2950> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Charles Robert Leslie, Life and Times of Sir Joshua Reynolds,
+         With Notices of Some of His Contemporaries, John Murray, London, 1865, vol 1: p. 226
+         vol 2: p. 408, 11b, no. 2 (vol 2), NJ18 R36 L47 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2951> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Sotheby's, Sotheby's Sale Catalogue : British Paintings
+         1500 - 1850, Wednesday 8 April 1998, Sotheby's, London, 1998, no. 100, Auction Cat
+         1998 April (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2952> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  A Plethora of Portraits, Economist, 1 February 1986, p.
+         97, HG11 E25 Oversize (LSF)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2953> ;
+	bmo:PX_display_wrap "Exhibition :: Caught in the Act - Portraits of Women in the Eighteenth Century, 2011-2012" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/723> ;
+	bmo:PX_display_wrap "Exhibition :: An American's Passion for British Art - Paul Mellon's Legacy, 2007-2008" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/248> ;
+	bmo:PX_display_wrap """Exhibition :: Citizens and Kings, Portraiture in the Age of David and Goya - 1770-1830,
+         2006-2007""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/261> ;
+	bmo:PX_display_wrap """Exhibition :: Joshua Reynolds : the Creation of Celebrity, 13 February - 25 September
+         2005""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/221> ;
+	bmo:PX_display_wrap "Exhibition :: \"Brilliant Effects\" [ Jewels ], 2004" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/202> ;
+	bmo:PX_display_wrap """Exhibition :: Great British Paintings from American Collections: Holbein to Hockney,
+         Thursday, September 27, 2001 - Sunday, December 30, 2001""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/88> ;
+	bmo:PX_display_wrap """Exhibition :: This Other Eden : British Paintings from the Paul Mellon Collection
+         at Yale, 1998""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/7> ;
+	bmo:PX_display_wrap "Exhibition :: Sir Joshua Reynolds (RA), 1985-1986" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/373> ;
+	bmo:PX_curatorial_comment """The actress Frances (Fanny) Barton, better known as Mrs. Abington, was one of the
+         most popular stars of the London stage. She grew up in the slums near Drury Lane;
+         sold flowers in Covent Garden (where she was called “Nosegay Fan”); worked for a French
+         milliner in Cockspur Street; and was employed by the cook and future comedian Robert
+         Baddeley, who gave Fanny her first big break. She married James Abington, one of the
+         king's trumpeters, and became a star in the Drury Lane Company, managed by the actor-manager
+         David Garrick. She created the role of Lady Teazle in Richard Brinsley Sheridan’s
+         “The School for Scandal” (1777). In this portrait, Reynolds (an admirer) portrays
+         Mrs. Abington in one of her most successful roles, that of the young ingénue Miss
+         Prue in William Congreve’s somewhat dated 1694 comedy “Love for Love”. She played
+         that part for the first time in December 1769, and the sittings for this portrait
+         took place either in December or in March and April 1771.
+         
+         
+         
+         Showing her in character (and adopting what was then taken to be a suggestive, or
+         at least unrefined, pose—unthinkable for a lady—and exploiting as a strategically
+         positioned fascinator the Hepplewhite chairback upon which she rests her arms), the
+         work is both a portrait of unusual directness and candor, her thumb coyly hovering
+         on the lower lip, and a “historical” picture, whose associations went beyond the subject's
+         likeness, which Horace Walpole thought “easy and very like” (Mannings and Postle,
+         2000, p. 56). 
+         
+         
+         
+         Reynolds painted at least half a dozen portraits of Mrs. Abington in 1771 and two
+         further paintings that must correspond to surviving notes in Reynolds's appointment
+         books for 1773 and 1780. The latter of these, which is untraced, showed the actress
+         in character once again, this time in the role of Roxalana, the English slave in Isaac
+         Bickerstaff’s play “The Sultan”, which was first performed in 1775 in Drury Lane.
+         In that drama, “the playful, unequal, coquettish Roxalana,” wrote Sir Uvedale Price,
+         “full of sudden turns and caprices, is opposed to the beautiful, tender, and constant
+         Elvira; and the effects of irritation, to those of softness and languor” (Graves and
+         Cronin, 1899–1901, vol. 1, p. 5).""" ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/5005/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 76.8cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/5005/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 63.8cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/5005/measurement/1/width> .
+
+<http://vocab.getty.edu/aat/300033618> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "painting" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "portrait" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/painting> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Painting" .
+
+<http://collection.britishart.yale.edu/id/object/5005/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Mrs. Abington as Miss Prue in \"Love for Love\" by William Congreve" .
+
+<http://collection.britishart.yale.edu/id/object/5005/title/2> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> ;
+	rdfs:label "Mrs. Abington as Miss Prue in William Congreve's \"Love for Love\"" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Alternate title" .
+
+<http://collection.britishart.yale.edu/id/object/5005/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/5005/production/1> .
+
+<http://collection.britishart.yale.edu/id/object/5005/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/17> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/5005/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/5005/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "1771" ;
+	crm:P82_at_some_time_within "1771"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/17> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:altLabel "Joshua Reynolds" , "Joshua Raynolds" , "Joshua Reynold" , "Reynolds" ;
+	skos:prefLabel "Sir Joshua Reynolds" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/17/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/17/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/17/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/17/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/17/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1723" ;
+	crm:P82_at_some_time_within "1723"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/17/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/17/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/17/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1792" ;
+	crm:P82_at_some_time_within "1792"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/18th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "18th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300250130> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "dog (animal)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/sky> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "sky" .
+
+<http://vocab.getty.edu/aat/300004751> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "stage" .
+
+<http://vocab.getty.edu/aat/300178802> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "costume" .
+
+<http://vocab.getty.edu/aat/300037772> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "chair" .
+
+<http://vocab.getty.edu/aat/300025658> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "actress" .
+
+<http://vocab.getty.edu/aat/300055165> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "love" .
+
+<http://vocab.getty.edu/aat/300067390> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "pose" .
+
+<http://vocab.getty.edu/aat/300056179> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "gesture" ;
+	a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "gesture" .
+
+<http://vocab.getty.edu/aat/300221683> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "hand" .
+
+<http://vocab.getty.edu/aat/300025943> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "woman" .
+
+<http://vocab.getty.edu/aat/300054148> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "theater (discipline)" .
+
+<http://vocab.getty.edu/aat/300069200> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "performance" .
+
+<http://collection.britishart.yale.edu/id/object/5005/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-5005" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/5005/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "5005" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/5005/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1977.14.67" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/5005/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "1669236" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300015050> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "oil paint" .
+
+<http://vocab.getty.edu/aat/300014078> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "canvas" .
+
+<http://collection.britishart.yale.edu/id/object/5005/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Collection" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/5005/location/3> a crm:E53_Place ;
+	rdfs:label "Bay25" .
+
+<http://collection.britishart.yale.edu/id/object/5005/location/4> a crm:E53_Place ;
+	rdfs:label "401" .
+
+<http://collection.britishart.yale.edu/id/object/5005/location/5> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://viaf.org/viaf/49153847> a crm:E39_Actor , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Abington, Frances (1737–1815), actress" .
+
+<http://collection.britishart.yale.edu/id/bibliography/45> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/38239347> ;
+	rdfs:label """Julia Marciari-Alexander, This other Eden, paintings from the Yale Center for British
+         Art, Yale Center for British Art, New Haven, CT, 1998, pp. 98-99, no. 35, ND1314.3
+         Y36 1998 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/48> a crm:E31_Document ;
+	rdfs:label """John Baskett, Paul Mellon's legacy, a passion for British art : masterpieces from
+         the Yale Center for British Art, Yale Center for British Art, New Haven, CT, 2007,
+         pp. 28, 255, no. 31, N5220 M552 P38 2007 OVERSIZE (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/190> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/701808157> ;
+	rdfs:label """Paul Mellon's legacy, a passion for British art. [large print labels], Yale Center
+         for British Art, New Haven, CT, 2007, v. 3, N5220 M552 P381 2007 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/281> a crm:E31_Document ;
+	rdfs:label """Malcolm Warner, Great British paintings from American collections, Holbein to Hockney,
+         Yale Center for British Art, New Haven, CT, 2001, pp. 119-21, no. 29, ND464 W27 2001
+         (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/189> a crm:E31_Document ;
+	rdfs:label """Lindsay Rothwell, Paul Mellon's legacy, an American's passion for British art : Sackler
+         Wing of Galleries, 20 October 2007 - 27 January 2008 : an introduction to the exhibition
+         for teachers and students., Royal Academy of Arts, London, UK, 2007, pp. 18-20, no.
+         31, V 2038 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/354> a crm:E31_Document ;
+	rdfs:label """Andrew Graham-Dixon, A history of British art, BBC, London, UK, 1996, pp. 107-8,
+         no. 38, N6761 G72 1996 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/598> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/45328809> ;
+	rdfs:label """David Mannings, Sir Joshua Reynolds, a complete catalogue of his paintings, Yale
+         University Press, New Haven, 2000, p. 55-56 (v.1), no. 29, pl. 67, fig.1017, NJ18
+         R36 A12 M35 2000 OVERSIZE  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/600> a crm:E31_Document ;
+	rdfs:label """Aileen Ribeiro, The art of dress, fashion in England and France 1750 to 1820, Yale
+         University Press, New Haven, CT, 1995, p.65, , pl. 67, GT736 R53 1995  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/602> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/668106577> ;
+	rdfs:label """Ellis Waterhouse, Reynolds, Kegan Paul, Trench Trübner, London, 1941, p. 61, pl.
+         136, NJ18 R36 W37  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/605> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/03905402> ;
+	rdfs:label """Algernon Graves, A history of the works of Sir Joshua Reynolds, P.R.A., Henry Graves
+         & Co., London, UK, 1899, p. 4, NJ18 R36 G73 OVERSIZE  (YCBA)  , Also available on
+         Microfiche: Fiche B6 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/608> a crm:E31_Document ;
+	rdfs:label """Kinda Kalof, A cultural history of animals, Berg, Oxford, UK; New York, NY, 2007,
+         p. 183 (v. 4), fig. 7.14, QL85 C85 2007 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/609> a crm:E31_Document ;
+	rdfs:label """Angela Rosenthal, Angelica Kauffman, art and sensibility, Yale University Press,
+         New Haven, 2006, p. 70, no. 32, NJ18 K218 R67 2006 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/610> a crm:E31_Document ;
+	rdfs:label """Martin Postle, Joshua Reynolds, the creation of celebrity, Tate Publishing, London
+         New York, 2005, p. 190, no. 54, NJ18 R36 J68 2005 +  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/611> a crm:E31_Document ;
+	rdfs:label """Desmond Shawe-Taylor, The Georgians, eighteenth-century portraiture & society, Barrie
+         & Jenkins, London, 1990, p. 110, fig. 72, ND1314.4 S52 1990 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/612> a crm:E31_Document ;
+	rdfs:label """Gillen D'Arcy Wood, The shock of the real, romanticism and visual culture, 1760-1860,
+         Palgrave Macmillan, New York, N.Y., 2001, pp. 63-66, fig. 1.7, NX452.5 R64 W66 2001
+         (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/613> a crm:E31_Document ;
+	rdfs:label """Reynolds, Royal Academy of Arts, London, 1986, pp. 123, 246-47, no. 78, NJ18 R36
+         P452  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/614> a crm:E31_Document ;
+	rdfs:label """Sir Joshua Reynolds, 1723-1792, Galeries nationales du Grand Palais, Paris, 7 octobre
+         - 16 December, 1985 [and] Royal Academy of Arts, Londres, 16 janvier - 30 mars, 1986.,
+         Editions Réunion des Musées Nationaux, Paris, 1985, pp. 35, 188-90, no. 38, NJ18 R36
+         P4514  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/615> a crm:E31_Document ;
+	rdfs:label "Ian McIntyre, Garrick, Allen Lane, London, 1999, no. 24, PN2598 G3 Z9 M25 1999 (YCBA)" .
+
+<http://collection.britishart.yale.edu/id/bibliography/668> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/13010297> ;
+	rdfs:label """John  Wilmerding, Essays in honor of Paul Mellon, collector and benefactor, National
+         Gallery of Art, Washington, DC & Hanover, NH, 1986, pp. 2-3 5, fig. 1, N7442.2  M455
+         1986  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/834> a crm:E31_Document ;
+	rdfs:label """Paul Mellon's legacy, a passion for British art : April 18-July 29, 2007, Yale Center
+         for British Art, New Haven, Conn., 2007, p. 13, V 1735 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/847> a crm:E31_Document ;
+	rdfs:label """Ellis Waterhouse, An Impressive Panorama of British Portraiture, Apollo, v. 105,
+         no. 182, April 1977, pp. 246-7, cover, N1 A54 +  (YCBA)  , Another copy of this article
+         may be found in a separately bound and catalogued copy of this issue located on the
+         Mellon Shelf  [call number : N5220 M552 A7 1977 + (YCBA)]""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/901> a crm:E31_Document ;
+	rdfs:label """Brian Allen, The Sport of Collecting: Paul Mellon and British Art, Apollo, v.165,no.542,
+         April 2007, pp. 38,39, fig. 10, N1 A54 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/956> a crm:E31_Document ;
+	rdfs:label """Geoffrey Agnew, Yale's 1700 Mellon Pictures, The Times (London), issue no. 59989,
+         Thursday, April 28, 1977, p. 9, Available Online : Times Digital Archive  , Also available
+         on Microfilm : Film  An T842 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1105> a crm:E31_Document ;
+	rdfs:label """Malcolm Cormack, Star Quality, ART News, Summer 1983, pp. 112-113, N1 A6  OVERSIZE
+         (HAAS)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1106> a crm:E31_Document ;
+	rdfs:label """Joseph Musser Jr., Sir Joshua Reynold's 'Mrs. Abington as Miss Prue', South Atlantic
+         Quarterly, vol. 83, Spring 1984, pp. 176-92, A89 250 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1320> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/60182245> ;
+	rdfs:label """Charles Robert Leslie, Life and times of Sir Joshua Reynolds, with notices of some
+         of his contemporaries., John Murray, London, 1865, pp. 226-7, NJ18 R36 L47 (YCBA)
+         , Also available on Microfche: The Nineteenth Century: Visual Arts ; Pos: Fiche.N.4.2.357)
+         (SML Fiche B1244 Fiche.N.4.2.357)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1343> a crm:E31_Document ;
+	rdfs:label """Allard Sebastien, Portraits publics, portraits privâes, 1770-1830, Galeries nationales
+         du Grand Palais, Paris, 4 octobre 2006-9 janvier 2007 ; the Royal Academy of Arts,
+         Londres, 3 fâevrier-20 avril 2007 ; the Solomon R. Guggenheim Museum, New York, 18
+         mai-10 septembre 2007, Réunion des Musées Nationaux, Paris, 2006, pp. 93, 122-3, cat.
+         28, ND1314.4 P67 2006 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1344> a crm:E31_Document ;
+	rdfs:label """Citizens and kings, portraits in the age of revolution 1760-1830., Royal Academy
+         of Arts, London, 2007, pp. 84-5, fig. 43, ND1314.4 C5713 2007 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1393> a crm:E31_Document ;
+	rdfs:label """Representing emotions, new connections in the histories of art, music, and medicine,
+         Ashgate Publishing, Aldershot, Hants, England Burlington, VT, 2005, p. 158, fig. 9.2,
+         RC480.5 R386X 2005 (Haas)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1425> a crm:E31_Document ;
+	rdfs:label """Robin Simon, Reynolds and the Double-entendre, The Society of Dilettanti Portraits,
+         British Art Journal, vol. 3, no. 1, Spring, 2001, p. 77, Pl. 9, N6761 B74 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1434> a crm:E31_Document ;
+	rdfs:label """Ellis Waterhouse, Reynolds, Phaidon, New York, NY, 1973, pl. 54, NJ18 R36 W37 1973
+         + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1435> a crm:E31_Document ;
+	rdfs:label """South Kensington Museum, Catalogue of the second special exhibition of national portraits
+         commencing with the reign of William and Mary and ending with the year MDCCC, on loan
+         to the South Kensington museum. May 1, 1867., London, 1867, pp. 133-4, no. 601, N7598
+         S6 1867 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1436> a crm:E31_Document ;
+	rdfs:label """Grosvenor Gallery, Catalogue of the works of Sir Joshua Reynolds exhibited at the
+         Grosvenor Gallery MDCCCLXXXIII-IV, illustrated with photo-intaglio plates after the
+         originals by Alfred Dawson., Chiswick Press, London, 1884, pp. 11-12, no. 7, NJ18
+         R36 G76 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1437> a crm:E31_Document ;
+	rdfs:label """Sir Joshua Reynolds, loan exhibition in aid of the Royal Northern Hospital., Royal
+         Northern Hospital, London, 1937, p. 36, no. 56, NJ18 R36 L65 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1438> a crm:E31_Document ;
+	rdfs:label """Exhibition of works by Sir Joshua Reynolds P.R.A., 1723-1792, 18th February to 19th
+         March 1961., Birmingham Museum & Art Gallery, Birmingham, 1961, pp. 31-32, no. 50,
+         NJ18 R36 E85 1961 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1439> a crm:E31_Document ;
+	rdfs:label """British Institution, Catalogue of pictures by the late Sir Joshua Reynolds, exhibited
+         by the permission of the proprietors, in honor of the memory of that distinguished
+         artist and for the improvement of British Art., W. Bulmer & Co., London, 1813, no.
+         103, N5055 B7 A13 1813 + (RARE BOOKS, YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1440> a crm:E31_Document ;
+	rdfs:label """Richard Wendorf, Sir Joshua Reynolds, the painter in society, Harvard University
+         Press, Cambridge, Mass., 1996, p. 128, NJ18 R36 W46 1996 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1441> a crm:E31_Document ;
+	rdfs:label """The Grosvenor Exhibition (First Notice), Athenaeum, no. 2931, December 29 1883, pp.
+         873-4, Available Online: British Periodicals II  , Also Available: A88 At421 + (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1442> a crm:E31_Document ;
+	rdfs:label """Joseph Burke, English art 1714-1800, Clarendon Press, Oxford, 1976, p. 208, pl. 56c,
+         N6761 O9 9 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1479> a crm:E31_Document ;
+	rdfs:label """Angus Trumble, The finger, a handbook, Farrar, Straus and Giroux, New York, 2010,
+         p. 128, GT498.F46 T78 2010 (YBAC)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1488> a crm:E31_Document ;
+	rdfs:label """Felicity Nussbaum, Rival queens, actresses, performance, and the eighteenth-century
+         British theater, University of Pennsylvania Press, Philadelphia, 2010, p. 262, fig.
+         23, PN2582.W65 N87 2010 (YBAC)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1500> a crm:E31_Document ;
+	rdfs:label """British Art at Yale, Apollo, v.105, no. 182, April 1977, pp. 246-7, cover, N5220
+         M552 A7 1977 OVERSIZE  (YCBA)  , Published as April 1977 issue of Apollo; all of the
+         articles may also be found in bound Apollo Volume [N1 A54 105:2 +]""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1501> a crm:E31_Document ;
+	rdfs:label """The Yale Center for British Art, An Anniversary Celebration of Paul Mellon's Great
+         Legacy, Apollo, April 2007, p. 39, fig. 10, N5220 M552 A7 OVERSIZE (YCBA)  , Appeared
+         as April 2007 issue of Apollo;; all of the articles may also be found in bound Apollo
+         Volume [N1 A54 165:2 +]""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1542> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/03698854> ;
+	rdfs:label """William Cotton Esq., A Catalogue of the Portraits Painted by Sir Joshua Reynolds,
+         Knt., P.R.A., Compiled from his autograph memorandum books, and from printed catalogues,
+         Longman, London and Plymouth, UK, 1857, p. 110, no. 72, NJ18 R36 C65 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1543> a crm:E31_Document ;
+	rdfs:label """Sotheby's Important British Pictures: 27 November 2003, Sotheby's, Sotheby's, London,
+         2003, p. 35, Fig. 2, Sales Catalogues (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1547> a crm:E31_Document ;
+	rdfs:label """Richard Brinsley Sheridan, The Rivals, The Duenna, A Trip to Scarborough, The School
+         for Scandal, The Critic, Oxford University Press, Oxford, New York, 1998, book cover,
+         PR3681 C67 1998""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1559> a crm:E31_Document ;
+	rdfs:label """James Northcote, Memoirs of Sir Joshua Reynolds ..., Comprising original anecdotes,
+         of many distinguished persons, his contemporaries: and a brief analysis of his discourses.
+         To which are added, Varieties on art., M. Carey & Son, Philadelphia, 1817, p. 159,
+         Available Online (Internet Archive)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1560> a crm:E31_Document ;
+	rdfs:label """Abington, Francis (1737-1815), Oxford Dictionary of National Biography, 1885, Available
+         Online (Archive within ODNB)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1561> a crm:E31_Document ;
+	rdfs:label """Abington [nee Barton], Francis [Fanny] (1737-1815), Oxford Dictionary of National
+         Biography, vol. 1, 2004, p. 109, DA28 D5 2004 (YCBA)  , Also available Online""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1563> a crm:E31_Document ;
+	rdfs:label """Musée du Petit Palais, Peinture romantique anglaise et les preraphaelites., Exposition:
+         21 janvier-16 avril 1972., Paris, 1972, No. 214, ND467 P37 1972 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1564> a crm:E31_Document ;
+	rdfs:label """Sir Joshua Reynolds :, A plethora of portraits, Economist, February 1, 1986, p. 97,
+         Available Online (Economist Archive)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1575> a crm:E31_Document ;
+	rdfs:label """James Northcote, Memoirs of Sir Joshua Reynolds, KNT. ..., comprising original anecdotes
+         of many distinguished persons, his contemporaries, and a brief analysis of his discourses
+         : to which are added, Varieties on art, London, 1813, p. (6) appendix, ND497.R4 N8
+         1813 Oversize (YCBA Rare)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1579> a crm:E31_Document ;
+	rdfs:label """Christie's Sale Catalogue : Highly Important English Pictures c.1600 - c. 1850 :
+         23 June 1972, Christie's, 1972, p. 60, lot 116, pl. 116, Sales Catalogues (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1782> a crm:E31_Document ;
+	rdfs:label """John McDonald, A Feast of Mellon, Sydney Morning Herald, May 9, 1998, p. 14, Film
+         An Sy25 (SML)  , Also Available Online (Factiva database)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1802> a crm:E31_Document ;
+	rdfs:label """Mary Webster, Johan Zoffany, 1733-1810, Yale University Press, New Haven, CT, 2011,
+         p. 222, NJ18 Z68 W43 2011 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1844> a crm:E31_Document ;
+	rdfs:label """Simon Schama, The Yale Centre for British Art, TLS, the Times Literary Supplement,
+         Issue no. 3923, May 20, 1977, p. 620, Film S748 (SML)  , Also avaiable online in TLS
+         Historical Archive (ORBIS)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1846> a crm:E31_Document ;
+	rdfs:label """Lindsay Duguid, The Recollected Works, TLS, the Times Literary Supplement, Issue
+         no. 5458, November 8, 2007, p. 17, Film S748 (SML)  , Also Available Online in TLS
+         Archive""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2004> a crm:E31_Document ;
+	rdfs:label """Gillian Perry, The first actresses Nell Gwyn to Sarah Siddons /, National Portrait
+         Gallery, London, 2011, pp. 44-45, 110, 112, fig.28 and p.112, PN2582.W65 P472  2011
+         + OVERSIZE (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2649> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/05398471> ;
+	rdfs:label """Exhibition Catalogue. 1771. 3d, Exhibition of the Royal Academy of Arts, no. 3, Royal
+         Academy of Arts, 1771, p. 16, no. 161, N5054 A53 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2741> a crm:E31_Document ;
+	rdfs:label """Michael Glover, Scenes from Afar, The Times (London), Saturday, September 22, 2007,
+         p. 28, Available Online  : Times Digital Arcive""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2775> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/07500731> ;
+	rdfs:label """Catherine M. Gordon, British paintings Hogarth to Turner, Frederick Warne, London,
+         1981, p. 57, ND466 G67  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2950> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/213560100> ;
+	rdfs:label """Royal Academy of Arts, Exhibition of works by old masters and by deceased masters
+         of the British School : winter exhibition, 7th year, London, 1876, p.6, no. 31, Fiche
+         B112  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2951> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/60182245> ;
+	rdfs:label """Charles Robert Leslie, Life and Times of Sir Joshua Reynolds, With Notices of Some
+         of His Contemporaries, John Murray, London, 1865, vol 1: p. 226  vol 2: p. 408, 11b,
+         no. 2 (vol 2), NJ18 R36 L47 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2952> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/54277474> ;
+	rdfs:label """Sotheby's, Sotheby's Sale Catalogue : British Paintings 1500 - 1850, Wednesday 8
+         April 1998, Sotheby's, London, 1998, no. 100, Auction Cat 1998 April (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2953> a crm:E31_Document ;
+	rdfs:label "A Plethora of Portraits, Economist, 1 February 1986, p. 97, HG11 E25 Oversize (LSF)" .
+
+<http://collection.britishart.yale.edu/id/exhibition/723> a crm:E7_Activity ;
+	rdfs:label "Caught in the Act - Portraits of Women in the Eighteenth Century, 2011-2012" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/723/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/723/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "723" .
+
+<http://collection.britishart.yale.edu/id/exhibition/248> a crm:E7_Activity ;
+	rdfs:label "An American's Passion for British Art - Paul Mellon's Legacy, 2007-2008" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/248/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/248/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "248" .
+
+<http://collection.britishart.yale.edu/id/exhibition/261> a crm:E7_Activity ;
+	rdfs:label "Citizens and Kings, Portraiture in the Age of David and Goya - 1770-1830, 2006-2007" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/261/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/261/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "261" .
+
+<http://collection.britishart.yale.edu/id/exhibition/221> a crm:E7_Activity ;
+	rdfs:label "Joshua Reynolds : the Creation of Celebrity, 13 February - 25 September 2005" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/221/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/221/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "221" .
+
+<http://collection.britishart.yale.edu/id/exhibition/202> a crm:E7_Activity ;
+	rdfs:label "\"Brilliant Effects\" [ Jewels ], 2004" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/202/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/202/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "202" .
+
+<http://collection.britishart.yale.edu/id/exhibition/88> a crm:E7_Activity ;
+	rdfs:label """Great British Paintings from American Collections: Holbein to Hockney, Thursday, September
+         27, 2001 - Sunday, December 30, 2001""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/88/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/88/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "88" .
+
+<http://collection.britishart.yale.edu/id/exhibition/7> a crm:E7_Activity ;
+	rdfs:label "This Other Eden : British Paintings from the Paul Mellon Collection at Yale, 1998" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/7/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/7/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "7" .
+
+<http://collection.britishart.yale.edu/id/exhibition/373> a crm:E7_Activity ;
+	rdfs:label "Sir Joshua Reynolds (RA), 1985-1986" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/373/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/373/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "373" .
+
+<http://collection.britishart.yale.edu/id/object/5005/comment/1> a bmo:EX_Association ;
+	crm:P140_assigned_attribute_to <http://collection.britishart.yale.edu/id/object/5005> ;
+	crm:P141_assigned """The actress Frances (Fanny) Barton, better known as Mrs. Abington, was one of the
+         most popular stars of the London stage. She grew up in the slums near Drury Lane;
+         sold flowers in Covent Garden (where she was called “Nosegay Fan”); worked for a French
+         milliner in Cockspur Street; and was employed by the cook and future comedian Robert
+         Baddeley, who gave Fanny her first big break. She married James Abington, one of the
+         king's trumpeters, and became a star in the Drury Lane Company, managed by the actor-manager
+         David Garrick. She created the role of Lady Teazle in Richard Brinsley Sheridan’s
+         “The School for Scandal” (1777). In this portrait, Reynolds (an admirer) portrays
+         Mrs. Abington in one of her most successful roles, that of the young ingénue Miss
+         Prue in William Congreve’s somewhat dated 1694 comedy “Love for Love”. She played
+         that part for the first time in December 1769, and the sittings for this portrait
+         took place either in December or in March and April 1771.
+         
+         
+         
+         Showing her in character (and adopting what was then taken to be a suggestive, or
+         at least unrefined, pose—unthinkable for a lady—and exploiting as a strategically
+         positioned fascinator the Hepplewhite chairback upon which she rests her arms), the
+         work is both a portrait of unusual directness and candor, her thumb coyly hovering
+         on the lower lip, and a “historical” picture, whose associations went beyond the subject's
+         likeness, which Horace Walpole thought “easy and very like” (Mannings and Postle,
+         2000, p. 56). 
+         
+         
+         
+         Reynolds painted at least half a dozen portraits of Mrs. Abington in 1771 and two
+         further paintings that must correspond to surviving notes in Reynolds's appointment
+         books for 1773 and 1780. The latter of these, which is untraced, showed the actress
+         in character once again, this time in the role of Roxalana, the English slave in Isaac
+         Bickerstaff’s play “The Sultan”, which was first performed in 1775 in Drury Lane.
+         In that drama, “the playful, unequal, coquettish Roxalana,” wrote Sir Uvedale Price,
+         “full of sudden turns and caprices, is opposed to the beautiful, tender, and constant
+         Elvira; and the effects of irritation, to those of softness and languor” (Graves and
+         Cronin, 1899–1901, vol. 1, p. 5).""" ;
+	bmo:PX_property bmo:PX_curatorial_comment ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/6799> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/5005/comment/1/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/6799> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Angus Trumble" ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/> .
+
+<http://collection.britishart.yale.edu/id/object/5005/comment/1/date> a crm:E52_Time-Span ;
+	crm:P3_has_note "2007-01" ;
+	rdfs:label "2007-01" ;
+	crm:P82_at_some_time_within "2007-01"^^<http://www.w3.org/2001/XMLSchema#gYearMonth> .
+
+<http://collection.britishart.yale.edu/id/object/5005/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/5005/height> , <http://collection.britishart.yale.edu/id/object/5005/width> ;
+	rdfs:label "Support (PTG): 30 1/4 x 25 1/8 inches (76.8 x 63.8 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Support (PTG)" .
+
+<http://collection.britishart.yale.edu/id/object/5005/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "76.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/5005/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "63.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .

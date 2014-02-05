@@ -1,0 +1,409 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/19850> a crm:E22_Man-Made_Object ;
+	rdfs:label "Malvolio Dancing" ;
+	bmo:PX_display_wrap "Object type :: drawing" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033973> ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/genre/31> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/drawing-&-watercolor> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/19850/title/1> , <http://collection.britishart.yale.edu/id/object/19850/title/2> ;
+	bmo:PX_display_wrap "Alternate title :: Sir Andrew Aguecheek Cutting a Caper" ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/19850/title/3> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/object/19850/series/twelfth_night_or_what_you_will> ;
+	bmo:PX_display_wrap "Component of series :: Twelfth Night; or, What You Will" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/19850/production> ;
+	bmo:PX_display_wrap "Production by :: Robert Smirke, 1752-1845, British" , "Production date :: 1827" , "Production Period / Culture :: 19th century" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/19850/production> ;
+	bmo:PX_display_wrap "Subject Concept :: literary theme" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/literary_theme> ;
+	bmo:PX_display_wrap "Subject Concept :: dancing" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054144> ;
+	bmo:PX_display_wrap "Subject Concept :: gesture" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300056179> ;
+	bmo:PX_display_wrap "Subject Concept :: costume" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300224229> ;
+	bmo:PX_display_wrap "Subject Concept :: men" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025928> ;
+	bmo:PX_display_wrap "Subject Concept :: steward" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300236284> ;
+	bmo:PX_display_wrap "Subject Concept :: tiles" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300010676> ;
+	bmo:PX_display_wrap "Subject Concept :: feather" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300011809> ;
+	bmo:PX_display_wrap "Subject Concept :: sword" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300037048> ;
+	bmo:PX_display_wrap "Subject Concept :: cap" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300046094> ;
+	bmo:PX_display_wrap "Subject Concept :: breeches" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300046135> ;
+	bmo:PX_display_wrap "Subject Concept :: jacket" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300046167> ;
+	bmo:PX_display_wrap "Subject Concept :: doublet" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300209829> ;
+	bmo:PX_display_wrap "Subject Object :: Twelfth Night; or, What You Will, play by William Shakespeare" ;
+	crm:P128_carries <http://collection.britishart.yale.edu/id/object/19850/concept/1> ;
+	bmo:PX_display_wrap "Subject Object :: plays by William Shakespeare" ;
+	crm:P128_carries <http://collection.britishart.yale.edu/id/object/19850/concept/2> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/19850/lidoRecID> , <http://collection.britishart.yale.edu/id/object/19850/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/19850/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/19850/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300014254> , <http://vocab.getty.edu/aat/300014187> , <http://collection.britishart.yale.edu/id/thesauri/material/brown_wash> , <http://collection.britishart.yale.edu/id/thesauri/material/black_ink> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/19850/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/19850/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/19850/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Collection" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" , "Exhibition :: Shakespeare and British Art, 1981" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/575> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/19850/measurement/1> ;
+	bmo:PX_display_wrap "Dimension width :: 9.8cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/19850/measurement/1/width> ;
+	bmo:PX_display_wrap "Dimension height :: 13.0cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/19850/measurement/1/height> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/19850/measurement/2> ;
+	bmo:PX_display_wrap "Dimension height :: 7.2cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/19850/measurement/2/height> ;
+	bmo:PX_display_wrap "Dimension width :: 6.7cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/19850/measurement/2/width> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/19850/measurement/3> ;
+	bmo:PX_display_wrap "Dimension height :: 21.6cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/19850/measurement/3/height> ;
+	bmo:PX_display_wrap "Dimension width :: 18.4cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/19850/measurement/3/width> ;
+	bmo:PX_display_wrap "Dimension depth :: 1.9cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/19850/measurement/3/depth> .
+
+<http://vocab.getty.edu/aat/300033973> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "drawing" .
+
+<http://collection.britishart.yale.edu/id/thesauri/genre/31> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "literary theme" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/drawing-&-watercolor> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Drawing & Watercolor" .
+
+<http://collection.britishart.yale.edu/id/object/19850/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Malvolio Dancing" .
+
+<http://collection.britishart.yale.edu/id/object/19850/title/2> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> ;
+	rdfs:label "Sir Andrew Aguecheek Cutting a Caper" .
+
+<http://collection.britishart.yale.edu/id/object/19850/title/3> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/collective_title> ;
+	rdfs:label "Twelfth Night; or, What You Will" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Alternate title" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/collective_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Collective title" .
+
+<http://collection.britishart.yale.edu/id/object/19850/series/twelfth_night_or_what_you_will> a crm:E78_Collection ;
+	rdfs:label "Twelfth Night; or, What You Will" .
+
+<http://collection.britishart.yale.edu/id/object/19850/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/19850/production/1> .
+
+<http://collection.britishart.yale.edu/id/object/19850/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/142> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/19850/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/19850/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "1827" ;
+	crm:P82_at_some_time_within "1827"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/142> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:altLabel "Robert Smirke I" , "Robert Smirke R. A." , "Robert Smirk" , "Robert I Smirke" ;
+	skos:prefLabel "Robert Smirke" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/142/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/142/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/142/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/142/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/142/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1752" ;
+	crm:P82_at_some_time_within "1752"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/142/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/142/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/142/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1845" ;
+	crm:P82_at_some_time_within "1845"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/19th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "19th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/literary_theme> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "literary theme" .
+
+<http://vocab.getty.edu/aat/300054144> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "dancing" .
+
+<http://vocab.getty.edu/aat/300056179> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "gesture" .
+
+<http://vocab.getty.edu/aat/300224229> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "costume" .
+
+<http://vocab.getty.edu/aat/300025928> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "men" .
+
+<http://vocab.getty.edu/aat/300236284> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "steward" .
+
+<http://vocab.getty.edu/aat/300010676> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "tiles" .
+
+<http://vocab.getty.edu/aat/300011809> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "feather" .
+
+<http://vocab.getty.edu/aat/300037048> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "sword" .
+
+<http://vocab.getty.edu/aat/300046094> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "cap" .
+
+<http://vocab.getty.edu/aat/300046135> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "breeches" .
+
+<http://vocab.getty.edu/aat/300046167> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "jacket" .
+
+<http://vocab.getty.edu/aat/300209829> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "doublet" .
+
+<http://collection.britishart.yale.edu/id/thesauri/> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/place/> ;
+	skos:prefLabel "" ;
+	a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/place/> ;
+	skos:prefLabel "" .
+
+<http://collection.britishart.yale.edu/id/object/19850/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-19850" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/19850/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "19850" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/19850/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1981.25.582" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/19850/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "3488033" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300014254> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "oil" .
+
+<http://vocab.getty.edu/aat/300014187> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "wove paper" .
+
+<http://collection.britishart.yale.edu/id/thesauri/material/brown_wash> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/material/> ;
+	skos:prefLabel "brown wash" .
+
+<http://collection.britishart.yale.edu/id/thesauri/material/black_ink> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/material/> ;
+	skos:prefLabel "black ink" .
+
+<http://collection.britishart.yale.edu/id/object/19850/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Collection" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/19850/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://vocab.getty.edu/ulan/500272240> a crm:E39_Actor , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/ulan//> ;
+	skos:prefLabel "Shakespeare, William (1564–1616), playwright and poet" .
+
+<http://collection.britishart.yale.edu/id/exhibition/575> a crm:E7_Activity ;
+	rdfs:label "Shakespeare and British Art, 1981" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/575/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/575/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "575" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/19850/width> , <http://collection.britishart.yale.edu/id/object/19850/height> ;
+	rdfs:label "Sheet: 5 1/8 x 3 7/8 inches (13 x 9.8 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Sheet" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "9.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "13.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/2> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Image> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/19850/height> , <http://collection.britishart.yale.edu/id/object/19850/width> ;
+	rdfs:label "Image: 2 13/16 x 2 5/8 inches (7.2 x 6.7 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Image> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Image" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/2/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "7.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/2/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "6.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/3> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Frame> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/19850/height> , <http://collection.britishart.yale.edu/id/object/19850/width> , <http://collection.britishart.yale.edu/id/object/19850/depth> ;
+	rdfs:label "Frame: 8 1/2 × 7 1/4 × 3/4 inches (21.6 × 18.4 × 1.9 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Frame> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Frame" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/3/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "21.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/3/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "18.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/19850/measurement/3/depth> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/depth> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "1.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/depth> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Depth" .

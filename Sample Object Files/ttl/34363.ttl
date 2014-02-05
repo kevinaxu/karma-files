@@ -1,0 +1,398 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/34363> a crm:E22_Man-Made_Object ;
+	rdfs:label "Robert Devereux, 2nd Earl of Essex" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Object type :: intaglio print" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300041338> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/print> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/34363/title/1> ;
+	crm:P65_shows_visual_item <http://collection.britishart.yale.edu/id/object/34363/inscription/1> , <http://collection.britishart.yale.edu/id/object/34363/inscription/2> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/34363/production> ;
+	bmo:PX_display_wrap "Production by :: Attributed to Renold Elstrack, 1570-1625(?), British" , "Production by :: Published by Compton Holland, active 1616-d.1621, British" , "Production date :: between 1616 and 1621" , "Production Period / Culture :: 17th century" , "Uses technique :: line engraving" , "Subject Concept :: livery collar" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300264346> ;
+	bmo:PX_display_wrap "Subject Concept :: reticella" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/reticella> ;
+	bmo:PX_display_wrap "Subject Concept :: cuffs" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/cuffs> ;
+	bmo:PX_display_wrap "Subject Concept :: Order of the Garter" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/order_of_the_garter> ;
+	bmo:PX_display_wrap "Subject Concept :: mustache" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/mustache> ;
+	bmo:PX_display_wrap "Subject Concept :: beard" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300379263> ;
+	bmo:PX_display_wrap "Subject Concept :: coat of arms" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300126352> ;
+	bmo:PX_display_wrap "Subject Concept :: portrait" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Subject Concept :: nobility" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025942> ;
+	bmo:PX_display_wrap "Subject Concept :: man" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025928> ;
+	bmo:PX_display_wrap "Subject Concept :: crest" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300233389> ;
+	bmo:PX_display_wrap "Subject Concept :: cartouche" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300010256> ;
+	bmo:PX_display_wrap "Subject Concept :: costume" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300224229> ;
+	bmo:PX_display_wrap "Subject Concept :: oval" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300055631> ;
+	bmo:PX_display_wrap "Subject Concept :: feathers" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300011809> ;
+	bmo:PX_display_wrap "Subject Concept :: armor" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300226591> ;
+	bmo:PX_display_wrap "Subject Concept :: doublet" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300209829> ;
+	bmo:PX_display_wrap "Subject Concept :: hat" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300046106> ;
+	bmo:PX_display_wrap "Subject Concept :: pendant" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300212115> ;
+	bmo:PX_display_wrap "Subject Concept :: shield" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300036869> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/34363/lidoRecID> , <http://collection.britishart.yale.edu/id/object/34363/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/34363/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/34363/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300014184> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/34363/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/34363/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/34363/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line """Yale Center for British Art; Yale University Art Gallery Collection, Library Transfer;
+         Gift of John Hay Whitney""" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/34363/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 18.0cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/34363/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 11.2cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/34363/measurement/1/width> .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300041338> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "intaglio print" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/print> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Print" .
+
+<http://collection.britishart.yale.edu/id/object/34363/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Robert Devereux, 2nd Earl of Essex" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/34363/inscription/1> a crm:E34_Inscription ;
+	rdfs:label """Inscribed in graphite, on mount, lower center: \"H., vol. 2, p. 371, no. 14, pl 235
+         (a) | (only state) | Earl + Henry playing in Tennis court, Dispute on print in game,
+         Essex- insisting on rights. Henry called him one of a Traitor. Essex hit him over
+         the head with racquet + | drew blood - became afterwards famous Parliamentary general
+         - | Henry played after 3 or 4 hours at a time-\"; on mount, lower right: \"Anonymous
+         engraver - Elstracke? | O. D. 20\"""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Inscription" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/object/34363/inscription/2> a crm:E34_Inscription ;
+	rdfs:label """Lettered in black ink, within image, upper right, in coat of arms: \"HONI · SOIT ·
+         QUI · MAL · Y · PENSE\"; in frame surrounding portrait: \"ILLVSTRISS9 D9 ROBERTUS DEVORAX
+         COMES ESSEXIÆ QUONDAM ANGLIÆ MARISCALL9. etc.\"; lower center: \"The most noble ROBERT
+         Earle of Essex and | Ewe(?), Earle Marshall of England, Vicount | Hereford and Bourgcher,
+         Lo: Ferres of Chartle(?) | Lo: Bourgcher & Lovayn, her Maties. Lieutenant and | Governour
+         Generall of Ireland, & Knight of the | most noble Order of the Garter. | Co: Holland
+         excu.\"""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/lettering> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/lettering> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Lettering" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/> a skos:ConceptScheme ;
+	skos:prefLabel "Inscription Type" .
+
+<http://collection.britishart.yale.edu/id/object/34363/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/34363/production/1> , <http://collection.britishart.yale.edu/id/object/34363/production/2> , <http://collection.britishart.yale.edu/id/object/34363/production/4> .
+
+<http://collection.britishart.yale.edu/id/object/34363/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/1002> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/34363/production/1/date> .
+
+<http://collection.britishart.yale.edu/id/object/34363/production/1/association> a bmo:EX_Association ;
+	crm:P140_assigned_attribute_to <http://collection.britishart.yale.edu/id/object/34363/production/1> ;
+	crm:P141_assigned <http://collection.britishart.yale.edu/id/person-institution/1002> ;
+	bmo:PX_property crm:P14_carried_out_by ;
+	bmo:PX_likelihood <http://collection.britishart.yale.edu/id/thesauri/likelihood/A> .
+
+<http://collection.britishart.yale.edu/id/thesauri/likelihood/A> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/likelihood/> ;
+	skos:prefLabel "Attributed to" .
+
+<http://collection.britishart.yale.edu/id/thesauri/production/M> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/production/> ;
+	skos:prefLabel "Artistic Production" .
+
+<http://collection.britishart.yale.edu/id/object/34363/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "between 1616 and 1621" ;
+	crm:P82a_begin_of_the_begin "1616"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+	crm:P82b_end_of_the_end "1621"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/object/34363/production/2> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/11272> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/Z> .
+
+<http://collection.britishart.yale.edu/id/thesauri/production/Z> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/production/> ;
+	skos:prefLabel "Published by" .
+
+<http://collection.britishart.yale.edu/id/object/34363/production/3> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://vocab.getty.edu/aat/300053231> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1002> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:altLabel "Reginald Elstracke" ;
+	skos:prefLabel "Renold Elstrack" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/1002/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/1002/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1002/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/1002/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1002/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1570" ;
+	crm:P82_at_some_time_within "1570"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1002/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/1002/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1002/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1625" ;
+	crm:P82_at_some_time_within "1625"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/person-institution/11272> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Compton Holland" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/11272/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/11272/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/11272/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/11272/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/11272/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1616" ;
+	crm:P82_at_some_time_within "1616"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/11272/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/11272/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/11272/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1621" ;
+	crm:P82_at_some_time_within "1621"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/17th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "17th century" .
+
+<http://vocab.getty.edu/aat/300264346> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "livery collar" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/reticella> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "reticella" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/cuffs> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "cuffs" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/order_of_the_garter> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "Order of the Garter" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/mustache> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "mustache" .
+
+<http://vocab.getty.edu/aat/300379263> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "beard" .
+
+<http://vocab.getty.edu/aat/300126352> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "coat of arms" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300025942> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "nobility" .
+
+<http://vocab.getty.edu/aat/300025928> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "man" .
+
+<http://vocab.getty.edu/aat/300233389> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "crest" .
+
+<http://vocab.getty.edu/aat/300010256> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "cartouche" .
+
+<http://vocab.getty.edu/aat/300224229> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "costume" .
+
+<http://vocab.getty.edu/aat/300055631> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "oval" .
+
+<http://vocab.getty.edu/aat/300011809> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "feathers" .
+
+<http://vocab.getty.edu/aat/300226591> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "armor" .
+
+<http://vocab.getty.edu/aat/300209829> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "doublet" .
+
+<http://vocab.getty.edu/aat/300046106> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "hat" .
+
+<http://vocab.getty.edu/aat/300212115> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "pendant" .
+
+<http://vocab.getty.edu/aat/300036869> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "shield" .
+
+<http://collection.britishart.yale.edu/id/object/34363/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-34363" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/34363/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "34363" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/34363/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1994.4.159" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/34363/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "3621853" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300053231> a rso:E55_Technique , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264090> ;
+	skos:prefLabel "line engraving" .
+
+<http://vocab.getty.edu/aat/300014184> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "laid paper" .
+
+<http://collection.britishart.yale.edu/id/object/34363/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label """Transferred to Yale Center for British Art; Yale University Art Gallery Collection,
+         Library Transfer; Gift of John Hay Whitney""" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/34363/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://vocab.getty.edu/ulan/500316761> a crm:E39_Actor , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/ulan//> ;
+	skos:prefLabel "Devereux, Robert, second earl of Essex (1565–1601), soldier and politician" .
+
+<http://collection.britishart.yale.edu/id/object/34363/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/34363/height> , <http://collection.britishart.yale.edu/id/object/34363/width> ;
+	rdfs:label "Sheet: 7 1/16 x 4 7/16 inches (18 x 11.2 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Sheet" .
+
+<http://collection.britishart.yale.edu/id/object/34363/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "18.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/34363/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "11.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .

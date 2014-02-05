@@ -1,0 +1,299 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/22010> a crm:E22_Man-Made_Object ;
+	rdfs:label "The Dilettanti Society" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/print> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/22010/title/1> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/22010/production> ;
+	bmo:PX_display_wrap "Production by :: Print made by William Say, 1768-1834, British" , "Production by :: after Sir Joshua Reynolds, 1723-1792, British" , "Production date :: 1812" , "Production Period / Culture :: 19th century" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/22010/production> , <http://collection.britishart.yale.edu/id/object/22010/production> ;
+	bmo:PX_display_wrap "Subject Concept :: costume" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300224229> ;
+	bmo:PX_display_wrap "Subject Concept :: men" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025928> ;
+	bmo:PX_display_wrap "Subject Concept :: food" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300254496> ;
+	bmo:PX_display_wrap "Subject Concept :: society" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300026009> ;
+	bmo:PX_display_wrap "Subject Concept :: drinking glasses" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300043230> ;
+	bmo:PX_display_wrap "Subject Concept :: bottles" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300045627> ;
+	bmo:PX_display_wrap "Subject Concept :: vase" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300132254> ;
+	bmo:PX_display_wrap "Subject Concept :: genre subject" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300139140> ;
+	bmo:PX_display_wrap "Subject Concept :: conversation piece" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300178227> ;
+	bmo:PX_display_wrap "Subject Concept :: portrait" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Subject Concept :: book" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300028051> ;
+	bmo:PX_display_wrap "Subject Concept :: wine" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/wine> ;
+	bmo:PX_display_wrap "Subject Event :: Grand Tour" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054796> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/22010/lidoRecID> , <http://collection.britishart.yale.edu/id/object/22010/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/22010/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/22010/ccd> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/22010/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/22010/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/22010/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Fund" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" , "Exhibition :: \" Pearls to Pyramids \"  - Britain and the \" Orient \" 1600-1820, 2008" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/631> ;
+	bmo:PX_display_wrap "Exhibition :: The Pursuit of Happiness - A View of Life in Georgian England, 1977" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/565> .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "portrait" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/print> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Print" .
+
+<http://collection.britishart.yale.edu/id/object/22010/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "The Dilettanti Society" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/22010/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/22010/production/1> , <http://collection.britishart.yale.edu/id/object/22010/production/2> .
+
+<http://collection.britishart.yale.edu/id/object/22010/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/2029> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/PM> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/22010/production/1/date> .
+
+<http://collection.britishart.yale.edu/id/thesauri/production/PM> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/production/> ;
+	skos:prefLabel "Print made by" .
+
+<http://collection.britishart.yale.edu/id/object/22010/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "1812" ;
+	crm:P82_at_some_time_within "1812"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/object/22010/production/2> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/17> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> .
+
+<http://collection.britishart.yale.edu/id/object/22010/production/2/association> a bmo:EX_Association ;
+	crm:P140_assigned_attribute_to <http://collection.britishart.yale.edu/id/object/22010/production/2> ;
+	crm:P141_assigned <http://collection.britishart.yale.edu/id/person-institution/17> ;
+	bmo:PX_property crm:P15_was_influenced_by ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/likelihood/AT> .
+
+<http://collection.britishart.yale.edu/id/thesauri/likelihood/AT> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/likelihood/> ;
+	skos:prefLabel "after" .
+
+<http://collection.britishart.yale.edu/id/thesauri/production/M> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/production/> ;
+	skos:prefLabel "Artistic Production" .
+
+<http://collection.britishart.yale.edu/id/person-institution/2029> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "William Say" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/2029/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/2029/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/2029/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/2029/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/2029/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1768" ;
+	crm:P82_at_some_time_within "1768"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/2029/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/2029/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/2029/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1834" ;
+	crm:P82_at_some_time_within "1834"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/person-institution/17> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Sir Joshua Reynolds" ;
+	skos:altLabel "Reynolds" , "Joshua Reynold" , "Joshua Raynolds" , "Joshua Reynolds" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/17/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/17/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/17/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/17/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/17/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1723" ;
+	crm:P82_at_some_time_within "1723"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/17/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/17/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/17/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1792" ;
+	crm:P82_at_some_time_within "1792"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/19th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "19th century" .
+
+<http://vocab.getty.edu/aat/300224229> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "costume" .
+
+<http://vocab.getty.edu/aat/300025928> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "men" .
+
+<http://vocab.getty.edu/aat/300254496> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "food" .
+
+<http://vocab.getty.edu/aat/300026009> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "society" .
+
+<http://vocab.getty.edu/aat/300043230> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "drinking glasses" .
+
+<http://vocab.getty.edu/aat/300045627> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "bottles" .
+
+<http://vocab.getty.edu/aat/300132254> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "vase" .
+
+<http://vocab.getty.edu/aat/300139140> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "genre subject" .
+
+<http://vocab.getty.edu/aat/300178227> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "conversation piece" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300028051> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "book" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/wine> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "wine" .
+
+<http://vocab.getty.edu/aat/300054796> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "Grand Tour" .
+
+<http://collection.britishart.yale.edu/id/object/22010/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-22010" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/22010/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "22010" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/22010/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1970.3.119" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/22010/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "3649336" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://collection.britishart.yale.edu/id/object/22010/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Fund" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/22010/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/exhibition/631> a crm:E7_Activity ;
+	rdfs:label "\" Pearls to Pyramids \"  - Britain and the \" Orient \" 1600-1820, 2008" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/631/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/631/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "631" .
+
+<http://collection.britishart.yale.edu/id/exhibition/565> a crm:E7_Activity ;
+	rdfs:label "The Pursuit of Happiness - A View of Life in Georgian England, 1977" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/565/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/565/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "565" .
