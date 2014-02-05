@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:crmx="http://isi.edu/crm#"
+	xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+<rdf:Description rdf:about="http://isi.edu/crm#hasWidth">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension"/>
+	<rdfs:label>width</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://isi.edu/crm#hasHeight">
+	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension"/>
+	<rdfs:label>height</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>
