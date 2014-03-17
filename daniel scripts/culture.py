@@ -5,7 +5,7 @@ if int(objectID) > 0:
 return "";
 ########## END ObjectUri END ##########
 
-########## PeriodUri ##########
+########## CultureUri ##########
 def zeroStr(str, num):
   if num > 0:
     return zeroStr("0" + str, num - 1)
@@ -35,15 +35,15 @@ if int(getValue("ID")) > 0:
   if getValue("AATCN") == "AAT":
     return "http://vocab.getty.edu/aat/" + padAATCode(getValue("AATID"))
   else:
-	return "http://collection.britishart.yale.edu/id/thesauri/periods/" + urify(getValue("Period"))
+	return "http://collection.britishart.yale.edu/id/thesauri/matcult/" + urify(getValue("Culture"))
 return "";
-########## END PeriodUri END ##########
+########## END CultureUri END ##########
 
-########## PeriodThes ##########
+########## CultureThes ##########
 if int(getValue("ID")) > 0:
   if getValue("AATCN") == "AAT":
     return "http://vocab.getty.edu/aat/300264088/"
   else:
-	return "http://collection.britishart.yale.edu/id/thesauri/periods/"
+	return "http://collection.britishart.yale.edu/id/thesauri/matcult/"
 return "";
-########## END PeriodThes END ##########
+########## END CultureThes END ##########

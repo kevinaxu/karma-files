@@ -1,11 +1,4 @@
-########## ObjectUri ##########
-objectID = getValue("ID")
-if int(objectID) > 0:
-    return "http://collection.britishart.yale.edu/id/" + objectID;
-return "";
-########## END ObjectUri END ##########
-
-########## PeriodUri ##########
+########## ClassificationUri ##########
 def zeroStr(str, num):
   if num > 0:
     return zeroStr("0" + str, num - 1)
@@ -31,19 +24,14 @@ def urify(str):
     str = str[:len(str) - 1]
   return str
 	
-if int(getValue("ID")) > 0:
+if int(getValue("ObjectID")) > 0:
   if getValue("AATCN") == "AAT":
     return "http://vocab.getty.edu/aat/" + padAATCode(getValue("AATID"))
   else:
-	return "http://collection.britishart.yale.edu/id/thesauri/periods/" + urify(getValue("Period"))
+	return "http://collection.britishart.yale.edu/id/thesauri/collection/" + urify(getValue("Classification"))
 return "";
-########## END PeriodUri END ##########
+########## END ClassificationUri END ##########
 
-########## PeriodThes ##########
-if int(getValue("ID")) > 0:
-  if getValue("AATCN") == "AAT":
-    return "http://vocab.getty.edu/aat/300264088/"
-  else:
-	return "http://collection.britishart.yale.edu/id/thesauri/periods/"
-return "";
-########## END PeriodThes END ##########
+
+
+
