@@ -1,6 +1,6 @@
 ########## ObjectUri ##########
 objectID = getValue("objectID")
-if int(objectID) > 0:
+if re.search('(subjectConcept)', getValue("thesxreftype")) and int(objectID) > 0:
 	return "http://collection.britishart.yale.edu/id/" + objectID;
 return "";
 ########## END ObjectUri END ##########
@@ -24,8 +24,13 @@ def padAATCode(code):
 
 import re
 
+# replace all special characters with an underscore
 def urify(str):
-    return re.sub(r'\s+', '-', str.lower())
+  str = re.sub(r'[^!#$&amp;*+\--:=\?-\[\]_a-z~]+', '_', str.lower())
+  # eliminate trailing underscores
+  if str[len(str) - 1] == "_":
+    str = str[:len(str) - 1]
+  return str
 
 source = getValue("UCTS")
 uri = ""
