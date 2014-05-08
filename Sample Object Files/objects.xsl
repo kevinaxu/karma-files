@@ -2562,6 +2562,8 @@
 						<xsl:variable name="techType" select="*[local-name() = 'conceptID']/@*[local-name() = 'type']" />
 						<xsl:choose>
 							<xsl:when test="*[local-name() = 'conceptID']/text()!=-1">
+
+								<!-- techtype = either-->
 								<xsl:if test="$techType='support' or $techType='medium'">
 									<xsl:choose>
 										<xsl:when test="*[local-name() = 'conceptID']/@*[local-name() = 'source']='AAT'">
