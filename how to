@@ -1,0 +1,30 @@
+https://confluence.ontotext.com/display/ResearchSpace/Yale+Mapping+Problems
+EXAMPLES ON THINGS WE MIGHT ENCOUNTER
+
+Standardize data. Work with ResearchSpace. Mapping 
+Use it to find objects with example "inscription". 
+
+
+
+
+WHEN LOOKING AT A TTL FILE
+The big block at the very beginning: 
+-> branches for all of the repositories that are connected to E22 manmade object. 
+Everything at the top level is going to be in that big block
+
+All the little things are sublevels. 
+
+
+How do you find out which columns match with which class? 
+	-> linking the class to the colums. 
+	Use excel to figure out which column it corresponds to
+		-> aka glorified search method (since karma is bad at that). 
+
+
+
+http://bac6-prod.its.yale.edu/oaicatmuseum/OAIHandler?verb=GetRecord&identifier=oai:tms.ycba.yale.edu:5005&metadataPrefix=lido
+LIDO DOCUMENT
+- previous form of the data. 
+
+
+

@@ -53,6 +53,10 @@ import re
 if re.search(getValue("thesxreftype"), "subjectPlace"):
     return getValue("SubjectPlaceUri") + "/coordinates"
 ########## END CoordUri END ##########
+<<<<<<< HEAD
+	
+	
+=======
 
 ########## CoordInScheme ##########
 #
@@ -100,3 +104,4 @@ if re.search(getValue("thesxreftype"), "subjectPlace"):
 
 
 	
+>>>>>>> 850b8f183e18916ba6716e0f4f8298a7732c760d
