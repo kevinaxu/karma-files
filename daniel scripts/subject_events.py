@@ -1,6 +1,6 @@
 ########## ObjectUri ##########
 objectID = getValue("objectID")
-if re.search(getValue("thesxreftype"), "subjectPlace") and int(objectID) > 0:
+if re.search(getValue("thesxreftype"), "subjectActor") and int(objectID) > 0:
 	return "http://collection.britishart.yale.edu/id/" + objectID;
 return "";
 ########## END ObjectUri END ##########
