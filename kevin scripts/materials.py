@@ -12,6 +12,8 @@ if int(objectID) > 0:
 return ""
 
 ##### MaterialTermURI
+
+#### Material URI
 def zeroStr(str, num):
     if num > 0:
         return zeroStr("0" + str, num - 1)
@@ -39,30 +41,136 @@ def urify(str):
 
 source = getValue("UCTS")
 uri = ""
-if int(getValue("objectID")) > 0:
+if re.search(getValue("colThesxrefType"), "(support)|(medium)", re.IGNORECASE) and int(getValue("objectID")) > 0:
     if re.search(source, "AAT", re.IGNORECASE):
         uri = "http://vocab.getty.edu/aat/" + padAATCode(getValue("SourceTermID"))
-    elif re.search(getValue("colThesxrefType"), "(support)|(medium)", re.IGNORECASE): 
+    else: 
         uri = "http://collection.britishart.yale.edu/id/thesauri/material/" + urify(getValue("term"))
-    elif re.search(getValue("colThesxrefType"), "(technique)", re.IGNORECASE): 
-        uri = "http://collection.britishart.yale.edu/id/thesauri/technique/" + urify(getValue("term"))
 
 return uri
 
-#### MaterialsInScheme
-#   2618
-# <xsl:attribute name="rdf:resource" select="concat('&getty_aat;', $AAT_TECHNIQUES_FACET)"/>
-# Does the value of inScheme depend on condition? 
+###### Technique URI
+def zeroStr(str, num):
+    if num > 0:
+        return zeroStr("0" + str, num - 1)
+    return str
+
+# pads an AAT code
+def padAATCode(code):
+    AATCodeLen = 9
+    codeLen = len(code)
+    if codeLen == AATCodeLen:
+        return code
+    # subtract 1 because the first digit is always three
+    numZeroes = AATCodeLen - codeLen - 1
+    return "3" + zeroStr("", numZeroes) + code
+
 import re
+
+# replace all special characters with an underscore
+def urify(str):
+  str = re.sub(r'[^!#$&amp;*+\--:=\?-\[\]_a-z~]+', '_', str.lower())
+  # eliminate trailing underscores
+  if str[len(str) - 1] == "_":
+    str = str[:len(str) - 1]
+  return str
 
 source = getValue("UCTS")
 uri = ""
-if int(getValue("objectID")) > 0:
+if re.search(getValue("colThesxrefType"), "(technique)", re.IGNORECASE) and int(getValue("objectID")) > 0:
     if re.search(source, "AAT", re.IGNORECASE):
-        uri = "http://vocab.getty.edu/aat/300000000/"
-    else:
-        uri = "http://collection.britishart.yale.edu/id/thesauri/material/"
+        uri = "http://vocab.getty.edu/aat/" + padAATCode(getValue("SourceTermID"))
+    else: 
+        uri = "http://collection.britishart.yale.edu/id/thesauri/technique/" + urify(getValue("term"))
+        
+return uri
+
+
+#### MaterialsInScheme
+def zeroStr(str, num):
+    if num > 0:
+        return zeroStr("0" + str, num - 1)
+    return str
+
+# pads an AAT code
+def padAATCode(code):
+    AATCodeLen = 9
+    codeLen = len(code)
+    if codeLen == AATCodeLen:
+        return code
+    # subtract 1 because the first digit is always three
+    numZeroes = AATCodeLen - codeLen - 1
+    return "3" + zeroStr("", numZeroes) + code
+
+import re
+
+# replace all special characters with an underscore
+def urify(str):
+  str = re.sub(r'[^!#$&amp;*+\--:=\?-\[\]_a-z~]+', '_', str.lower())
+  # eliminate trailing underscores
+  if str[len(str) - 1] == "_":
+    str = str[:len(str) - 1]
+  return str
+
+source = getValue("UCTS")
+uri = ""
+if re.search(getValue("colThesxrefType"), "(support)|(medium)", re.IGNORECASE) and int(getValue("objectID")) > 0:
+    if re.search(source, "AAT", re.IGNORECASE):
+        uri = "http://vocab.getty.edu/aat/" + "300264091"
+    else: 
+        uri = "http://collection.britishart.yale.edu/id/thesauri/material/" + "300264091"
 
 return uri
+
+#### Technique inscheme
+def zeroStr(str, num):
+    if num > 0:
+        return zeroStr("0" + str, num - 1)
+    return str
+
+# pads an AAT code
+def padAATCode(code):
+    AATCodeLen = 9
+    codeLen = len(code)
+    if codeLen == AATCodeLen:
+        return code
+    # subtract 1 because the first digit is always three
+    numZeroes = AATCodeLen - codeLen - 1
+    return "3" + zeroStr("", numZeroes) + code
+
+import re
+
+# replace all special characters with an underscore
+def urify(str):
+  str = re.sub(r'[^!#$&amp;*+\--:=\?-\[\]_a-z~]+', '_', str.lower())
+  # eliminate trailing underscores
+  if str[len(str) - 1] == "_":
+    str = str[:len(str) - 1]
+  return str
+
+source = getValue("UCTS")
+uri = ""
+if re.search(getValue("colThesxrefType"), "(technique)", re.IGNORECASE) and int(getValue("objectID")) > 0:
+    if re.search(source, "AAT", re.IGNORECASE):
+        uri = "http://vocab.getty.edu/aat/" + "300264090"
+    else: 
+        uri = "http://collection.britishart.yale.edu/id/thesauri/technique/" + "300264090"
+        
+return uri
+
+
+
+
+
+# Materials skos concept 
+# same as the URI
+
+
+
+
+
+
+
+
 
 
