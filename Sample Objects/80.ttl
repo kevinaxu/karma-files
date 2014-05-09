@@ -1,0 +1,351 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/80> a crm:E22_Man-Made_Object ;
+	rdfs:label "Reclining Nude" ;
+	bmo:PX_display_wrap "Object type :: painting" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033618> ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/genre/8> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/painting> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/80/title/1> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/80/production> ;
+	bmo:PX_display_wrap "Production by :: Matthew Smith, 1879-1959, British" , "Production date :: 1926" , "Production Period / Culture :: 20th century" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/80/production> , <http://collection.britishart.yale.edu/id/object/80/production> ;
+	bmo:PX_display_wrap "Subject Concept :: nude" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300189568> ;
+	bmo:PX_display_wrap "Subject Concept :: figure study" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300189808> ;
+	bmo:PX_display_wrap "Subject Concept :: reclining" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/reclining> ;
+	bmo:PX_display_wrap "Subject Concept :: woman" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025943> ;
+	bmo:PX_display_wrap "Subject Concept :: gray (color)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300130811> ;
+	bmo:PX_display_wrap "Subject Concept :: red" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300126225> ;
+	bmo:PX_display_wrap "Subject Concept :: sadness" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300055166> ;
+	bmo:PX_display_wrap "Subject Concept :: odalisque" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300249146> ;
+	bmo:PX_display_wrap "Subject Concept :: brushstrokes" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300185434> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/80/lidoRecID> , <http://collection.britishart.yale.edu/id/object/80/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/80/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/80/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300015050> , <http://vocab.getty.edu/aat/300014078> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/80/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/80/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/80/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Fund" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "By permission of copyright holder" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights :: Estate of Matthew Smith" , """Bibliograpic reference ::  A memorial exhibition of works by Sir Matthew Smith C.B.E.,
+         1879-1959., Royal Academy of Arts, London, UK, 1960, p. 10, no. 73, V 0815 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/646> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Nude Reclining, ART News, v. 37, February 4, 1939, p. 19,
+         N1 A6 + (A & A)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1071> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  George Savage, Art For Investment, Studio, Vol. 162, July
+         1961, pp. 30-31, J10 St94 + (A & A)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1072> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Reclining Nude, Arts Magazine, Vol. 42, May 1968, p. 43,
+         N1 A415 + (A & A)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1073> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Reclining Nude, Gazette Des Beaux-Arts, Vol. 101, March
+         1983, p. supp 55, N2 G3 + (A & A)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1074> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  David Lee, Ladies of the Knight, Arts  Review, Vol. 47,
+         May 1995, pp. 26-29, N1 A792 + (A & A)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1075> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Christopher Neve, Matthew Smith: The Hidden Fires, Country
+         Life, Vol. 159, April 29, 1976, p. 1104-05, S3 C68 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1076> ;
+	bmo:PX_display_wrap "Bibliograpic reference ::  Reclining Nude, Apollo, March 1979, p. 174, N1 A54 + (YCBA)" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1077> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Focus on Modern British Art, Burlington Magazine, Vol.
+         122,no.924, March 1980, pp. i-ii, N1 B87 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1078> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  At the Galleries, Partisan Review, January 1, 2002, pp.
+         118-29, HX1 P366 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1079> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Sotheby's Advertisement of Sale on Wednesday, March 14,
+         1979, Apollo, v. 109, no. 205, March 1979, p. 174, N1 A54 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1739> ;
+	bmo:PX_display_wrap "Exhibition :: Bloomsbury Contemporaries, 2000" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/86> ;
+	bmo:PX_display_wrap "Exhibition :: 20th Century Paintings and Sculpture, 2000" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/78> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/80/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 73.7cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/80/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 116.8cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/80/measurement/1/width> .
+
+<http://vocab.getty.edu/aat/300033618> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "painting" .
+
+<http://collection.britishart.yale.edu/id/thesauri/genre/8> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "figure study" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/painting> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Painting" .
+
+<http://collection.britishart.yale.edu/id/object/80/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Reclining Nude" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/80/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/80/production/1> .
+
+<http://collection.britishart.yale.edu/id/object/80/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/47> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/80/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/80/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "1926" ;
+	crm:P82_at_some_time_within "1926"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/47> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:altLabel "Matthew Smith" , "Smith" ;
+	skos:prefLabel "Matthew Smith" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/47/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/47/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/47/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/47/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/47/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1879" ;
+	crm:P82_at_some_time_within "1879"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/47/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/47/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/47/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1959" ;
+	crm:P82_at_some_time_within "1959"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/20th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "20th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://vocab.getty.edu/aat/300189568> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "nude" .
+
+<http://vocab.getty.edu/aat/300189808> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "figure study" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/reclining> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "reclining" .
+
+<http://vocab.getty.edu/aat/300025943> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "woman" .
+
+<http://vocab.getty.edu/aat/300130811> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "gray (color)" .
+
+<http://vocab.getty.edu/aat/300126225> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "red" .
+
+<http://vocab.getty.edu/aat/300055166> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "sadness" .
+
+<http://vocab.getty.edu/aat/300249146> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "odalisque" .
+
+<http://vocab.getty.edu/aat/300185434> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "brushstrokes" .
+
+<http://collection.britishart.yale.edu/id/object/80/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-80" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/80/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "80" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/80/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1982.5.2" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/80/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "1670988" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300015050> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "oil paint" .
+
+<http://vocab.getty.edu/aat/300014078> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "canvas" .
+
+<http://collection.britishart.yale.edu/id/object/80/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Fund" , "Transferred to By permission of copyright holder" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/80/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/bibliography/646> a crm:E31_Document ;
+	rdfs:label """A memorial exhibition of works by Sir Matthew Smith C.B.E., 1879-1959., Royal Academy
+         of Arts, London, UK, 1960, p. 10, no. 73, V 0815 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1071> a crm:E31_Document ;
+	rdfs:label "Nude Reclining, ART News, v. 37, February 4, 1939, p. 19, N1 A6 + (A & A)" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1072> a crm:E31_Document ;
+	rdfs:label """George Savage, Art For Investment, Studio, Vol. 162, July 1961, pp. 30-31, J10 St94
+         + (A & A)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1073> a crm:E31_Document ;
+	rdfs:label "Reclining Nude, Arts Magazine, Vol. 42, May 1968, p. 43, N1 A415 + (A & A)" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1074> a crm:E31_Document ;
+	rdfs:label """Reclining Nude, Gazette Des Beaux-Arts, Vol. 101, March 1983, p. supp 55, N2 G3 +
+         (A & A)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1075> a crm:E31_Document ;
+	rdfs:label """David Lee, Ladies of the Knight, Arts  Review, Vol. 47, May 1995, pp. 26-29, N1 A792
+         + (A & A)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1076> a crm:E31_Document ;
+	rdfs:label """Christopher Neve, Matthew Smith: The Hidden Fires, Country Life, Vol. 159, April
+         29, 1976, p. 1104-05, S3 C68 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1077> a crm:E31_Document ;
+	rdfs:label "Reclining Nude, Apollo, March 1979, p. 174, N1 A54 + (YCBA)" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1078> a crm:E31_Document ;
+	rdfs:label """Focus on Modern British Art, Burlington Magazine, Vol. 122,no.924, March 1980, pp.
+         i-ii, N1 B87 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1079> a crm:E31_Document ;
+	rdfs:label "At the Galleries, Partisan Review, January 1, 2002, pp. 118-29, HX1 P366 (SML)" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1739> a crm:E31_Document ;
+	rdfs:label """Sotheby's Advertisement of Sale on Wednesday, March 14, 1979, Apollo, v. 109, no.
+         205, March 1979, p. 174, N1 A54 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/exhibition/86> a crm:E7_Activity ;
+	rdfs:label "Bloomsbury Contemporaries, 2000" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/86/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/86/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "86" .
+
+<http://collection.britishart.yale.edu/id/exhibition/78> a crm:E7_Activity ;
+	rdfs:label "20th Century Paintings and Sculpture, 2000" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/78/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/78/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "78" .
+
+<http://collection.britishart.yale.edu/id/object/80/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/80/height> , <http://collection.britishart.yale.edu/id/object/80/width> ;
+	rdfs:label "Support (PTG): 29 x 46 inches (73.7 x 116.8 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Support (PTG)" .
+
+<http://collection.britishart.yale.edu/id/object/80/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "73.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/80/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "116.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .

@@ -1,0 +1,548 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/28509> a crm:E22_Man-Made_Object ;
+	rdfs:label "Balmoral Castle" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/genre/7> , <http://vocab.getty.edu/aat/300015636> , <http://vocab.getty.edu/aat/300015637> , <http://collection.britishart.yale.edu/id/thesauri/genre/9> ;
+	bmo:PX_display_wrap "Object type :: intaglio print" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300041338> ;
+	bmo:PX_display_wrap "Object type :: relief print" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300041391> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/print> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/28509/title/1> ;
+	crm:P65_shows_visual_item <http://collection.britishart.yale.edu/id/object/28509/inscription/1> , <http://collection.britishart.yale.edu/id/object/28509/inscription/2> , <http://collection.britishart.yale.edu/id/object/28509/inscription/3> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/28509/production> ;
+	bmo:PX_display_wrap "Production by :: Imitator of George Baxter, 1804-1867" , "Production date :: after 1850" , "Production Period / Culture :: 19th century-20th century" , "Uses technique :: aquatint" , "Uses technique :: etching (printing process)" , "Uses technique :: woodcut (process)" , "Subject Concept :: landscape" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015636> ;
+	bmo:PX_display_wrap "Subject Concept :: portrait" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Subject Concept :: genre subject" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300139140> ;
+	bmo:PX_display_wrap "Subject Concept :: architectural subject" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/architectural_subject> ;
+	bmo:PX_display_wrap "Subject Concept :: prince" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/25482> ;
+	bmo:PX_display_wrap "Subject Concept :: dog" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300250130> ;
+	bmo:PX_display_wrap "Subject Concept :: architecture" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054156> ;
+	bmo:PX_display_wrap "Subject Concept :: queen (person)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025483> ;
+	bmo:PX_display_wrap "Subject Concept :: woman" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025943> ;
+	bmo:PX_display_wrap "Subject Concept :: children" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025945> ;
+	bmo:PX_display_wrap "Subject Concept :: boys" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300247598> ;
+	bmo:PX_display_wrap "Subject Concept :: girl" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300247581> ;
+	bmo:PX_display_wrap "Subject Concept :: royalty" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300188750> ;
+	bmo:PX_display_wrap "Subject Concept :: man" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025928> ;
+	bmo:PX_display_wrap "Subject Concept :: costume" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300224229> ;
+	bmo:PX_display_wrap "Subject Concept :: Victorian" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300021232> ;
+	bmo:PX_display_wrap "Subject Concept :: snow" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300055381> ;
+	bmo:PX_display_wrap "Subject Concept :: winter" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300133101> ;
+	bmo:PX_display_wrap "Subject Concept :: mountains" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300008795> ;
+	bmo:PX_display_wrap "Subject Concept :: trees" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300132410> ;
+	bmo:PX_display_wrap "Subject Concept :: castle" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300006891> ;
+	bmo:PX_display_wrap "Subject Concept :: frock coat" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300046146> ;
+	bmo:PX_display_wrap "Subject Concept :: bonnets (hats)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300210720> ;
+	bmo:PX_display_wrap "Subject Concept :: top hat" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300046113> ;
+	bmo:PX_display_wrap "Subject Concept :: dresses" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300046159> ;
+	bmo:PX_display_wrap "Subject Place :: Europe" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/1000003> ;
+	bmo:PX_display_wrap "Subject Place :: United Kingdom" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7008591> ;
+	bmo:PX_display_wrap "Subject Place :: Scotland" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7002444> ;
+	bmo:PX_display_wrap "Subject Place :: Balmoral Castle" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/1100227> ;
+	bmo:PX_display_wrap "Subject Place :: Aberdeenshire" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/5000432> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/28509/lidoRecID> , <http://collection.britishart.yale.edu/id/object/28509/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/28509/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/28509/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300014187> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/28509/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/28509/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/28509/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Collection" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Copyright Information" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/28509/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 8.9cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/28509/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 13.3cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/28509/measurement/1/width> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/28509/measurement/2> ;
+	bmo:PX_display_wrap "Dimension height :: 6.1cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/28509/measurement/2/height> ;
+	bmo:PX_display_wrap "Dimension width :: 9.7cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/28509/measurement/2/width> .
+
+<http://collection.britishart.yale.edu/id/thesauri/genre/7> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "architectural subject" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "landscape" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "portrait" .
+
+<http://collection.britishart.yale.edu/id/thesauri/genre/9> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "genre subject" .
+
+<http://vocab.getty.edu/aat/300041338> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "intaglio print" .
+
+<http://vocab.getty.edu/aat/300041391> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "relief print" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/print> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Print" .
+
+<http://collection.britishart.yale.edu/id/object/28509/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Balmoral Castle" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/28509/inscription/1> a crm:E34_Inscription ;
+	rdfs:label """Inscribed in graphite, on back, upper left: \"Ju 63, | D/s/f | 3 /of/ 2\"; on back,
+         upper center: \"9 (encircled) | Baxter signed\"""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Inscription" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/object/28509/inscription/2> a crm:E37_Mark ;
+	rdfs:label """stamped in gray ink, lower left, partly within image and partly beneath image: \"BAXTERS
+         PATENT OIL PRINTING | 11, Northampton Square.\"""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/marks> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/marks> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Marks" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/object/28509/inscription/3> a crm:E34_Inscription ;
+	rdfs:label "Lettered in black ink, lower center: \"BALMORAL CASTLE.\"" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/lettering> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/lettering> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Lettering" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/> a skos:ConceptScheme ;
+	skos:prefLabel "Inscription Type" .
+
+<http://collection.britishart.yale.edu/id/object/28509/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/28509/production/1> , <http://collection.britishart.yale.edu/id/object/28509/production/3> , <http://collection.britishart.yale.edu/id/object/28509/production/4> , <http://collection.britishart.yale.edu/id/object/28509/production/5> .
+
+<http://collection.britishart.yale.edu/id/object/28509/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/3793> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/28509/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/28509/production/1/association> a bmo:EX_Association ;
+	crm:P140_assigned_attribute_to <http://collection.britishart.yale.edu/id/object/28509/production/1> ;
+	crm:P141_assigned <http://collection.britishart.yale.edu/id/person-institution/3793> ;
+	bmo:PX_property crm:P15_was_influenced_by ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/likelihood/IM> .
+
+<http://collection.britishart.yale.edu/id/thesauri/likelihood/IM> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/likelihood/> ;
+	skos:prefLabel "Imitator of" .
+
+<http://collection.britishart.yale.edu/id/object/28509/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "after 1850" ;
+	crm:P82_at_some_time_within "1850"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/object/28509/production/2> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://vocab.getty.edu/aat/300053242> .
+
+<http://collection.britishart.yale.edu/id/object/28509/production/3> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://vocab.getty.edu/aat/300053241> .
+
+<http://collection.britishart.yale.edu/id/object/28509/production/4> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://vocab.getty.edu/aat/300053296> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3793> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "George Baxter" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/3793/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/3793/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3793/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/3793/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3793/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1804" ;
+	crm:P82_at_some_time_within "1804"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3793/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/3793/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3793/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1867" ;
+	crm:P82_at_some_time_within "1867"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/19th_century-20th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "19th century-20th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "landscape" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300139140> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "genre subject" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/architectural_subject> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "architectural subject" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/25482> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "prince" .
+
+<http://vocab.getty.edu/aat/300250130> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "dog" .
+
+<http://vocab.getty.edu/aat/300054156> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "architecture" .
+
+<http://vocab.getty.edu/aat/300025483> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "queen (person)" .
+
+<http://vocab.getty.edu/aat/300025943> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "woman" .
+
+<http://vocab.getty.edu/aat/300025945> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "children" .
+
+<http://vocab.getty.edu/aat/300247598> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "boys" .
+
+<http://vocab.getty.edu/aat/300247581> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "girl" .
+
+<http://vocab.getty.edu/aat/300188750> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "royalty" .
+
+<http://vocab.getty.edu/aat/300025928> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "man" .
+
+<http://vocab.getty.edu/aat/300224229> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "costume" .
+
+<http://vocab.getty.edu/aat/300021232> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "Victorian" .
+
+<http://vocab.getty.edu/aat/300055381> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "snow" .
+
+<http://vocab.getty.edu/aat/300133101> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "winter" .
+
+<http://vocab.getty.edu/aat/300008795> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "mountains" .
+
+<http://vocab.getty.edu/aat/300132410> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "trees" .
+
+<http://vocab.getty.edu/aat/300006891> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "castle" .
+
+<http://vocab.getty.edu/aat/300046146> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "frock coat" .
+
+<http://vocab.getty.edu/aat/300210720> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "bonnets (hats)" .
+
+<http://vocab.getty.edu/aat/300046113> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "top hat" .
+
+<http://vocab.getty.edu/aat/300046159> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "dresses" .
+
+<http://vocab.getty.edu/tgn/1000003> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Europe" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/1000003/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/1000003/location> .
+
+<http://vocab.getty.edu/tgn/1000003/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/0.0000, 0.0000" .
+
+<http://vocab.getty.edu/tgn/1000003/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/1000003/location/point> .
+
+<http://vocab.getty.edu/tgn/1000003/location/point> geo-pos:lat "0.0000" ;
+	geo-pos:long "0.0000" .
+
+<http://vocab.getty.edu/tgn/7008591> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "United Kingdom" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7008591/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7008591/location> .
+
+<http://vocab.getty.edu/tgn/7008591/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/54.0000, -4.5000" .
+
+<http://vocab.getty.edu/tgn/7008591/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7008591/location/point> .
+
+<http://vocab.getty.edu/tgn/7008591/location/point> geo-pos:lat "54.0000" ;
+	geo-pos:long "-4.5000" .
+
+<http://vocab.getty.edu/tgn/7002444> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Scotland" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7002444/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7002444/location> .
+
+<http://vocab.getty.edu/tgn/7002444/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/57.0000, -4.0000" .
+
+<http://vocab.getty.edu/tgn/7002444/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7002444/location/point> .
+
+<http://vocab.getty.edu/tgn/7002444/location/point> geo-pos:lat "57.0000" ;
+	geo-pos:long "-4.0000" .
+
+<http://vocab.getty.edu/tgn/1100227> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Balmoral Castle" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/1100227/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/1100227/location> .
+
+<http://vocab.getty.edu/tgn/1100227/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/57.3300, -3.2500" .
+
+<http://vocab.getty.edu/tgn/1100227/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/1100227/location/point> .
+
+<http://vocab.getty.edu/tgn/1100227/location/point> geo-pos:lat "57.3300" ;
+	geo-pos:long "-3.2500" .
+
+<http://vocab.getty.edu/tgn/5000432> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Aberdeenshire" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/5000432/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/5000432/location> .
+
+<http://vocab.getty.edu/tgn/5000432/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/57.5000, -2.5000" .
+
+<http://vocab.getty.edu/tgn/5000432/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/5000432/location/point> .
+
+<http://vocab.getty.edu/tgn/5000432/location/point> geo-pos:lat "57.5000" ;
+	geo-pos:long "-2.5000" .
+
+<http://collection.britishart.yale.edu/id/object/28509/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-28509" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/28509/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "28509" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/28509/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1977.14.10611" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/28509/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "3623206" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300053242> a rso:E55_Technique , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264090> ;
+	skos:prefLabel "aquatint" .
+
+<http://vocab.getty.edu/aat/300053241> a rso:E55_Technique , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264090> ;
+	skos:prefLabel "etching (printing process)" .
+
+<http://vocab.getty.edu/aat/300053296> a rso:E55_Technique , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264090> ;
+	skos:prefLabel "woodcut (process)" .
+
+<http://vocab.getty.edu/aat/300014187> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "wove paper" .
+
+<http://collection.britishart.yale.edu/id/object/28509/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Collection" , "Transferred to Copyright Information" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/28509/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://vocab.getty.edu/ulan/500022428> a crm:E39_Actor , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/ulan//> ;
+	skos:prefLabel """Victoria (1819–1901), queen of the United Kingdom of Great Britain and Ireland, and
+         empress of India""" .
+
+<http://vocab.getty.edu/ulan/500013694> a crm:E39_Actor , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/ulan//> ;
+	skos:prefLabel "Albert (1819–1861), prince consort, consort of Queen Victoria" .
+
+<http://collection.britishart.yale.edu/id/object/28509/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/28509/height> , <http://collection.britishart.yale.edu/id/object/28509/width> ;
+	rdfs:label "Sheet: 3 1/2 x 5 1/4 inches (8.9 x 13.3 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Sheet" .
+
+<http://collection.britishart.yale.edu/id/object/28509/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "8.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/28509/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "13.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/28509/measurement/2> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Image> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/28509/height> , <http://collection.britishart.yale.edu/id/object/28509/width> ;
+	rdfs:label "Image: 2 3/8 x 3 13/16 inches (6.1 x 9.7 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Image> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Image" .
+
+<http://collection.britishart.yale.edu/id/object/28509/measurement/2/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "6.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/28509/measurement/2/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "9.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .

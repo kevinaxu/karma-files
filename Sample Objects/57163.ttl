@@ -1,0 +1,267 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/57163> a crm:E22_Man-Made_Object ;
+	rdfs:label "Boots" ;
+	bmo:PX_display_wrap "Object type :: cake" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300255019> ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Object type :: sculpture" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300047090> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/sculpture> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/57163/title/1> ;
+	crm:P65_shows_visual_item <http://collection.britishart.yale.edu/id/object/57163/inscription/1> , <http://collection.britishart.yale.edu/id/object/57163/inscription/2> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/57163/production> ;
+	bmo:PX_display_wrap "Production by :: Sarah Lucas, born 1962, British" , "Production date :: 2001" , "Production Period / Culture :: 21st century" , "Uses technique :: printing, ink jet" , "Subject Concept :: cake" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300255019> ;
+	bmo:PX_display_wrap "Subject Concept :: box (container)" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/box_container> ;
+	bmo:PX_display_wrap "Subject Concept :: portrait" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Subject Concept :: genre subject" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300139140> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/57163/lidoRecID> , <http://collection.britishart.yale.edu/id/object/57163/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/57163/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/57163/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300014224> , <http://collection.britishart.yale.edu/id/thesauri/material/fruitcake> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/57163/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/57163/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/57163/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line """Yale Center for British Art, Gift of Gabriel Catone (Yale College '95) in memory of
+         Jay Tobler (Yale College '89)""" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "© The Artist" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/57163/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 36.0cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/57163/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 36.0cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/57163/measurement/1/width> ;
+	bmo:PX_display_wrap "Dimension depth :: 10.0cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/57163/measurement/1/depth> .
+
+<http://vocab.getty.edu/aat/300255019> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "cake" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300047090> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "sculpture" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/sculpture> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Sculpture" .
+
+<http://collection.britishart.yale.edu/id/object/57163/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Boots" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/57163/inscription/1> a crm:E34_Inscription ;
+	rdfs:label """Inscribed in black on proper left inside flap:  [word BOOTS circled]; inside the box:
+         \"Cake (2001): a series of 12 iced fruit cakes with inkjet images. Each cake is an
+         edition of 25. Produced by Cakes Direct, Ilford, Essex. This signed box certifies
+         the authenticity of the artwork contained within. It must accompany the work through
+         any changes of ownership. | Edition number 20/25 [hand written] Date 2001[hand written]\"""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Inscription" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/object/57163/inscription/2> a crm:E34_Inscription ;
+	rdfs:label "Signed and dated on proper left inside flap: \"2001 | SARAH LUCAS\"" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/signature> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/signature> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Signature" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/> a skos:ConceptScheme ;
+	skos:prefLabel "Inscription Type" .
+
+<http://collection.britishart.yale.edu/id/object/57163/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/57163/production/1> , <http://collection.britishart.yale.edu/id/object/57163/production/2> .
+
+<http://collection.britishart.yale.edu/id/object/57163/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/7483> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/57163/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/57163/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "2001" ;
+	crm:P82_at_some_time_within "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/object/57163/production/2> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://vocab.getty.edu/aat/300235748> .
+
+<http://collection.britishart.yale.edu/id/person-institution/7483> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Sarah Lucas" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/7483/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/7483/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/female> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/7483/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/7483/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/7483/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1962" ;
+	crm:P82_at_some_time_within "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/7483/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/7483/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/7483/death/date> a crm:E52_Time-Span ;
+	rdfs:label "2062" ;
+	crm:P82_at_some_time_within "2062"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/21st_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "21st century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://vocab.getty.edu/aat/300255019> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "cake" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/box_container> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "box (container)" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300139140> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "genre subject" .
+
+<http://collection.britishart.yale.edu/id/object/57163/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-57163" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/57163/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "57163" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/57163/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B2006.22" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/57163/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "1670022" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300235748> a rso:E55_Technique , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264090> ;
+	skos:prefLabel "printing, ink jet" .
+
+<http://vocab.getty.edu/aat/300014224> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "cardboard" .
+
+<http://collection.britishart.yale.edu/id/thesauri/material/fruitcake> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/material/> ;
+	skos:prefLabel "fruitcake" .
+
+<http://collection.britishart.yale.edu/id/object/57163/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label """Transferred to Yale Center for British Art, Gift of Gabriel Catone (Yale College '95)
+         in memory of Jay Tobler (Yale College '89)""" , "Transferred to © The Artist" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/57163/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/object/57163/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Overall> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/57163/height> , <http://collection.britishart.yale.edu/id/object/57163/width> , <http://collection.britishart.yale.edu/id/object/57163/depth> ;
+	rdfs:label "Overall: 14 3/16 x 14 3/16 x 3 15/16 inches (36 x 36 x 10 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Overall> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Overall" .
+
+<http://collection.britishart.yale.edu/id/object/57163/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "36.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/57163/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "36.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/57163/measurement/1/depth> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/depth> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/depth> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Depth" .

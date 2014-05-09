@@ -1,0 +1,445 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/7> a crm:E22_Man-Made_Object ;
+	rdfs:label "Canal under construction, possibly the Bude Canal" ;
+	bmo:PX_display_wrap "Object type :: painting" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033618> ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015636> , <http://collection.britishart.yale.edu/id/thesauri/genre/7> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/painting> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/7/title/1> , <http://collection.britishart.yale.edu/id/object/7/title/2> ;
+	bmo:PX_display_wrap "Alternate title :: The Building of a Canal (The Bude Canal?)" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/7/production> ;
+	bmo:PX_display_wrap "Production by :: Formerly attributed to Benjamin Williams Leader, 1831-1923, British" , "Production date :: ca. 1840" , "Production Period / Culture :: 19th century" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/7/production> , <http://collection.britishart.yale.edu/id/object/7/production> ;
+	bmo:PX_display_wrap "Subject Concept :: transportation" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300055244> ;
+	bmo:PX_display_wrap "Subject Concept :: workers" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025886> ;
+	bmo:PX_display_wrap "Subject Concept :: boats" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300239493> ;
+	bmo:PX_display_wrap "Subject Concept :: building" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054608> ;
+	bmo:PX_display_wrap "Subject Concept :: construction" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054608> ;
+	bmo:PX_display_wrap "Subject Concept :: cement" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300010362> ;
+	bmo:PX_display_wrap "Subject Concept :: dirt" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300011734> ;
+	bmo:PX_display_wrap "Subject Concept :: beams (structural elements)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300001497> ;
+	bmo:PX_display_wrap "Subject Concept :: river" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300008707> ;
+	bmo:PX_display_wrap "Subject Concept :: canal" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300006075> ;
+	bmo:PX_display_wrap "Subject Concept :: ship" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300082981> ;
+	bmo:PX_display_wrap "Subject Concept :: landscape" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015636> ;
+	bmo:PX_display_wrap "Subject Concept :: architectural subject" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/architectural_subject> ;
+	bmo:PX_display_wrap "Subject Place :: Europe" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/1000003> ;
+	bmo:PX_display_wrap "Subject Place :: United Kingdom" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7008591> ;
+	bmo:PX_display_wrap "Subject Place :: England" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7002445> ;
+	bmo:PX_display_wrap "Subject Place :: Cornwall" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7008116> ;
+	bmo:PX_display_wrap "Subject Place :: Bude" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/1028682> ;
+	bmo:PX_display_wrap "Subject Place :: Tamar" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/1130564> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/7/lidoRecID> , <http://collection.britishart.yale.edu/id/object/7/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/7/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/7/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300015050> , <http://vocab.getty.edu/aat/300014078> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/7/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/7/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/7/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Collection" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" , """Exhibition :: The Story of The Farmington Canal \" ... a work which is itself magnificent...
+         \", 1995-1996""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/498> ;
+	bmo:PX_display_wrap "Exhibition :: Roads to Rails - Revolution in British Transport, 1992" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/646> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/7/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 30.6cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/7/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 40.6cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/7/measurement/1/width> .
+
+<http://vocab.getty.edu/aat/300033618> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "painting" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "landscape" .
+
+<http://collection.britishart.yale.edu/id/thesauri/genre/7> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "architectural subject" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/painting> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Painting" .
+
+<http://collection.britishart.yale.edu/id/object/7/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Canal under construction, possibly the Bude Canal" .
+
+<http://collection.britishart.yale.edu/id/object/7/title/2> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> ;
+	rdfs:label "The Building of a Canal (The Bude Canal?)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Alternate title" .
+
+<http://collection.britishart.yale.edu/id/object/7/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/7/production/1> .
+
+<http://collection.britishart.yale.edu/id/object/7/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/1180> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/7/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/7/production/1/association> a bmo:EX_Association ;
+	crm:P140_assigned_attribute_to <http://collection.britishart.yale.edu/id/object/7/production/1> ;
+	crm:P141_assigned <http://collection.britishart.yale.edu/id/person-institution/1180> ;
+	bmo:PX_property crm:P14_carried_out_by ;
+	bmo:PX_likelihood <http://collection.britishart.yale.edu/id/thesauri/likelihood/AE> .
+
+<http://collection.britishart.yale.edu/id/thesauri/likelihood/AE> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/likelihood/> ;
+	skos:prefLabel "Formerly attributed to" .
+
+<http://collection.britishart.yale.edu/id/thesauri/production/M> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/production/> ;
+	skos:prefLabel "Artistic Production" .
+
+<http://collection.britishart.yale.edu/id/object/7/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "ca. 1840" ;
+	crm:P82a_begin_of_the_begin "1835"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+	crm:P82b_end_of_the_end "1845"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1180> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Benjamin Williams Leader" ;
+	skos:altLabel "Benjamin Leader Williams" , "B. W. Leader" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/1180/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/1180/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1180/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/1180/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1180/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1831" ;
+	crm:P82_at_some_time_within "1831"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1180/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/1180/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1180/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1923" ;
+	crm:P82_at_some_time_within "1923"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/19th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "19th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://vocab.getty.edu/aat/300055244> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "transportation" .
+
+<http://vocab.getty.edu/aat/300025886> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "workers" .
+
+<http://vocab.getty.edu/aat/300239493> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "boats" .
+
+<http://vocab.getty.edu/aat/300054608> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "building" ;
+	a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "construction" .
+
+<http://vocab.getty.edu/aat/300010362> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "cement" .
+
+<http://vocab.getty.edu/aat/300011734> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "dirt" .
+
+<http://vocab.getty.edu/aat/300001497> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "beams (structural elements)" .
+
+<http://vocab.getty.edu/aat/300008707> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "river" .
+
+<http://vocab.getty.edu/aat/300006075> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "canal" .
+
+<http://vocab.getty.edu/aat/300082981> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "ship" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "landscape" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/architectural_subject> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "architectural subject" .
+
+<http://vocab.getty.edu/tgn/1000003> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Europe" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/1000003/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/1000003/location> .
+
+<http://vocab.getty.edu/tgn/1000003/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/0.0000, 0.0000" .
+
+<http://vocab.getty.edu/tgn/1000003/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/1000003/location/point> .
+
+<http://vocab.getty.edu/tgn/1000003/location/point> geo-pos:lat "0.0000" ;
+	geo-pos:long "0.0000" .
+
+<http://vocab.getty.edu/tgn/7008591> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "United Kingdom" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7008591/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7008591/location> .
+
+<http://vocab.getty.edu/tgn/7008591/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/54.0000, -4.5000" .
+
+<http://vocab.getty.edu/tgn/7008591/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7008591/location/point> .
+
+<http://vocab.getty.edu/tgn/7008591/location/point> geo-pos:lat "54.0000" ;
+	geo-pos:long "-4.5000" .
+
+<http://vocab.getty.edu/tgn/7002445> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "England" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7002445/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7002445/location> .
+
+<http://vocab.getty.edu/tgn/7002445/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/53.0000, -2.0000" .
+
+<http://vocab.getty.edu/tgn/7002445/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7002445/location/point> .
+
+<http://vocab.getty.edu/tgn/7002445/location/point> geo-pos:lat "53.0000" ;
+	geo-pos:long "-2.0000" .
+
+<http://vocab.getty.edu/tgn/7008116> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Cornwall" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7008116/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7008116/location> .
+
+<http://vocab.getty.edu/tgn/7008116/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/50.4830, -4.6660" .
+
+<http://vocab.getty.edu/tgn/7008116/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7008116/location/point> .
+
+<http://vocab.getty.edu/tgn/7008116/location/point> geo-pos:lat "50.4830" ;
+	geo-pos:long "-4.6660" .
+
+<http://vocab.getty.edu/tgn/1028682> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Bude" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/1028682/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/1028682/location> .
+
+<http://vocab.getty.edu/tgn/1028682/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/50.8330, -4.5500" .
+
+<http://vocab.getty.edu/tgn/1028682/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/1028682/location/point> .
+
+<http://vocab.getty.edu/tgn/1028682/location/point> geo-pos:lat "50.8330" ;
+	geo-pos:long "-4.5500" .
+
+<http://vocab.getty.edu/tgn/1130564> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Tamar" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/1130564/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/1130564/location> .
+
+<http://vocab.getty.edu/tgn/1130564/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/0.0000, 0.0000" .
+
+<http://vocab.getty.edu/tgn/1130564/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/1130564/location/point> .
+
+<http://vocab.getty.edu/tgn/1130564/location/point> geo-pos:lat "0.0000" ;
+	geo-pos:long "0.0000" .
+
+<http://collection.britishart.yale.edu/id/object/7/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-7" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/7/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "7" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/7/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1975.1.15" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/7/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "1670806" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300015050> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "oil paint" .
+
+<http://vocab.getty.edu/aat/300014078> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "canvas" .
+
+<http://collection.britishart.yale.edu/id/object/7/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Collection" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/7/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/exhibition/498> a crm:E7_Activity ;
+	rdfs:label "The Story of The Farmington Canal \" ... a work which is itself magnificent... \", 1995-1996" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/498/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/498/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "498" .
+
+<http://collection.britishart.yale.edu/id/exhibition/646> a crm:E7_Activity ;
+	rdfs:label "Roads to Rails - Revolution in British Transport, 1992" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/646/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/646/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "646" .
+
+<http://collection.britishart.yale.edu/id/object/7/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/7/height> , <http://collection.britishart.yale.edu/id/object/7/width> ;
+	rdfs:label "Support (PTG): 12 1/16 x 16 inches (30.6 x 40.6 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Support (PTG)" .
+
+<http://collection.britishart.yale.edu/id/object/7/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "30.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/7/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "40.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .

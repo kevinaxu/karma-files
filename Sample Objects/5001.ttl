@@ -1,0 +1,1470 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/5001> a crm:E22_Man-Made_Object ;
+	rdfs:label "Hadleigh Castle, The Mouth of the Thames--Morning after a Stormy Night" ;
+	bmo:PX_display_wrap "Object type :: painting" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033618> ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015636> , <http://collection.britishart.yale.edu/id/thesauri/genre/7> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/painting> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/5001/title/1> , <http://collection.britishart.yale.edu/id/object/5001/title/2> ;
+	bmo:PX_display_wrap "Alternate title :: Hadleigh Castle" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/5001/production> ;
+	bmo:PX_display_wrap "Production by :: John Constable, 1776-1837, British" , "Production date :: 1829" , "Production Period / Culture :: 19th century" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> , <http://collection.britishart.yale.edu/id/object/5001/production> ;
+	bmo:PX_display_wrap "Production by ::" , "Production date :: 2007-01" , "Subject Concept :: birds" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/birds> ;
+	bmo:PX_display_wrap "Subject Concept :: cows" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300250120> ;
+	bmo:PX_display_wrap "Subject Concept :: dog (animal)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300250130> ;
+	bmo:PX_display_wrap "Subject Concept :: morning" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/morning> ;
+	bmo:PX_display_wrap "Subject Concept :: clouds" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300343840> ;
+	bmo:PX_display_wrap "Subject Concept :: architectural subject" ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/subject/architectural_subject> ;
+	bmo:PX_display_wrap "Subject Concept :: boats" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300178749> ;
+	bmo:PX_display_wrap "Subject Concept :: landscape" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015636> ;
+	bmo:PX_display_wrap "Subject Concept :: science" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054462> ;
+	bmo:PX_display_wrap "Subject Concept :: meteorology" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054550> ;
+	bmo:PX_display_wrap "Subject Concept :: death" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300151836> ;
+	bmo:PX_display_wrap "Subject Concept :: walking" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300248181> ;
+	bmo:PX_display_wrap "Subject Concept :: storm" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300054734> ;
+	bmo:PX_display_wrap "Subject Concept :: men" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025928> ;
+	bmo:PX_display_wrap "Subject Concept :: shepherd" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025617> ;
+	bmo:PX_display_wrap "Subject Concept :: light" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300056024> ;
+	bmo:PX_display_wrap "Subject Concept :: metaphor" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300055901> ;
+	bmo:PX_display_wrap "Subject Concept :: melancholy" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300055166> ;
+	bmo:PX_display_wrap "Subject Concept :: river" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300008707> ;
+	bmo:PX_display_wrap "Subject Concept :: hills" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300008777> ;
+	bmo:PX_display_wrap "Subject Concept :: estuary" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300008675> ;
+	bmo:PX_display_wrap "Subject Concept :: castle" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300006891> ;
+	bmo:PX_display_wrap "Subject Concept :: ruins" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300008057> ;
+	bmo:PX_display_wrap "Subject Concept :: path" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300008321> ;
+	bmo:PX_display_wrap "Subject Place :: United Kingdom" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7008591> ;
+	bmo:PX_display_wrap "Subject Place :: England" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7002445> ;
+	bmo:PX_display_wrap "Subject Place :: Southend-on-Sea" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/1030691> ;
+	bmo:PX_display_wrap "Subject Place :: Essex" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7008131> ;
+	bmo:PX_display_wrap "Subject Place :: Hadleigh Castle" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/1100283> ;
+	bmo:PX_display_wrap "Subject Place :: Hadleigh" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7011855> ;
+	bmo:PX_display_wrap "Subject Place :: Thames Estuary" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/1114342> ;
+	bmo:PX_display_wrap "Subject Place :: Thames" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7011913> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/5001/lidoRecID> , <http://collection.britishart.yale.edu/id/object/5001/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/5001/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/5001/ccd> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/5001/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/5001/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Bay19" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/5001/location/3> ;
+	bmo:PX_display_wrap "Located in :: 401" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/5001/location/4> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/5001/location/5> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Collection" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" , """Bibliograpic reference ::  Julia Marciari-Alexander, This other Eden, paintings from
+         the Yale Center for British Art, Yale Center for British Art, New Haven, CT, 1998,
+         pp. 17, 18, 19,, no. 59, fig. 18, ND1314.3 Y36 1998 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/45> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  John Baskett, Paul Mellon's legacy, a passion for British
+         art : masterpieces from the Yale Center for British Art, Yale Center for British Art,
+         New Haven, CT, 2007, pp. 288-9, no. 100, N5220 M552 P38 2007 OVERSIZE (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/48> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Christiana Payne, Where the sea meets the land, artists
+         on the coast in nineteenth century Britain, Sansom & Co., Bristol, 2007, ND1373 G7
+         P38 2007 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/166> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Paul Mellon's legacy, a passion for British art. [large
+         print labels], Yale Center for British Art, New Haven, CT, 2007, v. 3, N5220 M552
+         P381 2007 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/190> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Yale Center for British Art, Selected paintings, drawings
+         & books, Yale University Press, New Haven, CT, 1977, p. 39, N590.2 A82 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/212> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Painting in England 1700-1850, collection of Mr. & Mrs.
+         Paul Mellon., Virginia Museum of Fine Arts, Richmond, VA, 1963, pp. 83-84 (v. 1),
+         no. 113, pl. 43, ND466 V57 v.1-2 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/230> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  National Gallery of Art, Painting in Georgian England from
+         the collection of Mr. and Mrs. Paul Mellon., National Gallery of Art, Washington,
+         D.C., 1970, p. 20, slide  57, ND488 P25 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/251> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Leslie Parris, Constable, pictures from the exhibition,
+         Tate Publishing, London, UK, 1991, p. 64, NJ18 C74 P373 1991 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/259> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Graham Reynolds, The later paintings and drawings of John
+         Constable, Yale University Press, New Haven, CT, 1984, pp. 199-200, no. 29.1, pl.
+         704, NJ18 C74 R485 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/260> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Ray Lambert, John Constable and the theory of landscape
+         painting, Cambridge University Press, Cambridge, UK & New York, NY, 2004, p. 102-04...,
+         fig. 26, NJ18 C74 L36 2004 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/262> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Peter Bishop, An archetypal Constable, national identity
+         and the geography of nostalgia, Athlone, London, UK, 1995, no. 9, NJ18 C74 B57 1995
+         (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/263> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  John Constable, a selection of paintings from the Collection
+         of Mr. and Mrs. Paul Mellon., National Gallery of Art, Washington, DC, 1969, pp. 56-57,
+         no. 61, NJ18 C74 U5 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/273> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Malcolm Warner, Great British paintings from American collections,
+         Holbein to Hockney, Yale Center for British Art, New Haven, CT, 2001, pp. 166-67,
+         no. 48, ND464 W27 2001 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/281> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Louis Hawes, Presences of nature, British landscape, 1780-1830,
+         Yale Center for British Art, New Haven, CT, 1982, pp. 157-59, no. III.30, pl. 1, 132,
+         ND1354.4 H38 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/282> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Malcolm Warner, The Paul Mellon Bequest, treasures of a
+         lifetime, Yale Center for British Art, New Haven, CT, 2001, p. 36, N5247 M385 P28
+         2001 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/283> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Lindsay Rothwell, Paul Mellon's legacy, an American's passion
+         for British art : Sackler Wing of Galleries, 20 October 2007 - 27 January 2008 : an
+         introduction to the exhibition for teachers and students., Royal Academy of Arts,
+         London, UK, 2007, pp. 5-8, no. 100, V 2038 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/189> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Richard Wollheim, Painting as an art, Thames and Hudson,
+         London, UK, 1987, p. 87, no. 70, ND1440 W78 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/286> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Robert Hoozee, L'opera completa di Constable, 98, Rizzoli,
+         Milano, Italy, 1979, p. 137, no. 502, Tav. LVII;, NJ18 C74 A12 H66 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/289> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Graham Reynolds, Constable's England, Metropolitan Museum
+         of Art, New York, NY, 1983, pp. 160-1, no. 58, NJ18 C74 R496 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/304> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Leslie Parris, Constable, paintings, watercolours & drawings,
+         Tate Publishing, London, UK, 1976, p. 156, No. 263, fig. 263, NJ18 C74 P37 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/312> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Correspondence, v.4, 6, 8, 10-12, Her Majesty's Stationery
+         Office, London, 1962, p. 76 (v.6), NJ18 C74 A2 1962 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/319> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Charles John Holmes, Constable and his influence on landscape
+         painting, Archibald Constable and Company, Limited, Westminster, UK, 1902, pp. 107-12...,
+         Folio A N80 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/321> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Malcolm Cormack, A concise catalogue of paintings in the
+         Yale Center for British Art, Yale Center for British Art, New Haven, CT, 1985, pp.
+         64-65, N590.2 A83 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/323> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Yale University Art Gallery, Painting in England, 1700-1850,
+         from the collection of Mr. and Mrs. Paul Mellon, [exhibition at] Yale University Art
+         Gallery, April 15-June 20, 1965., vol. 1, W. Clowes and sons, , 1965, pp. 9-10 (v.
+         1), no. 32, ND466 Y35 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/317> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Painting in England 1700-1850 from the Collection of Mr.
+         and Mrs. Paul Mellon, The Royal Academy of Arts Winter Exhibition 1964-65., , Royal
+         Academy of Arts, London, UK, 1964, p. 21-22 (v.1).., no. 68, ND466 R68 1964/65  (YCBA)
+         , Also available on Microfiche: Fiche B214 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/464> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  John  Wilmerding, Essays in honor of Paul Mellon, collector
+         and benefactor, National Gallery of Art, Washington, DC & Hanover, NH, 1986, pp. 4-5,
+         fig. 2, N7442.2  M455 1986  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/668> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Jonathan Wordsworth, William Wordsworth and the age of
+         English romanticism, Rutgers University Press, New Brunswick Grasmere, UK, 1987, pp.
+         179-80, 232, no. 273, fig. 168, PR5885 W67 1987 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/744> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Leslie Parris, Constable, Tate Publishing, London, UK,
+         1991, pp. 312-14, fig. 84, NJ18 C74 P372 1991 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/836> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Constable, the great landscapes, Tate Publishing, London,
+         UK, 2006, pp.23, 26, 37..., no. 57, NJ18 C74 C77 2006 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/837> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Luke Herrmann, The Paul Mellon Collection at Burlington
+         House, Connoisseur, v. 157, no. 634, December 1964, p. 221, N1 C75 + OVERSIZE  (YCBA)
+         , Another copy available in YCBA Vertical File Collection:    v 2334""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/893> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Malcolm Cormack, A Selective Promenade, Apollo, v.105,
+         no. 182, April 1977, pp. 290-1, fig. 9, N1 A54 + (YCBA)  , Another copy of this article
+         may be found in a separately bound and catalogued copy of this issue located on the
+         Mellon Shelf  [call number : N5220 M552 A7 1977 + (YCBA)]""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/913> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Geoffrey Agnew, Yale's 1700 Mellon Pictures, The Times
+         (London), issue no. 59989, Thursday, April 28, 1977, p. 9, Available Online : Times
+         Digital Archive  , Also available on Microfilm : Film  An T842 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/956> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Denys Sutton, Principles and Priorities in British Art,
+         Apollo, v. 122, no. 283, September, 1985, pp. 192-93, no. 37, N1 A54 +  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1039> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Louis Hawes, Constable's Hadleigh Castle and British Romantic
+         Ruin Painting, Art Bulletin, v. 65., no. 3, September, 1983, pp. 455-470, no. 1, figs.
+         1 and 7, N11 C4 +  (YCBA)  , Also Available online via JSTOR""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1040> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  John Baskett, Painting in England: 1700-1850, the Collection
+         of English paintings formed by Mr and Mrs Paul Mellon : on Exhibition at the Museum
+         of Fine Arts, Richmind, untik August 18th, Connoisseur, Vol. 153, June 1963, p. 101,
+         N1 C75 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1047> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Horsfall Turner, Olivia., Nobleness & grandeur, forging
+         historical landscape in Britain 1760-1850., Yale Center for British Art, New Haven,
+         CT, 2005, no. 56, V 1420 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1351> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  The romantic landscape print, the chiaroscuro of nature,
+         Yale Center for British Art, New Haven, CT, 2002, no. 14, V 0998 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1431> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  John E. Thornes, John Constable's skies, a fusion of art
+         and science, University of Birmingham Press, Birmingham, UK, 1999, pp. 136-37, pl.
+         54, NJ18 C74 T56 1999 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1445> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Basil Taylor, Constable, paintings, drawings and watercolours;,
+         Phaidon, London, UK, 1973, pp. 10, 30..., no. 121, NJ18 C74 T39 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1446> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Michael Rosenthal, Constable, Thames and Hudson, London,
+         UK, 1987, pp. 176-8, 206, fig. 169, NJ18 C74 R683 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1450> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  British Art at Yale, Apollo, v.105, no. 182, April 1977,
+         pp. 276, 290-1, fig. 9, N5220 M552 A7 1977 OVERSIZE  (YCBA)  , Published as April
+         1977 issue of Apollo; all of the articles may also be found in bound Apollo Volume
+         [N1 A54 105:2 +]""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1500> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Charles John Holmes, Constable's Hadleigh Castle, Burlington
+         Magazine for Connoisseurs, v. 68, no. 396, March 1936, pp. 107-113, N1 B87 + OVERSIZE
+         (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1514> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Charles John Holmes, Constable's Hadeigh Castle [ addendum],
+         Burlington Magazine for Connoisseurs, v. 68, no. 399, June 1936, pp. 294-95, N1 B87
+         +  OVERSIZE  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1515> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Constable's clouds, paintings and cloud studies by John
+         Constable, National Galleries of Scotland, Edinburgh & Liverpool, UK, 2000, p.157,
+         fig. 92, NJ18 C74 C76 2000 +  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1556> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Exhibition Catalogue. 1829.  61st, Exhibition of the Royal
+         Academy of Arts, no. 61, Royal Academy of Arts, London, UK, 1829, p. 18, no. 322,
+         N5054 A53 50-64 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1571> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Leslie Parris, The Tate Gallery Constable collection, a
+         catalogue, Tate Britain, London, UK, 1981, pp. 128-33, fig. 1, NJ18 C74 P374 + (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1605> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Catalogue of the Constable collection, Her Majesty's Stationery
+         Office, London, UK, 1973, pp. 94. 190, NJ18 C74 R495 1973 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1606> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Ian Fleming-Williams, Constable and his drawings, Philip
+         Wilson Publishers Ltd, London, UK, 1990, pp.227-29, fig.212, NJ18 C74 F53 1990 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1622> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Ian Fleming-Williams, The discovery of Constable, H. Hamilton,
+         London, 1984, pp. 17-18, pl. 16, NJ18.C74 F55 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1628> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Malcolm Cormack, Constable, Cambridge University Press,
+         Cambridge, UK & New York, NY, 1986, p. 86..., pls. 179, 181, NJ18 C74 C75 OVERSIZE
+         (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1656> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Michael Rosenthal, Constable, the painter and his landscape,
+         Yale University Press, New Haven, CT, 1983, pp. 214-21, figs. 245, 247, NJ18 C74 R68
+         OVERSIZE (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1657> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Charles Robert Leslie, Memoirs of the life of John Constable,
+         R.A., The Medici Society, Ltd., London, UK, 1937, pp. xxxiv..., NJ18 C74 L47 1937
+         (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1688> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Charles Robert Leslie, Memoirs of the life of John Constable
+         composed chiefly of his letters, Phaidon Press, London, UK, 1951, pp. 173..., NJ18
+         C74 L47 1951 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1689> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Graham Reynolds, Constable, the natural painter, Panther,
+         St. Albans, UK, 1976, pp. 17..., unnumbered plate, NJ18 C74 R48 1976 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1690> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Centenary exhibition of paintings and water-colours by
+         John Constable, R.A. (1776-1837), May 4th to August 31st, 1937., Tate Britain, London,
+         UK, 1937, p. 12, no. 6, NJ18 C74 T36 1937 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1706> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Graham Reynolds, English Landscape 1630-1850, Apollo, vol.105,
+         no. 182, April 1977, p. 276, N1 A54 105:2 + (YCBA)  , Another copy of this article
+         may be found in a separately bound and catalogued copy of this issue located on the
+         Mellon Shelf  [call number : N5220 M552 A7 1977 + (YCBA)]""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1723> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Denys Sutton, Some English Landscapes in Mr. Mellon's Collection,
+         Apollo, vol. 77,ns.# 14, April 1963, pp. 268, 282, frontpiece, N1 A54 +  (YCBA)  ,
+         Another copy also Available in Vertical File - V1168""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1679> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Graham Reynolds, Scene and Sensibility, TLS, the Times
+         Literary Supplement, issue no. 4178, April 29, 1983, p. 438, Film S748 (SML)  , Also
+         available OnLine  in TLS Historical Archive (ORBIS)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1840> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Simon Schama, The Yale Centre for British Art, TLS, the
+         Times Literary Supplement, Issue no. 3923, May 20, 1977, p. 620, Film S748 (SML) 
+         , Also avaiable online in TLS Historical Archive (ORBIS)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1844> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Timothy Wilcox, Constable and Salisbury, the soul of landscape,
+         Scala Publishers, London, UK, 2011, pp. 161-64, fig. 131, NJ18.C74 W53 2011 Oversize
+         (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1949> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  The Grosvenor Exhibition ( First Notice ), Athenaeum, no.
+         3142, January 14, 1888, p.56, Available Online : British Periodicals II  , Also Available
+         : A88 At421+ OVERSIZE (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1956> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  The Grosvenor Exhibition ( Second Notice ), Athenaeum,
+         no. 3144, January 28, 1888, p. 122, Available Online: British Perriodcals II  , Also
+         Available:  A88 At421 + OVERSIZE (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1962> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Graham Reynolds, John Constable, Struggle and Success,
+         Apollo, vol. 103, no. 170, April 1976, pp. 323, 324, N1 A54 + OVERSIZE (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1969> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Cosmo Monkhouse, The Grosvenor Gallery, a Century of British
+         Art, Academy, no. 819, January 14, 1888, p. 31, Available online British Periodicals
+         II  , Also available Film S2503 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1970> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  The Exhibition at the Royal Academy, London Magazine, 3d.
+         ser., vol. 3, no. 15, June 1829, pp. 606-07, Available online British Periodcals II
+         , Also availble A88 55 (LSF) and Film S2561 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/1971> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Michael Kitson, John Constable at the Tate, Burlington
+         Magazine, vol. 118, no. 877, April, 1976, p. 252, N1 B87 + OVERSIZE (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2000> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Timothy J. Barringer, The Englishness of Thomas Cole, University
+         of New Hampshire Press, Durham,  NH, 2011, pp. 43-44, 45, fig. 1.18 & Pl 4, V2383
+         (YCBA""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2016> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Hadleigh Castle, Constable's picture for the National Gallery,
+         The Times (London), Saturday, February 8, 1936, p. 10, Available online :  Times Digital
+         Archive  , Also available on Microfilm : An T482 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2300> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Hadleigh Castle, History of Constable's Paintings, The
+         Times (London), Friday, March 20, 1936, p. 17, Available online :  Times Digital Archive
+         , Also available on Microfilm : An T482 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2301> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Alan Sorrell, Hadleigh Castle, To the Editor of the Times,
+         The Times (London), Friday, March 1, 1946, p. 5, Available online : Times Digital
+         Archive  , Also available on Microfilm : An T482 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2302> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Hadleigh Castle, A Constable Subject, The Times (London),
+         Friday, March 1, 1946, p. 6, Available online : Times Digital Archive  , Also available
+         on Microfilm : An T482 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2303> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Science and Feeling in Constable's Hadleigh Castle, The
+         Times (London), Tuesday, January 26, 1965, p. 15, Available online : Times Digital
+         Archive  , Also available on Microfilm : An T482 (SML)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2304> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  The Grosvenor Gallery, \"A Century of British Art\", Glasgow
+         Herald, Glasgow, Scotland, Wednesday, January 4, 1888, p. 4, Available online at 19th
+         century Brit Newspapers  , Article retrieved from 19th century British Library Newspapers""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2305> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Olympic Theatre, The picture of the late Royal Academician,
+         Morning Chronicle and  London Advertiser, London, Saturday, May 5, 1838, p. 5, Available
+         online at 19th Century Brit Newspapers  , Article retrieved from 19th Century British
+         Library Newspapers""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2306> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  The Literary Examiner, Memoirs of the Life of John Constable,
+         Esq., R.A., composed chiefly of his Letters. By C.R. Leslie, R.A. Longman and Co.,
+         Examiner, no. 1965, London, Saturday, September 27, 1845, p. 612, Available online
+         at 19th Century Brit Newspapers  , Article retrieved from 19th Century British Library
+         Newspapers""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2307> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  George Dunlop Leslie, John Constable, R.A., Art Journal,
+         Virtue, London, January 1903, p. 9, Available online at British Periodicals II  ,
+         Article retrieved from British Periodicals II""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2334> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Tricia Cusack, Art and identity at the water's edge, Ashgate
+         Publishing, Farnham, Surrey ; Burlington, VT, 2012, pp. 26-27, fig. 2.2, N72 S6  A7195
+         2012 (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2621> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  Catherine M. Gordon, British paintings Hogarth to Turner,
+         Frederick Warne, London, 1981, p. 8, ND466 G67  (YCBA)""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2775> ;
+	bmo:PX_display_wrap """Bibliograpic reference ::  A Great Collection of British Pictures in Virginia, The
+         Times (London), Issue No. 55689, May 1, 1963, p. 5, Available Online : Times Digital
+         Archive""" ;
+	crm:P70i_is_documented_in <http://collection.britishart.yale.edu/id/bibliography/2892> ;
+	bmo:PX_display_wrap "Exhibition :: An American's Passion for British Art - Paul Mellon's Legacy, 2007-2008" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/248> ;
+	bmo:PX_display_wrap "Exhibition :: Constable - The Great Landscapes, 2006-2007" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/608> ;
+	bmo:PX_display_wrap """Exhibition :: Nobleness and Grandeur - Forging Historical Landscape in Britain,  1760
+         - 1850, 1/27/2005-4/24/2005""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/232> ;
+	bmo:PX_display_wrap """Exhibition :: The Romantic Landscape Prints - The Chiaroscuro of Nature, September
+         25-December 29, 2002""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/166> ;
+	bmo:PX_display_wrap """Exhibition :: Great British Paintings from American Collections: Holbein to Hockney,
+         Thursday, September 27, 2001 - Sunday, December 30, 2001""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/88> ;
+	bmo:PX_display_wrap """Exhibition :: This Other Eden : British Paintings from the Paul Mellon Collection
+         at Yale, 1998""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/7> ;
+	bmo:PX_display_wrap "Exhibition :: William Wordsworth and the Age of English Romanticism, 1987-1988" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/397> ;
+	bmo:PX_display_wrap "Exhibition :: Constable's England, 1983" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/332> ;
+	bmo:PX_display_wrap "Exhibition :: Presences of Nature - British Landscape 1780-1830, 1982-1983" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/592> ;
+	bmo:PX_display_wrap """Exhibition :: John Constable - A Selection of Paintings from the Collection of Mr.
+         and Mrs. Paul Mellon, 1969""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/601> ;
+	bmo:PX_display_wrap """Exhibition :: Painting in England 1700-1850 - From The Collection of Mr. and Mrs.
+         Paul Mellon, 1965""" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/610> ;
+	bmo:PX_curatorial_comment """In the famous letter of 23 October 1821 to his friend Archdeacon Fisher, John Constable
+         reported: “I have not been Idle and have made more particular and general study than
+         I have ever done in one summer, but I am most anxious to get into my London painting
+         room, for I do not consider myself at work without I am before a six foot canvas”
+         (Constable, “Correspondence”, p. 76). To some extent, the scale of Constable's great
+         “six-footer” landscape paintings reflected both his high aspirations for landscape
+         in general, and his desire for professional recognition and financial security. Yet
+         Hadleigh Castle, which comes relatively late in the sequence of six-footers, in 1829,
+         is among his least characteristic landscape views on a grand scale. Compared with
+         “The White Horse” (1819; Frick Collection, New York), “Stratford Mill”, “The Hay Wain”
+         (1820 and 1821; both National Gallery, London), and other paintings, each with its
+         determined avoidance of heroic elements of the picturesque, each with its affectionate
+         embrace of the seemingly commonplace features of rural life, “Hadleigh Castle” stands
+         apart. The foreground vantage point is elevated and offers no convenient path into
+         the difficult topography that descends toward the river flats to the right. The ruined
+         castle clings to a rocky escarpment that winds into the distance and separates shepherd
+         and cowherd and, presumably, their flock and herd. On the right, the Thames estuary
+         opens out to the east, creating an immense, flat, gleaming distance beneath lowering
+         clouds and theatrical slanting rays of morning sunlight. It is a landscape of revelation,
+         not of domesticity.
+         
+         
+         Constable had visited Hadleigh in the summer of 1814 and in a letter to his wife,
+         Maria, described the place as “a ruin of a castle which from its situation is really
+         a fine place—it commands a view of the Kent hills, the Nore [the stretch of water
+         beyond the mouth of the Thames] and the North Foreland & looking many miles to sea”
+         (Constable, “Correspondence”, vol. 2, p. 127). He drew the place in his sketchbook
+         (Victoria & Albert Museum, London) and appears not to have considered the subject
+         again until fourteen years later, when, in about 1828, he worked up a small oil sketch
+         (Paul Mellon Collection, ycba) and embarked upon the present composition (1829), by
+         way of his accustomed, full-scale six-foot study (ca. 1828–29; Tate, London). He may
+         have been prompted toward the unusually dramatic subject, with its hints at decay
+         and regeneration, by the death from tuberculosis of his beloved wife in November 1828,
+         but it seems that his election, at long last, in February 1829 to full membership
+         of the Royal Academy may also have led Constable to consider the advantages of exhibiting
+         a subject more conventionally picturesque and heroic than might otherwise have attracted
+         him. These two immense changes in his working and personal life obviously went hand
+         in hand. With leaden tact, Sir Thomas Lawrence, the President, had told Constable
+         that he should consider himself lucky to have been elected to the Academy at all,
+         since he had been competing against several talented history painters. Constable's
+         status as an “R.A.” therefore had the effect of raising the stakes, and “Hadleigh
+         Castle” may well reflect his desire to adjust his manner of landscape painting in
+         view of the expectations arising from this new professional challenge, made twice
+         as difficult by the grief he suffered after the death of Maria. To some extent he
+         remained desolate and depressed for the rest of his life—he called himself a ruin
+         of a man. While dwelling on the decay of the medieval building in its pastoral setting
+         and causing the Thames estuary to shine under grand shafts of light, Constable perhaps
+         also alludes to the ancient Christian metaphor of death: all his boats point downstream
+         and, receding, sail out to sea.""" ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/5001/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 121.9cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/5001/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 164.5cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/5001/measurement/1/width> .
+
+<http://vocab.getty.edu/aat/300033618> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "painting" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "landscape" .
+
+<http://collection.britishart.yale.edu/id/thesauri/genre/7> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "architectural subject" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/painting> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Painting" .
+
+<http://collection.britishart.yale.edu/id/object/5001/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Hadleigh Castle, The Mouth of the Thames--Morning after a Stormy Night" .
+
+<http://collection.britishart.yale.edu/id/object/5001/title/2> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> ;
+	rdfs:label "Hadleigh Castle" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/alternate_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Alternate title" .
+
+<http://collection.britishart.yale.edu/id/object/5001/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/5001/production/1> .
+
+<http://collection.britishart.yale.edu/id/object/5001/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/18> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/5001/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/5001/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "1829" ;
+	crm:P82_at_some_time_within "1829"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://vocab.getty.edu/ulan/500026846> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> ;
+	skos:altLabel "John Constable R. A." ;
+	skos:prefLabel "John Constable" ;
+	crm:P98i_was_born <http://vocab.getty.edu/ulan/500026846/birth> ;
+	crm:P100i_died_in <http://vocab.getty.edu/ulan/500026846/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://vocab.getty.edu/ulan/500026846/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://vocab.getty.edu/ulan/500026846/birth/date> .
+
+<http://vocab.getty.edu/ulan/500026846/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1776" ;
+	crm:P82_at_some_time_within "1776"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://vocab.getty.edu/ulan/500026846/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://vocab.getty.edu/ulan/500026846/death/date> .
+
+<http://vocab.getty.edu/ulan/500026846/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1837" ;
+	crm:P82_at_some_time_within "1837"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/19th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "19th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/birds> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "birds" .
+
+<http://vocab.getty.edu/aat/300250120> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "cows" .
+
+<http://vocab.getty.edu/aat/300250130> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "dog (animal)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/morning> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "morning" .
+
+<http://vocab.getty.edu/aat/300343840> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "clouds" .
+
+<http://collection.britishart.yale.edu/id/thesauri/subject/architectural_subject> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/subject/> ;
+	skos:prefLabel "architectural subject" .
+
+<http://vocab.getty.edu/aat/300178749> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "boats" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "landscape" .
+
+<http://vocab.getty.edu/aat/300054462> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "science" .
+
+<http://vocab.getty.edu/aat/300054550> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "meteorology" .
+
+<http://vocab.getty.edu/aat/300151836> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "death" .
+
+<http://vocab.getty.edu/aat/300248181> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "walking" .
+
+<http://vocab.getty.edu/aat/300054734> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "storm" .
+
+<http://vocab.getty.edu/aat/300025928> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "men" .
+
+<http://vocab.getty.edu/aat/300025617> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "shepherd" .
+
+<http://vocab.getty.edu/aat/300056024> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "light" .
+
+<http://vocab.getty.edu/aat/300055901> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "metaphor" .
+
+<http://vocab.getty.edu/aat/300055166> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "melancholy" .
+
+<http://vocab.getty.edu/aat/300008707> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "river" .
+
+<http://vocab.getty.edu/aat/300008777> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "hills" .
+
+<http://vocab.getty.edu/aat/300008675> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "estuary" .
+
+<http://vocab.getty.edu/aat/300006891> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "castle" .
+
+<http://vocab.getty.edu/aat/300008057> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "ruins" .
+
+<http://vocab.getty.edu/aat/300008321> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "path" .
+
+<http://vocab.getty.edu/tgn/7008591> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "United Kingdom" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7008591/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7008591/location> .
+
+<http://vocab.getty.edu/tgn/7008591/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/54.0000, -4.5000" .
+
+<http://vocab.getty.edu/tgn/7008591/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7008591/location/point> .
+
+<http://vocab.getty.edu/tgn/7008591/location/point> geo-pos:lat "54.0000" ;
+	geo-pos:long "-4.5000" .
+
+<http://vocab.getty.edu/tgn/7002445> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "England" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7002445/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7002445/location> .
+
+<http://vocab.getty.edu/tgn/7002445/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/53.0000, -2.0000" .
+
+<http://vocab.getty.edu/tgn/7002445/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7002445/location/point> .
+
+<http://vocab.getty.edu/tgn/7002445/location/point> geo-pos:lat "53.0000" ;
+	geo-pos:long "-2.0000" .
+
+<http://vocab.getty.edu/tgn/1030691> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Southend-on-Sea" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/1030691/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/1030691/location> .
+
+<http://vocab.getty.edu/tgn/1030691/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/51.5500, 0.7160" .
+
+<http://vocab.getty.edu/tgn/1030691/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/1030691/location/point> .
+
+<http://vocab.getty.edu/tgn/1030691/location/point> geo-pos:lat "51.5500" ;
+	geo-pos:long "0.7160" .
+
+<http://vocab.getty.edu/tgn/7008131> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Essex" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7008131/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7008131/location> .
+
+<http://vocab.getty.edu/tgn/7008131/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/51.5830, 0.5500" .
+
+<http://vocab.getty.edu/tgn/7008131/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7008131/location/point> .
+
+<http://vocab.getty.edu/tgn/7008131/location/point> geo-pos:lat "51.5830" ;
+	geo-pos:long "0.5500" .
+
+<http://vocab.getty.edu/tgn/1100283> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Hadleigh Castle" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/1100283/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/1100283/location> .
+
+<http://vocab.getty.edu/tgn/1100283/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/51.5500, 0.6000" .
+
+<http://vocab.getty.edu/tgn/1100283/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/1100283/location/point> .
+
+<http://vocab.getty.edu/tgn/1100283/location/point> geo-pos:lat "51.5500" ;
+	geo-pos:long "0.6000" .
+
+<http://vocab.getty.edu/tgn/7011855> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Hadleigh" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7011855/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7011855/location> .
+
+<http://vocab.getty.edu/tgn/7011855/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/51.5660, 0.6000" .
+
+<http://vocab.getty.edu/tgn/7011855/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7011855/location/point> .
+
+<http://vocab.getty.edu/tgn/7011855/location/point> geo-pos:lat "51.5660" ;
+	geo-pos:long "0.6000" .
+
+<http://vocab.getty.edu/tgn/1114342> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Thames Estuary" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/1114342/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/1114342/location> .
+
+<http://vocab.getty.edu/tgn/1114342/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/0.0000, 0.0000" .
+
+<http://vocab.getty.edu/tgn/1114342/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/1114342/location/point> .
+
+<http://vocab.getty.edu/tgn/1114342/location/point> geo-pos:lat "0.0000" ;
+	geo-pos:long "0.0000" .
+
+<http://vocab.getty.edu/tgn/7011913> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Thames" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7011913/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7011913/location> .
+
+<http://vocab.getty.edu/tgn/7011913/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/0.0000, 0.0000" .
+
+<http://vocab.getty.edu/tgn/7011913/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7011913/location/point> .
+
+<http://vocab.getty.edu/tgn/7011913/location/point> geo-pos:lat "0.0000" ;
+	geo-pos:long "0.0000" .
+
+<http://collection.britishart.yale.edu/id/object/5001/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-5001" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/5001/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "5001" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/5001/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1977.14.42" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/5001/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "1669233" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://collection.britishart.yale.edu/id/object/5001/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Collection" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/5001/location/3> a crm:E53_Place ;
+	rdfs:label "Bay19" .
+
+<http://collection.britishart.yale.edu/id/object/5001/location/4> a crm:E53_Place ;
+	rdfs:label "401" .
+
+<http://collection.britishart.yale.edu/id/object/5001/location/5> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/bibliography/45> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/38239347> ;
+	rdfs:label """Julia Marciari-Alexander, This other Eden, paintings from the Yale Center for British
+         Art, Yale Center for British Art, New Haven, CT, 1998, pp. 17, 18, 19,, no. 59, fig.
+         18, ND1314.3 Y36 1998 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/48> a crm:E31_Document ;
+	rdfs:label """John Baskett, Paul Mellon's legacy, a passion for British art : masterpieces from
+         the Yale Center for British Art, Yale Center for British Art, New Haven, CT, 2007,
+         pp. 288-9, no. 100, N5220 M552 P38 2007 OVERSIZE (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/166> a crm:E31_Document ;
+	rdfs:label """Christiana Payne, Where the sea meets the land, artists on the coast in nineteenth
+         century Britain, Sansom & Co., Bristol, 2007, ND1373 G7 P38 2007 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/190> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/701808157> ;
+	rdfs:label """Paul Mellon's legacy, a passion for British art. [large print labels], Yale Center
+         for British Art, New Haven, CT, 2007, v. 3, N5220 M552 P381 2007 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/212> a crm:E31_Document ;
+	rdfs:label """Yale Center for British Art, Selected paintings, drawings & books, Yale University
+         Press, New Haven, CT, 1977, p. 39, N590.2 A82 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/230> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/02187354> ;
+	rdfs:label """Painting in England 1700-1850, collection of Mr. & Mrs. Paul Mellon., Virginia Museum
+         of Fine Arts, Richmond, VA, 1963, pp. 83-84 (v. 1), no. 113, pl. 43, ND466 V57 v.1-2
+         (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/251> a crm:E31_Document ;
+	rdfs:label """National Gallery of Art, Painting in Georgian England from the collection of Mr.
+         and Mrs. Paul Mellon., National Gallery of Art, Washington, D.C., 1970, p. 20, slide
+         57, ND488 P25 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/259> a crm:E31_Document ;
+	rdfs:label """Leslie Parris, Constable, pictures from the exhibition, Tate Publishing, London,
+         UK, 1991, p. 64, NJ18 C74 P373 1991 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/260> a crm:E31_Document ;
+	rdfs:label """Graham Reynolds, The later paintings and drawings of John Constable, Yale University
+         Press, New Haven, CT, 1984, pp. 199-200, no. 29.1, pl. 704, NJ18 C74 R485 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/262> a crm:E31_Document ;
+	rdfs:label """Ray Lambert, John Constable and the theory of landscape painting, Cambridge University
+         Press, Cambridge, UK & New York, NY, 2004, p. 102-04..., fig. 26, NJ18 C74 L36 2004
+         (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/263> a crm:E31_Document ;
+	rdfs:label """Peter Bishop, An archetypal Constable, national identity and the geography of nostalgia,
+         Athlone, London, UK, 1995, no. 9, NJ18 C74 B57 1995 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/273> a crm:E31_Document ;
+	rdfs:label """John Constable, a selection of paintings from the Collection of Mr. and Mrs. Paul
+         Mellon., National Gallery of Art, Washington, DC, 1969, pp. 56-57, no. 61, NJ18 C74
+         U5 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/281> a crm:E31_Document ;
+	rdfs:label """Malcolm Warner, Great British paintings from American collections, Holbein to Hockney,
+         Yale Center for British Art, New Haven, CT, 2001, pp. 166-67, no. 48, ND464 W27 2001
+         (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/282> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/09078534> ;
+	rdfs:label """Louis Hawes, Presences of nature, British landscape, 1780-1830, Yale Center for British
+         Art, New Haven, CT, 1982, pp. 157-59, no. III.30, pl. 1, 132, ND1354.4 H38 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/283> a crm:E31_Document ;
+	rdfs:label """Malcolm Warner, The Paul Mellon Bequest, treasures of a lifetime, Yale Center for
+         British Art, New Haven, CT, 2001, p. 36, N5247 M385 P28 2001 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/189> a crm:E31_Document ;
+	rdfs:label """Lindsay Rothwell, Paul Mellon's legacy, an American's passion for British art : Sackler
+         Wing of Galleries, 20 October 2007 - 27 January 2008 : an introduction to the exhibition
+         for teachers and students., Royal Academy of Arts, London, UK, 2007, pp. 5-8, no.
+         100, V 2038 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/286> a crm:E31_Document ;
+	rdfs:label """Richard Wollheim, Painting as an art, Thames and Hudson, London, UK, 1987, p. 87,
+         no. 70, ND1440 W78 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/289> a crm:E31_Document ;
+	rdfs:label """Robert Hoozee, L'opera completa di Constable, 98, Rizzoli, Milano, Italy, 1979, p.
+         137, no. 502, Tav. LVII;, NJ18 C74 A12 H66 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/304> a crm:E31_Document ;
+	rdfs:label """Graham Reynolds, Constable's England, Metropolitan Museum of Art, New York, NY, 1983,
+         pp. 160-1, no. 58, NJ18 C74 R496 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/312> a crm:E31_Document ;
+	rdfs:label """Leslie Parris, Constable, paintings, watercolours & drawings, Tate Publishing, London,
+         UK, 1976, p. 156, No. 263, fig. 263, NJ18 C74 P37 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/319> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/00568068> ;
+	rdfs:label """Correspondence, v.4, 6, 8, 10-12, Her Majesty's Stationery Office, London, 1962,
+         p. 76 (v.6), NJ18 C74 A2 1962 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/321> a crm:E31_Document ;
+	rdfs:label """Charles John Holmes, Constable and his influence on landscape painting, Archibald
+         Constable and Company, Limited, Westminster, UK, 1902, pp. 107-12..., Folio A N80
+         (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/323> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/13422488> ;
+	rdfs:label """Malcolm Cormack, A concise catalogue of paintings in the Yale Center for British
+         Art, Yale Center for British Art, New Haven, CT, 1985, pp. 64-65, N590.2 A83 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/317> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/702612521> ;
+	rdfs:label """Yale University Art Gallery, Painting in England, 1700-1850, from the collection
+         of Mr. and Mrs. Paul Mellon, [exhibition at] Yale University Art Gallery, April 15-June
+         20, 1965., vol. 1, W. Clowes and sons, , 1965, pp. 9-10 (v. 1), no. 32, ND466 Y35
+         (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/464> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/02113648> ;
+	rdfs:label """Painting in England 1700-1850 from the Collection of Mr. and Mrs. Paul Mellon, The
+         Royal Academy of Arts Winter Exhibition 1964-65., , Royal Academy of Arts, London,
+         UK, 1964, p. 21-22 (v.1).., no. 68, ND466 R68 1964/65  (YCBA)  , Also available on
+         Microfiche: Fiche B214 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/668> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/13010297> ;
+	rdfs:label """John  Wilmerding, Essays in honor of Paul Mellon, collector and benefactor, National
+         Gallery of Art, Washington, DC & Hanover, NH, 1986, pp. 4-5, fig. 2, N7442.2  M455
+         1986  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/744> a crm:E31_Document ;
+	rdfs:label """Jonathan Wordsworth, William Wordsworth and the age of English romanticism, Rutgers
+         University Press, New Brunswick Grasmere, UK, 1987, pp. 179-80, 232, no. 273, fig.
+         168, PR5885 W67 1987 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/836> a crm:E31_Document ;
+	rdfs:label """Leslie Parris, Constable, Tate Publishing, London, UK, 1991, pp. 312-14, fig. 84,
+         NJ18 C74 P372 1991 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/837> a crm:E31_Document ;
+	rdfs:label """Constable, the great landscapes, Tate Publishing, London, UK, 2006, pp.23, 26, 37...,
+         no. 57, NJ18 C74 C77 2006 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/893> a crm:E31_Document ;
+	rdfs:label """Luke Herrmann, The Paul Mellon Collection at Burlington House, Connoisseur, v. 157,
+         no. 634, December 1964, p. 221, N1 C75 + OVERSIZE  (YCBA)  , Another copy available
+         in YCBA Vertical File Collection:    v 2334""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/913> a crm:E31_Document ;
+	rdfs:label """Malcolm Cormack, A Selective Promenade, Apollo, v.105, no. 182, April 1977, pp. 290-1,
+         fig. 9, N1 A54 + (YCBA)  , Another copy of this article may be found in a separately
+         bound and catalogued copy of this issue located on the Mellon Shelf  [call number
+         : N5220 M552 A7 1977 + (YCBA)]""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/956> a crm:E31_Document ;
+	rdfs:label """Geoffrey Agnew, Yale's 1700 Mellon Pictures, The Times (London), issue no. 59989,
+         Thursday, April 28, 1977, p. 9, Available Online : Times Digital Archive  , Also available
+         on Microfilm : Film  An T842 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1039> a crm:E31_Document ;
+	rdfs:label """Denys Sutton, Principles and Priorities in British Art, Apollo, v. 122, no. 283,
+         September, 1985, pp. 192-93, no. 37, N1 A54 +  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1040> a crm:E31_Document ;
+	rdfs:label """Louis Hawes, Constable's Hadleigh Castle and British Romantic Ruin Painting, Art
+         Bulletin, v. 65., no. 3, September, 1983, pp. 455-470, no. 1, figs. 1 and 7, N11 C4
+         +  (YCBA)  , Also Available online via JSTOR""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1047> a crm:E31_Document ;
+	rdfs:label """John Baskett, Painting in England: 1700-1850, the Collection of English paintings
+         formed by Mr and Mrs Paul Mellon : on Exhibition at the Museum of Fine Arts, Richmind,
+         untik August 18th, Connoisseur, Vol. 153, June 1963, p. 101, N1 C75 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1351> a crm:E31_Document ;
+	rdfs:label """Horsfall Turner, Olivia., Nobleness & grandeur, forging historical landscape in Britain
+         1760-1850., Yale Center for British Art, New Haven, CT, 2005, no. 56, V 1420 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1431> a crm:E31_Document ;
+	rdfs:label """The romantic landscape print, the chiaroscuro of nature, Yale Center for British
+         Art, New Haven, CT, 2002, no. 14, V 0998 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1445> a crm:E31_Document ;
+	rdfs:label """John E. Thornes, John Constable's skies, a fusion of art and science, University
+         of Birmingham Press, Birmingham, UK, 1999, pp. 136-37, pl. 54, NJ18 C74 T56 1999 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1446> a crm:E31_Document ;
+	rdfs:label """Basil Taylor, Constable, paintings, drawings and watercolours;, Phaidon, London,
+         UK, 1973, pp. 10, 30..., no. 121, NJ18 C74 T39 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1450> a crm:E31_Document ;
+	rdfs:label """Michael Rosenthal, Constable, Thames and Hudson, London, UK, 1987, pp. 176-8, 206,
+         fig. 169, NJ18 C74 R683 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1500> a crm:E31_Document ;
+	rdfs:label """British Art at Yale, Apollo, v.105, no. 182, April 1977, pp. 276, 290-1, fig. 9,
+         N5220 M552 A7 1977 OVERSIZE  (YCBA)  , Published as April 1977 issue of Apollo; all
+         of the articles may also be found in bound Apollo Volume [N1 A54 105:2 +]""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1514> a crm:E31_Document ;
+	rdfs:label """Charles John Holmes, Constable's Hadleigh Castle, Burlington Magazine for Connoisseurs,
+         v. 68, no. 396, March 1936, pp. 107-113, N1 B87 + OVERSIZE  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1515> a crm:E31_Document ;
+	rdfs:label """Charles John Holmes, Constable's Hadeigh Castle [ addendum], Burlington Magazine
+         for Connoisseurs, v. 68, no. 399, June 1936, pp. 294-95, N1 B87  +  OVERSIZE  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1556> a crm:E31_Document ;
+	rdfs:label """Constable's clouds, paintings and cloud studies by John Constable, National Galleries
+         of Scotland, Edinburgh & Liverpool, UK, 2000, p.157, fig. 92, NJ18 C74 C76 2000 +
+         (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1571> a crm:E31_Document ;
+	rdfs:label """Exhibition Catalogue. 1829.  61st, Exhibition of the Royal Academy of Arts, no. 61,
+         Royal Academy of Arts, London, UK, 1829, p. 18, no. 322, N5054 A53 50-64 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1605> a crm:E31_Document ;
+	rdfs:label """Leslie Parris, The Tate Gallery Constable collection, a catalogue, Tate Britain,
+         London, UK, 1981, pp. 128-33, fig. 1, NJ18 C74 P374 + (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1606> a crm:E31_Document ;
+	rdfs:label """Catalogue of the Constable collection, Her Majesty's Stationery Office, London, UK,
+         1973, pp. 94. 190, NJ18 C74 R495 1973 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1622> a crm:E31_Document ;
+	rdfs:label """Ian Fleming-Williams, Constable and his drawings, Philip Wilson Publishers Ltd, London,
+         UK, 1990, pp.227-29, fig.212, NJ18 C74 F53 1990 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1628> a crm:E31_Document ;
+	rdfs:label """Ian Fleming-Williams, The discovery of Constable, H. Hamilton, London, 1984, pp.
+         17-18, pl. 16, NJ18.C74 F55 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1656> a crm:E31_Document ;
+	rdfs:label """Malcolm Cormack, Constable, Cambridge University Press, Cambridge, UK & New York,
+         NY, 1986, p. 86..., pls. 179, 181, NJ18 C74 C75 OVERSIZE  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1657> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/09081005> ;
+	rdfs:label """Michael Rosenthal, Constable, the painter and his landscape, Yale University Press,
+         New Haven, CT, 1983, pp. 214-21, figs. 245, 247, NJ18 C74 R68 OVERSIZE (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1688> a crm:E31_Document ;
+	rdfs:label """Charles Robert Leslie, Memoirs of the life of John Constable, R.A., The Medici Society,
+         Ltd., London, UK, 1937, pp. xxxiv..., NJ18 C74 L47 1937 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1689> a crm:E31_Document ;
+	rdfs:label """Charles Robert Leslie, Memoirs of the life of John Constable composed chiefly of
+         his letters, Phaidon Press, London, UK, 1951, pp. 173..., NJ18 C74 L47 1951 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1690> a crm:E31_Document ;
+	rdfs:label """Graham Reynolds, Constable, the natural painter, Panther, St. Albans, UK, 1976, pp.
+         17..., unnumbered plate, NJ18 C74 R48 1976 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1706> a crm:E31_Document ;
+	rdfs:label """Centenary exhibition of paintings and water-colours by John Constable, R.A. (1776-1837),
+         May 4th to August 31st, 1937., Tate Britain, London, UK, 1937, p. 12, no. 6, NJ18
+         C74 T36 1937 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1723> a crm:E31_Document ;
+	rdfs:label """Graham Reynolds, English Landscape 1630-1850, Apollo, vol.105, no. 182, April 1977,
+         p. 276, N1 A54 105:2 + (YCBA)  , Another copy of this article may be found in a separately
+         bound and catalogued copy of this issue located on the Mellon Shelf  [call number
+         : N5220 M552 A7 1977 + (YCBA)]""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1679> a crm:E31_Document ;
+	rdfs:label """Denys Sutton, Some English Landscapes in Mr. Mellon's Collection, Apollo, vol. 77,ns.#
+         14, April 1963, pp. 268, 282, frontpiece, N1 A54 +  (YCBA)  , Another copy also Available
+         in Vertical File - V1168""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1840> a crm:E31_Document ;
+	rdfs:label """Graham Reynolds, Scene and Sensibility, TLS, the Times Literary Supplement, issue
+         no. 4178, April 29, 1983, p. 438, Film S748 (SML)  , Also available OnLine  in TLS
+         Historical Archive (ORBIS)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1844> a crm:E31_Document ;
+	rdfs:label """Simon Schama, The Yale Centre for British Art, TLS, the Times Literary Supplement,
+         Issue no. 3923, May 20, 1977, p. 620, Film S748 (SML)  , Also avaiable online in TLS
+         Historical Archive (ORBIS)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1949> a crm:E31_Document ;
+	rdfs:label """Timothy Wilcox, Constable and Salisbury, the soul of landscape, Scala Publishers,
+         London, UK, 2011, pp. 161-64, fig. 131, NJ18.C74 W53 2011 Oversize (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1956> a crm:E31_Document ;
+	rdfs:label """The Grosvenor Exhibition ( First Notice ), Athenaeum, no. 3142, January 14, 1888,
+         p.56, Available Online : British Periodicals II  , Also Available : A88 At421+ OVERSIZE
+         (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1962> a crm:E31_Document ;
+	rdfs:label """The Grosvenor Exhibition ( Second Notice ), Athenaeum, no. 3144, January 28, 1888,
+         p. 122, Available Online: British Perriodcals II  , Also Available:  A88 At421 + OVERSIZE
+         (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1969> a crm:E31_Document ;
+	rdfs:label """Graham Reynolds, John Constable, Struggle and Success, Apollo, vol. 103, no. 170,
+         April 1976, pp. 323, 324, N1 A54 + OVERSIZE (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1970> a crm:E31_Document ;
+	rdfs:label """Cosmo Monkhouse, The Grosvenor Gallery, a Century of British Art, Academy, no. 819,
+         January 14, 1888, p. 31, Available online British Periodicals II  , Also available
+         Film S2503 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/1971> a crm:E31_Document ;
+	rdfs:label """The Exhibition at the Royal Academy, London Magazine, 3d. ser., vol. 3, no. 15, June
+         1829, pp. 606-07, Available online British Periodcals II  , Also availble A88 55 (LSF)
+         and Film S2561 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2000> a crm:E31_Document ;
+	rdfs:label """Michael Kitson, John Constable at the Tate, Burlington Magazine, vol. 118, no. 877,
+         April, 1976, p. 252, N1 B87 + OVERSIZE (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2016> a crm:E31_Document ;
+	rdfs:label """Timothy J. Barringer, The Englishness of Thomas Cole, University of New Hampshire
+         Press, Durham,  NH, 2011, pp. 43-44, 45, fig. 1.18 & Pl 4, V2383 (YCBA""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2300> a crm:E31_Document ;
+	rdfs:label """Hadleigh Castle, Constable's picture for the National Gallery, The Times (London),
+         Saturday, February 8, 1936, p. 10, Available online :  Times Digital Archive  , Also
+         available on Microfilm : An T482 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2301> a crm:E31_Document ;
+	rdfs:label """Hadleigh Castle, History of Constable's Paintings, The Times (London), Friday, March
+         20, 1936, p. 17, Available online :  Times Digital Archive  , Also available on Microfilm
+         : An T482 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2302> a crm:E31_Document ;
+	rdfs:label """Alan Sorrell, Hadleigh Castle, To the Editor of the Times, The Times (London), Friday,
+         March 1, 1946, p. 5, Available online : Times Digital Archive  , Also available on
+         Microfilm : An T482 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2303> a crm:E31_Document ;
+	rdfs:label """Hadleigh Castle, A Constable Subject, The Times (London), Friday, March 1, 1946,
+         p. 6, Available online : Times Digital Archive  , Also available on Microfilm : An
+         T482 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2304> a crm:E31_Document ;
+	rdfs:label """Science and Feeling in Constable's Hadleigh Castle, The Times (London), Tuesday,
+         January 26, 1965, p. 15, Available online : Times Digital Archive  , Also available
+         on Microfilm : An T482 (SML)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2305> a crm:E31_Document ;
+	rdfs:label """The Grosvenor Gallery, \"A Century of British Art\", Glasgow Herald, Glasgow, Scotland,
+         Wednesday, January 4, 1888, p. 4, Available online at 19th century Brit Newspapers
+         , Article retrieved from 19th century British Library Newspapers""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2306> a crm:E31_Document ;
+	rdfs:label """Olympic Theatre, The picture of the late Royal Academician, Morning Chronicle and
+         London Advertiser, London, Saturday, May 5, 1838, p. 5, Available online at 19th Century
+         Brit Newspapers  , Article retrieved from 19th Century British Library Newspapers""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2307> a crm:E31_Document ;
+	rdfs:label """The Literary Examiner, Memoirs of the Life of John Constable, Esq., R.A., composed
+         chiefly of his Letters. By C.R. Leslie, R.A. Longman and Co., Examiner, no. 1965,
+         London, Saturday, September 27, 1845, p. 612, Available online at 19th Century Brit
+         Newspapers  , Article retrieved from 19th Century British Library Newspapers""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2334> a crm:E31_Document ;
+	rdfs:label """George Dunlop Leslie, John Constable, R.A., Art Journal, Virtue, London, January
+         1903, p. 9, Available online at British Periodicals II  , Article retrieved from British
+         Periodicals II""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2621> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/751780834> ;
+	rdfs:label """Tricia Cusack, Art and identity at the water's edge, Ashgate Publishing, Farnham,
+         Surrey ; Burlington, VT, 2012, pp. 26-27, fig. 2.2, N72 S6  A7195 2012 (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2775> a crm:E31_Document ;
+	crm:P1_is_identified_by <http://www.worldcat.org/oclc/07500731> ;
+	rdfs:label """Catherine M. Gordon, British paintings Hogarth to Turner, Frederick Warne, London,
+         1981, p. 8, ND466 G67  (YCBA)""" .
+
+<http://collection.britishart.yale.edu/id/bibliography/2892> a crm:E31_Document ;
+	rdfs:label """A Great Collection of British Pictures in Virginia, The Times (London), Issue No.
+         55689, May 1, 1963, p. 5, Available Online : Times Digital Archive""" .
+
+<http://collection.britishart.yale.edu/id/exhibition/248> a crm:E7_Activity ;
+	rdfs:label "An American's Passion for British Art - Paul Mellon's Legacy, 2007-2008" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/248/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/248/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "248" .
+
+<http://collection.britishart.yale.edu/id/exhibition/608> a crm:E7_Activity ;
+	rdfs:label "Constable - The Great Landscapes, 2006-2007" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/608/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/608/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "608" .
+
+<http://collection.britishart.yale.edu/id/exhibition/232> a crm:E7_Activity ;
+	rdfs:label "Nobleness and Grandeur - Forging Historical Landscape in Britain,  1760 - 1850, 1/27/2005-4/24/2005" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/232/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/232/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "232" .
+
+<http://collection.britishart.yale.edu/id/exhibition/166> a crm:E7_Activity ;
+	rdfs:label """The Romantic Landscape Prints - The Chiaroscuro of Nature, September 25-December 29,
+         2002""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/166/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/166/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "166" .
+
+<http://collection.britishart.yale.edu/id/exhibition/88> a crm:E7_Activity ;
+	rdfs:label """Great British Paintings from American Collections: Holbein to Hockney, Thursday, September
+         27, 2001 - Sunday, December 30, 2001""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/88/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/88/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "88" .
+
+<http://collection.britishart.yale.edu/id/exhibition/7> a crm:E7_Activity ;
+	rdfs:label "This Other Eden : British Paintings from the Paul Mellon Collection at Yale, 1998" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/7/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/7/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "7" .
+
+<http://collection.britishart.yale.edu/id/exhibition/397> a crm:E7_Activity ;
+	rdfs:label "William Wordsworth and the Age of English Romanticism, 1987-1988" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/397/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/397/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "397" .
+
+<http://collection.britishart.yale.edu/id/exhibition/332> a crm:E7_Activity ;
+	rdfs:label "Constable's England, 1983" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/332/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/332/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "332" .
+
+<http://collection.britishart.yale.edu/id/exhibition/592> a crm:E7_Activity ;
+	rdfs:label "Presences of Nature - British Landscape 1780-1830, 1982-1983" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/592/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/592/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "592" .
+
+<http://collection.britishart.yale.edu/id/exhibition/601> a crm:E7_Activity ;
+	rdfs:label """John Constable - A Selection of Paintings from the Collection of Mr. and Mrs. Paul
+         Mellon, 1969""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/601/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/601/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "601" .
+
+<http://collection.britishart.yale.edu/id/exhibition/610> a crm:E7_Activity ;
+	rdfs:label "Painting in England 1700-1850 - From The Collection of Mr. and Mrs. Paul Mellon, 1965" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/610/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/610/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "610" .
+
+<http://collection.britishart.yale.edu/id/object/5001/comment/1> a bmo:EX_Association ;
+	crm:P140_assigned_attribute_to <http://collection.britishart.yale.edu/id/object/5001> ;
+	crm:P141_assigned """In the famous letter of 23 October 1821 to his friend Archdeacon Fisher, John Constable
+         reported: “I have not been Idle and have made more particular and general study than
+         I have ever done in one summer, but I am most anxious to get into my London painting
+         room, for I do not consider myself at work without I am before a six foot canvas”
+         (Constable, “Correspondence”, p. 76). To some extent, the scale of Constable's great
+         “six-footer” landscape paintings reflected both his high aspirations for landscape
+         in general, and his desire for professional recognition and financial security. Yet
+         Hadleigh Castle, which comes relatively late in the sequence of six-footers, in 1829,
+         is among his least characteristic landscape views on a grand scale. Compared with
+         “The White Horse” (1819; Frick Collection, New York), “Stratford Mill”, “The Hay Wain”
+         (1820 and 1821; both National Gallery, London), and other paintings, each with its
+         determined avoidance of heroic elements of the picturesque, each with its affectionate
+         embrace of the seemingly commonplace features of rural life, “Hadleigh Castle” stands
+         apart. The foreground vantage point is elevated and offers no convenient path into
+         the difficult topography that descends toward the river flats to the right. The ruined
+         castle clings to a rocky escarpment that winds into the distance and separates shepherd
+         and cowherd and, presumably, their flock and herd. On the right, the Thames estuary
+         opens out to the east, creating an immense, flat, gleaming distance beneath lowering
+         clouds and theatrical slanting rays of morning sunlight. It is a landscape of revelation,
+         not of domesticity.
+         
+         
+         Constable had visited Hadleigh in the summer of 1814 and in a letter to his wife,
+         Maria, described the place as “a ruin of a castle which from its situation is really
+         a fine place—it commands a view of the Kent hills, the Nore [the stretch of water
+         beyond the mouth of the Thames] and the North Foreland & looking many miles to sea”
+         (Constable, “Correspondence”, vol. 2, p. 127). He drew the place in his sketchbook
+         (Victoria & Albert Museum, London) and appears not to have considered the subject
+         again until fourteen years later, when, in about 1828, he worked up a small oil sketch
+         (Paul Mellon Collection, ycba) and embarked upon the present composition (1829), by
+         way of his accustomed, full-scale six-foot study (ca. 1828–29; Tate, London). He may
+         have been prompted toward the unusually dramatic subject, with its hints at decay
+         and regeneration, by the death from tuberculosis of his beloved wife in November 1828,
+         but it seems that his election, at long last, in February 1829 to full membership
+         of the Royal Academy may also have led Constable to consider the advantages of exhibiting
+         a subject more conventionally picturesque and heroic than might otherwise have attracted
+         him. These two immense changes in his working and personal life obviously went hand
+         in hand. With leaden tact, Sir Thomas Lawrence, the President, had told Constable
+         that he should consider himself lucky to have been elected to the Academy at all,
+         since he had been competing against several talented history painters. Constable's
+         status as an “R.A.” therefore had the effect of raising the stakes, and “Hadleigh
+         Castle” may well reflect his desire to adjust his manner of landscape painting in
+         view of the expectations arising from this new professional challenge, made twice
+         as difficult by the grief he suffered after the death of Maria. To some extent he
+         remained desolate and depressed for the rest of his life—he called himself a ruin
+         of a man. While dwelling on the decay of the medieval building in its pastoral setting
+         and causing the Thames estuary to shine under grand shafts of light, Constable perhaps
+         also alludes to the ancient Christian metaphor of death: all his boats point downstream
+         and, receding, sail out to sea.""" ;
+	bmo:PX_property bmo:PX_curatorial_comment ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/6799> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/5001/comment/1/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/6799> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Angus Trumble" ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/> .
+
+<http://collection.britishart.yale.edu/id/object/5001/comment/1/date> a crm:E52_Time-Span ;
+	crm:P3_has_note "2007-01" ;
+	rdfs:label "2007-01" ;
+	crm:P82_at_some_time_within "2007-01"^^<http://www.w3.org/2001/XMLSchema#gYearMonth> .
+
+<http://collection.britishart.yale.edu/id/object/5001/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/5001/height> , <http://collection.britishart.yale.edu/id/object/5001/width> ;
+	rdfs:label "Support (PTG): 48 x 64 3/4 inches (121.9 x 164.5 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Support-PTG> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Support (PTG)" .
+
+<http://collection.britishart.yale.edu/id/object/5001/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "121.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/5001/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "164.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .

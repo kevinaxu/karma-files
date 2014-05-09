@@ -1,0 +1,377 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/15206> a crm:E22_Man-Made_Object ;
+	rdfs:label "View near Swansea, South Wales" ;
+	bmo:PX_display_wrap "Object type :: drawing" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033973> ;
+	bmo:PX_display_wrap "Object type :: watercolor" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300078925> ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015636> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/drawing-&-watercolor> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/15206/title/1> ;
+	crm:P65_shows_visual_item <http://collection.britishart.yale.edu/id/object/15206/inscription/1> , <http://collection.britishart.yale.edu/id/object/15206/inscription/2> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/15206/production> ;
+	bmo:PX_display_wrap "Production by :: James Ward, 1769-1859, British" , "Production date :: ca. 1800" , "Production Period / Culture :: 18th century-19th century" , "Subject Concept :: landscape" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015636> ;
+	bmo:PX_display_wrap "Subject Concept :: view" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015424> ;
+	bmo:PX_display_wrap "Subject Concept :: clouds" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300343840> ;
+	bmo:PX_display_wrap "Subject Concept :: smoke" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300073252> ;
+	bmo:PX_display_wrap "Subject Place :: Swansea" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7008407> ;
+	bmo:PX_display_wrap "Subject Place :: Swansea" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7018973> ;
+	bmo:PX_display_wrap "Subject Place :: Cymru" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7002443> ;
+	bmo:PX_display_wrap "Subject Place :: Wales" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7002443> ;
+	bmo:PX_display_wrap "Subject Place :: United Kingdom" ;
+	crm:P62_depicts <http://vocab.getty.edu/tgn/7008591> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/15206/lidoRecID> , <http://collection.britishart.yale.edu/id/object/15206/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/15206/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/15206/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300011098> , <http://vocab.getty.edu/aat/300014184> , <http://vocab.getty.edu/aat/300015045> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/15206/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/15206/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/15206/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Collection" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/15206/measurement/1> ;
+	bmo:PX_display_wrap "Dimension width :: 27.0cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/15206/measurement/1/width> ;
+	bmo:PX_display_wrap "Dimension height :: 11.1cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/15206/measurement/1/height> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/15206/measurement/2> ;
+	bmo:PX_display_wrap "Dimension height :: 12.7cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/15206/measurement/2/height> ;
+	bmo:PX_display_wrap "Dimension width :: 28.6cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/15206/measurement/2/width> .
+
+<http://vocab.getty.edu/aat/300033973> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "drawing" .
+
+<http://vocab.getty.edu/aat/300078925> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "watercolor" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "landscape" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/drawing-&-watercolor> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Drawing & Watercolor" .
+
+<http://collection.britishart.yale.edu/id/object/15206/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "View near Swansea, South Wales" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/15206/inscription/1> a crm:E34_Inscription ;
+	rdfs:label """Inscribed in graphite, lower right: \"[...]\"; on verso, in pen and brown ink, center:
+         \"View near Swansea | South Wales\"""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Inscription" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/object/15206/inscription/2> a crm:E34_Inscription ;
+	rdfs:label "Signed in gray ink, lower left: \"JWD RA\"; in brown ink, lower right: \"JWD RA\"" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/signature> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/signature> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Signature" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/> a skos:ConceptScheme ;
+	skos:prefLabel "Inscription Type" .
+
+<http://collection.britishart.yale.edu/id/object/15206/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/15206/production/1> .
+
+<http://collection.britishart.yale.edu/id/object/15206/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/23> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/15206/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/15206/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "ca. 1800" ;
+	crm:P82a_begin_of_the_begin "1795"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+	crm:P82b_end_of_the_end "1805"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/23> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:altLabel "James Ward I" , "James Ward R. A." , "James Wara" , "T. Ward" ;
+	skos:prefLabel "James Ward" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/23/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/23/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/23/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/23/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/23/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1769" ;
+	crm:P82_at_some_time_within "1769"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/23/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/23/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/23/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1859" ;
+	crm:P82_at_some_time_within "1859"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/18th_century-19th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "18th century-19th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://vocab.getty.edu/aat/300015636> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "landscape" .
+
+<http://vocab.getty.edu/aat/300015424> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "view" .
+
+<http://vocab.getty.edu/aat/300343840> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "clouds" .
+
+<http://vocab.getty.edu/aat/300073252> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "smoke" .
+
+<http://vocab.getty.edu/tgn/7008407> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Swansea" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7008407/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7008407/location> .
+
+<http://vocab.getty.edu/tgn/7008407/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/51.6330, -3.9500" .
+
+<http://vocab.getty.edu/tgn/7008407/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7008407/location/point> .
+
+<http://vocab.getty.edu/tgn/7008407/location/point> geo-pos:lat "51.6330" ;
+	geo-pos:long "-3.9500" .
+
+<http://vocab.getty.edu/tgn/7018973> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Swansea" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7018973/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7018973/location> .
+
+<http://vocab.getty.edu/tgn/7018973/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/51.6333, -3.9667" .
+
+<http://vocab.getty.edu/tgn/7018973/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7018973/location/point> .
+
+<http://vocab.getty.edu/tgn/7018973/location/point> geo-pos:lat "51.6333" ;
+	geo-pos:long "-3.9667" .
+
+<http://vocab.getty.edu/tgn/7002443> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Cymru" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7002443/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7002443/location> .
+
+<http://vocab.getty.edu/tgn/7002443/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/52.5160, -3.5000" .
+
+<http://vocab.getty.edu/tgn/7002443/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7002443/location/point> .
+
+<http://vocab.getty.edu/tgn/7002443/location/point> geo-pos:lat "52.5160" ;
+	geo-pos:long "-3.5000" .
+
+<http://vocab.getty.edu/tgn/7002443> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "Wales" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7002443/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7002443/location> .
+
+<http://vocab.getty.edu/tgn/7002443/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/52.5160, -3.5000" .
+
+<http://vocab.getty.edu/tgn/7002443/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7002443/location/point> .
+
+<http://vocab.getty.edu/tgn/7002443/location/point> geo-pos:lat "52.5160" ;
+	geo-pos:long "-3.5000" .
+
+<http://vocab.getty.edu/tgn/7008591> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "United Kingdom" ;
+	crm:P87_is_identified_by <http://vocab.getty.edu/tgn/7008591/coordinates> ;
+	geo-pos:location <http://vocab.getty.edu/tgn/7008591/location> .
+
+<http://vocab.getty.edu/tgn/7008591/coordinates> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a crm:E47_Spatial_Coordinates ;
+	crm:P90_has_value "http://vocab.getty.edu/tgn/54.0000, -4.5000" .
+
+<http://vocab.getty.edu/tgn/7008591/location> skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	a geo-pos:SpatialThing ;
+	geo-pos:Point <http://vocab.getty.edu/tgn/7008591/location/point> .
+
+<http://vocab.getty.edu/tgn/7008591/location/point> geo-pos:lat "54.0000" ;
+	geo-pos:long "-4.5000" .
+
+<http://collection.britishart.yale.edu/id/object/15206/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-15206" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/15206/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "15206" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/15206/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1977.14.5858" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/15206/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "1666556" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300011098> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "graphite" .
+
+<http://vocab.getty.edu/aat/300014184> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "laid paper" .
+
+<http://vocab.getty.edu/aat/300015045> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "watercolor" .
+
+<http://collection.britishart.yale.edu/id/object/15206/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Collection" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/15206/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/object/15206/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/15206/width> , <http://collection.britishart.yale.edu/id/object/15206/height> ;
+	rdfs:label "Sheet: 4 3/8 x 10 5/8 inches (11.1 x 27 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Sheet" .
+
+<http://collection.britishart.yale.edu/id/object/15206/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "27.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/15206/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "11.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/15206/measurement/2> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Contemporary-drawn-border> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/15206/height> , <http://collection.britishart.yale.edu/id/object/15206/width> ;
+	rdfs:label "Contemporary drawn border: 5 x 11 1/4 inches (12.7 x 28.6 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Contemporary-drawn-border> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Contemporary drawn border" .
+
+<http://collection.britishart.yale.edu/id/object/15206/measurement/2/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "12.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/15206/measurement/2/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "28.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .

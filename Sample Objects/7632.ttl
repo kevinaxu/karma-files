@@ -1,0 +1,260 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/7632> a crm:E22_Man-Made_Object ;
+	rdfs:label "The Artist's Bookplate and Pen Inscription from a Drawing Album" ;
+	bmo:PX_display_wrap "Object type :: drawing" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300033973> ;
+	crm:P62_depicts <http://collection.britishart.yale.edu/id/thesauri/genre/6> ;
+	bmo:PX_display_wrap "Object type :: watercolor" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300078925> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/drawing-&-watercolor> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/7632/title/1> ;
+	crm:P65_shows_visual_item <http://collection.britishart.yale.edu/id/object/7632/inscription/1> , <http://collection.britishart.yale.edu/id/object/7632/inscription/2> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/7632/production> ;
+	bmo:PX_display_wrap "Production by :: Rev. William Gilpin, 1724-1804, British" , "Production date :: between 1745 and 1748" , "Production Period / Culture :: 18th century" , "Uses technique :: etching (printing process)" , "Subject Concept :: frontispiece (illustration)" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300083021> ;
+	bmo:PX_display_wrap "Subject Concept :: bookplate" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300028731> ;
+	bmo:PX_display_wrap "Subject Concept :: boar" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300250112> ;
+	bmo:PX_display_wrap "Subject Concept :: animal art" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300386044> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/7632/lidoRecID> , <http://collection.britishart.yale.edu/id/object/7632/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/7632/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/7632/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300014187> , <http://vocab.getty.edu/aat/300014184> , <http://vocab.getty.edu/aat/300022452> , <http://collection.britishart.yale.edu/id/thesauri/material/brown_ink> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/7632/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/7632/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/7632/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Collection" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/7632/measurement/1> ;
+	bmo:PX_display_wrap "Dimension width :: 5.9cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/7632/measurement/1/width> ;
+	bmo:PX_display_wrap "Dimension height :: 8.3cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/7632/measurement/1/height> .
+
+<http://vocab.getty.edu/aat/300033973> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "drawing" .
+
+<http://collection.britishart.yale.edu/id/thesauri/genre/6> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "animal art" .
+
+<http://vocab.getty.edu/aat/300078925> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "watercolor" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/drawing-&-watercolor> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Drawing & Watercolor" .
+
+<http://collection.britishart.yale.edu/id/object/7632/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "The Artist's Bookplate and Pen Inscription from a Drawing Album" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/7632/inscription/1> a crm:E34_Inscription ;
+	rdfs:label """Inscribed in brown ink, within image (bookplate), upper center: \"30\"; within image
+         (attached inscription), lower center: \"drawings | between | 1748 c 1748\"""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Inscription" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/object/7632/inscription/2> a crm:E34_Inscription ;
+	rdfs:label "Lettered in black ink, within image (bookplate), center, in banner: \"William Gilpin\"" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/lettering> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/lettering> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Lettering" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/> a skos:ConceptScheme ;
+	skos:prefLabel "Inscription Type" .
+
+<http://collection.britishart.yale.edu/id/object/7632/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/7632/production/1> , <http://collection.britishart.yale.edu/id/object/7632/production/2> .
+
+<http://collection.britishart.yale.edu/id/object/7632/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/1498> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/M> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/7632/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/object/7632/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "between 1745 and 1748" ;
+	crm:P82a_begin_of_the_begin "1745"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+	crm:P82b_end_of_the_end "1748"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/object/7632/production/2> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://vocab.getty.edu/aat/300053241> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1498> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Rev. William Gilpin" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/1498/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/1498/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/british> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1498/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/1498/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1498/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1724" ;
+	crm:P82_at_some_time_within "1724"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1498/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/1498/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/1498/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1804" ;
+	crm:P82_at_some_time_within "1804"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/british> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "British" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/18th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "18th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://vocab.getty.edu/aat/300083021> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "frontispiece (illustration)" .
+
+<http://vocab.getty.edu/aat/300028731> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "bookplate" .
+
+<http://vocab.getty.edu/aat/300250112> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "boar" .
+
+<http://vocab.getty.edu/aat/300386044> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "animal art" .
+
+<http://collection.britishart.yale.edu/id/object/7632/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-7632" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/7632/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "7632" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/7632/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1981.25.2011" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/7632/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "3488504" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300053241> a rso:E55_Technique , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264090> ;
+	skos:prefLabel "etching (printing process)" .
+
+<http://vocab.getty.edu/aat/300014187> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "wove paper" .
+
+<http://vocab.getty.edu/aat/300014184> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "laid paper" .
+
+<http://vocab.getty.edu/aat/300022452> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "pen" .
+
+<http://collection.britishart.yale.edu/id/thesauri/material/brown_ink> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/material/> ;
+	skos:prefLabel "brown ink" .
+
+<http://collection.britishart.yale.edu/id/object/7632/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Collection" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/7632/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/object/7632/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/7632/width> , <http://collection.britishart.yale.edu/id/object/7632/height> ;
+	rdfs:label "Sheet: 3 1/4 x 2 5/16 inches (8.3 x 5.9 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Sheet" .
+
+<http://collection.britishart.yale.edu/id/object/7632/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "5.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/7632/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "8.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .

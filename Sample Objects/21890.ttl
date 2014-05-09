@@ -1,0 +1,330 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ycba: <http://collection.britishart.yale.edu/id/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://collection.britishart.yale.edu/id/object/21890> a crm:E22_Man-Made_Object ;
+	rdfs:label "Old Man with Bonnet" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Object type :: intaglio print" ;
+	crm:P2_has_type <http://vocab.getty.edu/aat/300041338> ;
+	crm:P46i_forms_part_of <http://collection.britishart.yale.edu/id/thesauri/collection/print> ;
+	crm:P102_has_title <http://collection.britishart.yale.edu/id/object/21890/title/1> ;
+	crm:P65_shows_visual_item <http://collection.britishart.yale.edu/id/object/21890/inscription/1> ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/21890/production> ;
+	bmo:PX_display_wrap "Production by :: Print made by Joducus Bickart, 1600-1672, German" , "Production date :: undated" , "Production Period / Culture :: 17th century" , "Uses technique :: mezzotint" , "Uses technique :: etching (printing process)" ;
+	crm:P108i_was_produced_by <http://collection.britishart.yale.edu/id/object/21890/production> ;
+	bmo:PX_display_wrap "Subject Concept :: beard" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300379263> ;
+	bmo:PX_display_wrap "Subject Concept :: portrait" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300015637> ;
+	bmo:PX_display_wrap "Subject Concept :: bonnet" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300210720> ;
+	bmo:PX_display_wrap "Subject Concept :: collar" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300210054> ;
+	bmo:PX_display_wrap "Subject Concept :: hat" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300046106> ;
+	bmo:PX_display_wrap "Subject Concept :: man" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025928> ;
+	bmo:PX_display_wrap "Subject Concept :: old" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300025913> ;
+	bmo:PX_display_wrap "Subject Concept :: wrinkles" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300228341> ;
+	bmo:PX_display_wrap "Subject Concept :: pin" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300012620> ;
+	bmo:PX_display_wrap "Subject Concept :: fur" ;
+	crm:P62_depicts <http://vocab.getty.edu/aat/300011811> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/21890/lidoRecID> , <http://collection.britishart.yale.edu/id/object/21890/TMS> ;
+	crm:P48_has_preferred_identifier <http://collection.britishart.yale.edu/id/object/21890/inventory-number> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/object/21890/ccd> ;
+	crm:P45_consists_of <http://vocab.getty.edu/aat/300014184> ;
+	crm:P24i_changed_ownership_through <http://collection.britishart.yale.edu/id/object/21890/acquisition/> ;
+	crm:P30i_custody_transferred_through <http://collection.britishart.yale.edu/id/object/21890/acquisition/> ;
+	crm:P50_has_current_keeper <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P52_has_current_owner <http://vocab.getty.edu/ulan/500303557> ;
+	bmo:PX_display_wrap "Located in :: Yale Center for British Art" ;
+	crm:P55_has_current_location <http://collection.britishart.yale.edu/id/object/21890/location/1> ;
+	bmo:PX_display_wrap "Located in :: New Haven" ;
+	crm:P55_has_current_location <http://vocab.getty.edu/tgn/7014210> ;
+	bmo:PX_has_credit_line "Yale Center for British Art, Paul Mellon Fund" ;
+	bmo:PX_display_wrap "Rights :: Yale Center for British Art" ;
+	bmo:PX_has_credit_line "Public Domain" ;
+	bmo:PX_display_wrap "Rights ::" , "Rights ::" , "Exhibition ::" ;
+	crm:P12i_was_present_at <http://collection.britishart.yale.edu/id/exhibition/833> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/21890/measurement/1> ;
+	bmo:PX_display_wrap "Dimension height :: 14.0cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/21890/measurement/1/height> ;
+	bmo:PX_display_wrap "Dimension width :: 12.9cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/21890/measurement/1/width> ;
+	crm:P39i_was_measured_by <http://collection.britishart.yale.edu/id/object/21890/measurement/2> ;
+	bmo:PX_display_wrap "Dimension height :: 13.0cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/21890/measurement/2/height> ;
+	bmo:PX_display_wrap "Dimension width :: 11.8cm" ;
+	crm:P43_has_dimension <http://collection.britishart.yale.edu/id/object/21890/measurement/2/width> .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/genre/> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300041338> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "intaglio print" .
+
+<http://collection.britishart.yale.edu/id/thesauri/collection/print> a crm:E78_Collection , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/collection/> ;
+	skos:prefLabel "Print" .
+
+<http://collection.britishart.yale.edu/id/object/21890/title/1> a crm:E35_Title ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/title/repository_title> ;
+	rdfs:label "Old Man with Bonnet" .
+
+<http://collection.britishart.yale.edu/id/thesauri/title/repository_title> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/title/> ;
+	skos:prefLabel "Repository title" .
+
+<http://collection.britishart.yale.edu/id/object/21890/inscription/1> a crm:E34_Inscription ;
+	rdfs:label """Inscribed in graphite, on back, lower left: \"C3805 (underlined C3805) | am | Wolf
+         Halzechechen(?) | And [...]\"; lower center: \"B | Bickart | Bartrizen Mann\"; lower
+         right: \"641\"""" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/inscription> a skos:Concept , crm:E55_Type ;
+	skos:prefLabel "Inscription" ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/inscription/> .
+
+<http://collection.britishart.yale.edu/id/thesauri/inscription/> a skos:ConceptScheme ;
+	skos:prefLabel "Inscription Type" .
+
+<http://collection.britishart.yale.edu/id/object/21890/production> a crm:E12_Production ;
+	crm:P9_consists_of <http://collection.britishart.yale.edu/id/object/21890/production/1> , <http://collection.britishart.yale.edu/id/object/21890/production/2> , <http://collection.britishart.yale.edu/id/object/21890/production/3> .
+
+<http://collection.britishart.yale.edu/id/object/21890/production/1> a crm:E12_Production ;
+	crm:P14_carried_out_by <http://collection.britishart.yale.edu/id/person-institution/3102> ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/production/PM> ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/object/21890/production/1/date> ;
+	crm:P10_falls_within <http://vocab.getty.edu/aat/300111159> .
+
+<http://collection.britishart.yale.edu/id/thesauri/production/PM> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/production/> ;
+	skos:prefLabel "Print made by" .
+
+<http://collection.britishart.yale.edu/id/object/21890/production/1/date> a crm:E52_Time-Span ;
+	rdfs:label "undated" ;
+	crm:P82a_begin_of_the_begin "1615"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+	crm:P82b_end_of_the_end "1672"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/object/21890/production/2> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://vocab.getty.edu/aat/300053233> .
+
+<http://collection.britishart.yale.edu/id/object/21890/production/3> a crm:E12_Production ;
+	crm:P32_used_general_technique <http://vocab.getty.edu/aat/300053241> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3102> a crm:E21_Person , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/person-institution/> ;
+	skos:prefLabel "Joducus Bickart" ;
+	crm:P98i_was_born <http://collection.britishart.yale.edu/id/person-institution/3102/birth> ;
+	crm:P100i_died_in <http://collection.britishart.yale.edu/id/person-institution/3102/death> ;
+	bmo:PX_gender <http://collection.britishart.yale.edu/id/thesauri/gender/male> ;
+	bmo:PX_nationality <http://collection.britishart.yale.edu/id/thesauri/nationality/german> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3102/birth> a crm:E67_Birth ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/3102/birth/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3102/birth/date> a crm:E52_Time-Span ;
+	rdfs:label "1600" ;
+	crm:P82_at_some_time_within "1600"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3102/death> a crm:E69_Death ;
+	crm:P4_has_time-span <http://collection.britishart.yale.edu/id/person-institution/3102/death/date> .
+
+<http://collection.britishart.yale.edu/id/person-institution/3102/death/date> a crm:E52_Time-Span ;
+	rdfs:label "1672" ;
+	crm:P82_at_some_time_within "1672"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://collection.britishart.yale.edu/id/thesauri/nationality/german> a crm:E74_Group , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/nationality/> ;
+	skos:prefLabel "German" .
+
+<http://collection.britishart.yale.edu/id/thesauri/periods/17th_century> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/periods/> ;
+	skos:prefLabel "17th century" .
+
+<http://vocab.getty.edu/aat/300111159> a crm:E4_Period , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264088> ;
+	skos:prefLabel "British" .
+
+<http://vocab.getty.edu/aat/300379263> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "beard" .
+
+<http://vocab.getty.edu/aat/300015637> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "portrait" .
+
+<http://vocab.getty.edu/aat/300210720> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "bonnet" .
+
+<http://vocab.getty.edu/aat/300210054> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "collar" .
+
+<http://vocab.getty.edu/aat/300046106> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "hat" .
+
+<http://vocab.getty.edu/aat/300025928> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "man" .
+
+<http://vocab.getty.edu/aat/300025913> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "old" .
+
+<http://vocab.getty.edu/aat/300228341> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "wrinkles" .
+
+<http://vocab.getty.edu/aat/300012620> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "pin" .
+
+<http://vocab.getty.edu/aat/300011811> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300000000> ;
+	skos:prefLabel "fur" .
+
+<http://collection.britishart.yale.edu/id/object/21890/lidoRecID> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> ;
+	rdfs:label "YCBA/lido-TMS-21890" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/lidoRecID> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Lido Record ID" .
+
+<http://collection.britishart.yale.edu/id/object/21890/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "21890" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "TMS Object ID" .
+
+<http://collection.britishart.yale.edu/id/object/21890/inventory-number> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> ;
+	rdfs:label "B1970.3.4" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/inventory-number> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "Inventory number" .
+
+<http://collection.britishart.yale.edu/id/object/21890/ccd> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> ;
+	rdfs:label "3649267" .
+
+<http://collection.britishart.yale.edu/id/thesauri/identifier/ccd> a crm:E55_Type , skos:Concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/identifier/> ;
+	skos:prefLabel "VuFind CCD ID" .
+
+<http://vocab.getty.edu/aat/300053233> a rso:E55_Technique , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264090> ;
+	skos:prefLabel "mezzotint" .
+
+<http://vocab.getty.edu/aat/300053241> a rso:E55_Technique , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264090> ;
+	skos:prefLabel "etching (printing process)" .
+
+<http://vocab.getty.edu/aat/300014184> a crm:E57_Material , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/300264091> ;
+	skos:prefLabel "laid paper" .
+
+<http://collection.britishart.yale.edu/id/object/21890/acquisition/> a crm:E10_Transfer_of_Custody , crm:E8_Acquisition ;
+	crm:P22_transferred_title_to <http://vocab.getty.edu/ulan/500303557> ;
+	crm:P29_custody_received_by <http://vocab.getty.edu/ulan/500303557> ;
+	rdfs:label "Transferred to Yale Center for British Art, Paul Mellon Fund" , "Transferred to Public Domain" .
+
+<http://vocab.getty.edu/ulan/500303557> a crm:E40_Legal_Body , skos:Concept ;
+	skos:prefLabel "Yale Center for British Art" ;
+	skos:inScheme <http://vocab.getty.edu/ulan/> .
+
+<http://collection.britishart.yale.edu/id/object/21890/location/1> a crm:E53_Place ;
+	rdfs:label "Yale Center for British Art" .
+
+<http://vocab.getty.edu/tgn/7014210> a crm:E53_Place , skos:Concept ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:prefLabel "New Haven" .
+
+<http://collection.britishart.yale.edu/id/exhibition/833> a crm:E7_Activity ;
+	rdfs:label "" ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> ;
+	crm:P1_is_identified_by <http://collection.britishart.yale.edu/id/exhibition/833/TMS> .
+
+<http://collection.britishart.yale.edu/id/thesauri/event/type/exhibition> a crm:E55_Type , skos:concept ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/event/type/> ;
+	skos:prefLabel "Exhibition" .
+
+<http://collection.britishart.yale.edu/id/exhibition/833/TMS> a crm:E42_Identifier ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/identifier/TMS> ;
+	rdfs:label "833" .
+
+<http://collection.britishart.yale.edu/id/object/21890/measurement/1> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/21890/height> , <http://collection.britishart.yale.edu/id/object/21890/width> ;
+	rdfs:label "Sheet: 5 1/2 x 5 1/16 inches (14 x 12.9 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Sheet> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Sheet" .
+
+<http://collection.britishart.yale.edu/id/object/21890/measurement/1/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "14.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/21890/measurement/1/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "12.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
+
+<http://collection.britishart.yale.edu/id/object/21890/measurement/2> a crm:E16_Measurement ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/extent/Plate> ;
+	crm:P40_observed_dimension <http://collection.britishart.yale.edu/id/object/21890/height> , <http://collection.britishart.yale.edu/id/object/21890/width> ;
+	rdfs:label "Plate: 5 1/8 × 4 5/8 inches (13 × 11.8 cm)" .
+
+<http://collection.britishart.yale.edu/id/thesauri/extent/Plate> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/measurement/> ;
+	skos:prefLabel "Plate" .
+
+<http://collection.britishart.yale.edu/id/object/21890/measurement/2/height> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/height> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "13.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/height> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Height" .
+
+<http://collection.britishart.yale.edu/id/object/21890/measurement/2/width> a crm:E54_Dimension ;
+	crm:P2_has_type <http://collection.britishart.yale.edu/id/thesauri/dimension/width> ;
+	crm:P91_has_unit <http://qudt.org/vocab/unit#Centimeter> ;
+	crm:P90_has_value "11.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://collection.britishart.yale.edu/id/thesauri/dimension/width> a skos:Concept , crm:E55_Type ;
+	skos:inScheme <http://collection.britishart.yale.edu/id/thesauri/dimension/> ;
+	skos:prefLabel "Width" .
